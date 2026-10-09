@@ -196,7 +196,7 @@ label performance:
     hide ngelus
 
     "......"
-    "¿Él... me está examinando???"
+    "¿Él... me está examinando?"
 
     jespuppet "Realmente eres humano."
     u "S-sí... soy humano..."
@@ -231,8 +231,8 @@ label performance:
     show ngelus
     hide tangan1
 
-    jespuppet "Esperamos... y esperábamos. Esperó... y esperó. Vueltas y vueltas, una y otra vez hasta que los dos se volvieron indistinguibles, como si nunca debieran estar separados."
-    jespuppet "Y así, ese círculo perduró. Permaneció a través del paso del tiempo... hasta ahora. Uuuhasta este mismo día, que silenciosamente se atreve a llamarse a sí mismo un punto de inflexión."
+    jespuppet "Esperamos... y tuvimos esperanza. Tuvimos esperanza... y esperamos. Vueltas y vueltas, una y otra vez, hasta que ambas se volvieron indistinguibles, como si nunca debieran estar separadas."
+    jespuppet "Y así, ese círculo perduró. Permaneció a través del paso del tiempo... hasta ahora. Uuu... hasta este mismo día, que silenciosamente se atreve a llamarse a sí mismo un punto de inflexión."
 
     show stop_ngelus with dissolve
     hide ngelus 
@@ -241,7 +241,7 @@ label performance:
     jespuppet "¿O, por fin, comenzará a resquebrajarse... a fracturarse... y finalmente a hacerse añicos, liberándonos del bucle que llamamos vida?"
 
     "......"
-    "err... ¿De qué está hablando tan de repente? No entiendo. ¿Me está contando un cuento de hadas?"
+    "Eh... ¿De qué habla tan de repente? No entiendo. ¿Me está contando un cuento?"
     show bg_theaterhall with dissolve
     hide stop_ngelus with dissolve
     play sound "jinglebell.mp3"
@@ -262,7 +262,7 @@ label performance:
 
     show jes happy3 with dissolve
 
-    jespuppet "¡Ding, ding, ding! ¡Correcto!"
+    jespuppet "¡Din, din, din! ¡Correcto!"
 
     show jes normal2 with dissolve
 
@@ -289,7 +289,7 @@ label performance:
     "Además, su forma de hablar es realmente extraña."
     "Pero... lo que sea. Seguiré el juego por ahora. Sólo quiero salir de aquí lo antes posible."
 
-    mc "Sólo soy un guardia de seguridad. Mi trabajo es vigilar este teatro... y limpiar un poco el costado."
+    mc "Solo soy un guardia de seguridad. Mi trabajo es vigilar este teatro... y hacer un poco de limpieza además."
 
     "Espero que mi respuesta lo satisfaga."
 
@@ -389,7 +389,7 @@ label performance:
     mc "¡¿Qué-qué?!"
     nara "{color=#E0AE4B}Un día, bajo el sol abrasador del verano, el reino volvió a verse afectado por los problemas. Los agricultores se llenaron de tristeza cuando el implacable calor del verano quemó la tierra.{/color}"
     nara "{color=#E0AE4B}Las cosechas se marchitaron y fracasaron debido a la sequía, dejando los campos estériles. Como resultado, los agricultores sufrieron grandes pérdidas y no quedaron cosechas para vender.{/color}"
-    nara "{color=#E0AE4B}Al final, los agricultores llevaron su situación ante [poss] Majesty, con la esperanza de que [subj] pudiera recibir ayuda y alivio.{/color}"
+    nara "{color=#E0AE4B}Al final, los agricultores llevaron su situación ante [poss] Majestad, con la esperanza de que [subj] pudiera recibir ayuda y alivio.{/color}"
 
     "Miré a mi alrededor, tratando de encontrar la fuente de la voz que sonaba como la de un narrador."
 
@@ -420,7 +420,7 @@ label performance:
     with move
 
     jes "Por favor, entra querido invitado."
-    nara "{color=#E0AE4B}A un hombre que trabajaba como granjero entró, después de que Jestyn le concediera permiso para entrar.{/color}"
+    nara "{color=#E0AE4B}Un hombre que trabajaba como granjero entró, después de que Jestyn le concediera permiso para entrar.{/color}"
     
     "De repente, un títere vestido de granjero dio un paso adelante y se arrodilló ante mí."
 
@@ -480,7 +480,7 @@ label performance:
             else:
                 jump time
 
-        "Deberían encontrar una solución ustedes mismos.":
+        "Deberíais encontrar una solución vosotros mismos.":
             $ affection -=1
             
             if cursed_route:
@@ -502,7 +502,7 @@ label problem2:
     hide jes talk2 with dissolve
     
 
-    nara "{color=#E0AE4B}El día transcurrió lentamente dentro del reino. Y sin que [poss] Majesty se diera cuenta, la hora que antes marcaba las nueve de la mañana ya había avanzado a la una de la tarde.{/color}"
+    nara "{color=#E0AE4B}El día transcurrió lentamente dentro del reino. Y sin que [poss] Majestad se diera cuenta, la hora que antes marcaba las nueve de la mañana ya había avanzado a la una de la tarde.{/color}"
     nara "{color=#E0AE4B}En ese mismo momento, de repente llegó una carta formal de otro reino.{/color}"
     nara "{color=#E0AE4B}Al enterarse de esto, el mayordomo rápidamente tomó la carta y se dispuso a entregársela a [poss] Majestad.{/color}"
     
@@ -556,7 +556,7 @@ label problem2:
             else:
                 jump Refuse
 
-        "Delay":
+        "Posponer":
             if cursed_route:
                 jump cursed2
             
@@ -577,7 +577,7 @@ label after_acting:
     show jes normal2 with dissolve
     jes "Muy bien entonces. Informaré a nuestros vecinos del testamento de Su Majestad."
     jes "Y creo que, por ahora, los asuntos que Su Majestad debía resolver han llegado al final del programa de hoy."
-    jes "Ahora puede descansar la cabeza, majestad~"
+    jes "Ahora puedes descansar la cabeza, majestad~"
 
     "Finalmente..... termina. No sé si mi cerebro podrá soportar más estas cosas del reino."
     show jes suprais2
@@ -592,12 +592,12 @@ label after_acting:
     mc "¿Hola?"
     debt "¡[player_call]! Sabes por qué te llamo, ¿no?"
     mc "Por supuesto...."
-    debt "Entonces?"
+    debt "¿Entonces?"
     mc "Lo siento... no puedo pagarlo ahora."
     mc "Pero acabo de conseguir un trabajo otra vez. Sólo tienes que esperar hasta el día de pago."
     show jes annoy with dissolve
-    debt "Jaja... bien. Pero recuerda, ya has retrasado esto cinco meses."
-    mc "Lo sé... lo sé... gracias por su comprensión..."
+    debt "Aaah... vale. Pero recuerda, ya has retrasado esto cinco meses."
+    mc "Lo sé... lo sé... gracias por tu comprensión..."
 
     play sound "pickupphone.mp3"
     "Momentos después de finalizar la llamada, recosté mi cuerpo contra mi asiento, necesitando un breve descanso."
@@ -663,7 +663,7 @@ label after_acting:
     jes "Cualidades muy nobles... para un alma que sufre. Menos para un [title]."
     show jes close smug
     jes "Pensaste que al ayudar a los demás, les agradarías. Que te sonrían, se paren a tu lado y te llamen amigo."
-    jes "Y luego ¡BUM! ¡Qué agradable sorpresa! ¡Te han engañado! ¡Bureado! ¡Tocado como una pequeña melodía encantadora! ¡Jajajajajaja!"
+    jes "Y luego ¡BUM! ¡Qué agradable sorpresa! ¡Te han engañado! ¡Te han burlado! ¡Te han manipulado como una pequeña melodía! ¡Jajajajajaja!"
 
 
     "Se ríe como un maníaco"
@@ -706,7 +706,7 @@ label annoying:
 
 label advice:
     show jes close normal with dissolve
-    jes "Verá, Su Majestad, las reglas de este mundo no son una pequeña y dulce fábula donde la bondad siempre se paga con la misma moneda. Creo que ya lo sabes."
+    jes "Mira, Su Majestad, las reglas de este mundo no son una pequeña y dulce fábula donde la bondad siempre se paga con la misma moneda. Creo que ya lo sabes."
     jes "A veces el juego es mucho más simple que eso. A veces, la regla es simplemente comer... o ser comido."
     mc "¿Quieres decir que debería convertirme en un león?"
     show jes close smug with dissolve
@@ -714,7 +714,7 @@ label advice:
    
     "Se ríe burlonamente mientras me ve fruncir el ceño."
 
-    jes "Jeje, perdóneme, Su Majestad. Sólo estaba bromeando. No te estoy diciendo que te conviertas en un león."
+    jes "Jeje, perdóname, Su Majestad. Solo estaba bromeando. No te estoy diciendo que te conviertas en un león."
     show jes close normal
     jes "¿Alguna vez has considerado... combinar un conejo y un león?"
     mc "Uh... ¿no parecería una especie de mutante?"
@@ -757,7 +757,7 @@ label advice:
     show jes happy with dissolve
     "Él aplaudió, sacándome de mis pensamientos."
 
-    jes "Ahora... permítanme presentarles entretenimiento. Debe estar cansado de trabajar todo el día, ¿no, majestad?"
+    jes "Ahora... permíteme presentarte el entretenimiento. Debes estar cansado de trabajar todo el día, ¿no, majestad?"
     jes "Por mucho que adoro esa expresión tuya, como la de un murciélago despertado a plena luz del día. Todavía preferiría no verte para siempre con una cara tan desprovista de alegría..."
     
     "Él se ríe suavemente. Me deja muy poco de qué reírme."
@@ -798,7 +798,7 @@ label eatchocolate:
     hide jes bow with dissolve
     "Bueno... como ya me lo dieron, no pude negarme. No tuve el corazón para hacerlo."
     "Rompí un trozo de chocolate y me lo metí en la boca."
-    "En el momento en que tocó mi lengua, pude sentirla derretirse."
+    "En el momento en que tocó mi lengua, pude sentirlo derretirse."
     "Pero al mismo tiempo, vi que la sonrisa de Jestyn se agudizaba y fue entonces cuando la sentí."
     
     mc "¡¿Uf-?!"
@@ -819,7 +819,7 @@ label eatchocolate:
     "Lo miré, completamente sin palabras. ¡¿Qué clase de pensamiento es ese?!"
     hide jes2 smug with dissolve
     show jes happy with dissolve
-    jes "Pobre de usted, Su Majestad. Pero esa expresión tuya, nerviosa y enrojecida, es simplemente adorable."
+    jes "Pobre de ti, Su Majestad. Pero esa expresión tuya, nerviosa y enrojecida, es simplemente adorable."
     hide jes happy with dissolve
     "Jestyn luego me entregó un vaso de agua para beber."
     "¿Cómo caí en su broma tan fácilmente?"
@@ -837,7 +837,7 @@ label donteat:
     
     "Su sonrisa no se desvaneció en lo más mínimo cuando me miró."
     show jes normal2 with dissolve
-    jes "¿Ah? ¿Y qué le hace decir eso, Su Majestad?"
+    jes "¿Ah? ¿Y qué te hace decir eso, Su Majestad?"
     show jes nosmile2_3 with dissolve
     jes "Ah... para ser honesto, me duele el corazón que me acuses así. Te di ese chocolate sinceramente."
     show jes nosmile2_2 
@@ -863,7 +863,7 @@ label donteat2:
     jes "Jejejejeje... ¡jajajajajaja!"
     show jes talk 
     jes "Ahh... entonces alguien no olvidó el color del envoltorio después de todo."
-    jes "Es más inteligente de lo que parece, Su Majestad..."
+    jes "Eres más perspicaz de lo que pareces, Su Majestad..."
     show jes creep2 with dissolve
     jes "Sí. Le agregué algo al chocolate."
     
@@ -890,12 +890,12 @@ label donteat2:
 label freakymomen:
 
     show jes talk2 with dissolve
-    jes "Jejeje. Por favor perdóneme, Su Majestad. Esta vez te daré un entretenimiento adecuado. Prometo que esto no es otra broma."
+    jes "Jejeje. Por favor perdóname, Su Majestad. Esta vez te daré un entretenimiento adecuado. Prometo que esto no es otra broma."
 
     "Jestyn chasqueó los dedos."
 
     menu:
-        "Las pelotas":
+        "Las bolas":
             $ choice = "juggling"
             jump balls
 
@@ -908,8 +908,8 @@ label balls:
     stop music fadeout 1.0
     show bola with dissolve
     
-    mc "... pelotas?"
-    jes "Correct"
+    mc "...¿bolas?"
+    jes "Correcto"
     
     play music "jestyntheme.mp3" volume 3.0 fadein 1.0
     hide bola with dissolve
@@ -919,7 +919,7 @@ label balls:
     "Las bolas volaban de una mano a otra, mezcladas con algunos trucos llamativos. Era obvio que había hecho esto innumerables veces antes."
     "Entonces, su mirada se dirigió hacia mí."
     
-    jes "¡Debes continuar haciendo malabarismos con tu majestad!"
+    jes "¡Debes continuar con mis malabares, majestad!"
     mc "Espera que-"
     
     "Antes de que pudiera terminar mi frase, Jestyn arrojó todas las bolas hacia mí."
@@ -932,7 +932,7 @@ label balls:
     "Las bolas rodaron por el escenario y se esparcieron a mis pies."
     show jes talk with dissolve
     
-    jes "¡Ah, ah, ah! No parezca ya tan derrotado, majestad."
+    jes "¡Ah, ah, ah! No te vengas abajo, majestad."
     jes "Aquí pensé que los humanos eran bastante buenos atrapando cosas. Oportunidades, promesas, responsabilidades."
     
     "Se ríe suavemente, como si acabara de contar un chiste inofensivo."
@@ -982,7 +982,7 @@ label home:
     stop music fadeout 2.0
     "Finalmente regreso a mi pequeño y miserable departamento."
     "Y lo que pasó hoy fue realmente algo..."
-    "Marionetas vivientes... y tratadas como una especie de [title]."
+    "Marionetas vivientes... y encima me hacen pasar por [title]."
     "Qué día tan extraño. siento que me estoy volviendo loco"
     "¿Debería volver mañana? Toda esta situación se siente tan espeluznante..."
     "....."
@@ -1005,7 +1005,7 @@ label home:
     jes "Y después de tanto tiempo.... finalmente te encontré..."
     show jescg obsess with dissolve
     jes "Mi [title]."
-    jes "Su Majestad... realmente le agradezco lo de hoy. Me has hecho tan insoportablemente feliz..."
+    jes "Su Majestad... realmente te agradezco lo de hoy. Me has hecho tan insoportablemente feliz..."
     show jescg obsess2 with dissolve
     jes "Ah... pero... volverás esta noche, ¿no...?"
     jes "Por supuesto... por supuesto que lo harás. Todavía hay muchas cosas que podemos hacer juntos. Simplemente no podría soportarlo si no lo hicieras."

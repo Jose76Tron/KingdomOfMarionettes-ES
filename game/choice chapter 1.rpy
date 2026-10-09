@@ -45,7 +45,7 @@ label q_clean:
     scene bg_corridorlight
 
     "Las puertas oxidadas están cubiertas con capas de periódicos viejos. Las paredes agrietadas están llenas de graffitis dejados por vándalos."
-    "La mayoría de las luces están rotas o muertas. Sólo unos pocos siguen encendidos e incluso esos parpadean. El polvo y la suciedad se aferran a cada rincón."
+    "La mayoría de las luces están rotas o apagadas. Solo unas pocas siguen encendidas e incluso esas parpadean. El polvo y la suciedad se aferran a cada rincón."
     "Por supuesto, eso no es sorprendente. Este teatro de marionetas lleva cerrado mucho tiempo. Si no recuerdo mal, Kingdom of Marionettes cerró alrededor del año en que nací."
     "¿Nadie ha intentado realmente apoderarse de este lugar durante todo este tiempo? Se siente como un desperdicio dejarlo abandonado. El lugar todavía parece tan grandioso."
     "Quizás este lugar podría reutilizarse para convertirlo en un cine... o en un restaurante de alto nivel."
@@ -127,11 +127,11 @@ label knightjester:
             $ asked_jester = True
             jump jester
 
-        "Marque Knitítere de lucha" if not asked_knight:
+        "Revisar la marioneta caballero" if not asked_knight:
             $ asked_knight = True
             jump knight
 
-        "Compruebe el rey títere" if not asked_king:
+        "Revisar al Rey Marioneta" if not asked_king:
             $ asked_king = True
             jump king
 
@@ -141,32 +141,32 @@ label knightjester:
 label jester:
     u "Veamos el títere bufón."
 
-    "Camino hacia una puerta con el nombre 'Jester' escrito y luego miro a través de la ranura de visualización en la puerta."
+    "Camino hacia una puerta con el nombre «Bufón» escrito y luego miro por la mirilla de la puerta."
     "La habitación del títere bufón está decorada con motivos de rayas de varios colores. Principalmente negro, rojo y amarillo."
-    "Está lleno de todo tipo de accesorios acróbatas: pelotas, un monociclo y muchos otros."
+    "Está lleno de todo tipo de accesorios de acrobacia: bolas, un monociclo y muchos otros."
     "Mientras miro más de cerca, finalmente veo al títere bufón parado en la esquina de la habitación."
     "No puedo ver su cara ya que el títere está ligeramente encorvado, pero al menos sé que está ahí."
-    "Control de marionetas Jester."
+    "Marioneta bufón: revisada."
 
     jump knightjester
 
 label knight:
-    "Camino hacia la puerta con la etiqueta 'Knight'."
-    "La habitación del caballero títere está perfectamente mantenida."
+    "Camino hacia la puerta con la etiqueta «Caballero»."
+    "La habitación del títere caballero está perfectamente mantenida."
     "Un escudo robusto e imponente está montado en la pared, junto con... varias otras decoraciones de escudo."
     "Hay bastantes escudos, todos de diferentes formas y diseños."
     "En la cama, veo un títere sentado erguido, con una capa roja oscura cubriendo su rostro."
-    "Estoy seguro de que es el títere del caballero. Comprobado."
+    "Estoy seguro de que es el títere caballero. Revisado."
 
     jump knightjester
 
 label king:
-    "Camino hacia la puerta etiquetada \"Rey\"."
+    "Camino hacia la puerta etiquetada «Rey»."
     "Cuando miro dentro, la habitación es lujosa."
-    "Hay una cama tamaño king con cortinas, un diván de aspecto cómodo y varios cuadros."
-    "Examino cada rincón de la habitación, pero no encuentro al rey títere por ninguna parte."
-    "Oh no... ¿falta el rey títere?"
-    "Reviso la lista de títeres que llevo, pero tampoco veo el nombre del rey títere."
+    "Hay una cama king size con dosel, un diván de aspecto cómodo y varios cuadros."
+    "Examino cada rincón de la habitación, pero no encuentro al Rey Marioneta por ninguna parte."
+    "Oh no... ¿falta el Rey Marioneta?"
+    "Reviso la lista de títeres que llevo, pero tampoco veo el nombre del Rey Marioneta."
     "Para empezar, supongo que nunca hubo un rey títere. ¿O… hace tiempo que está desaparecido?"
 
     jump knightjester
@@ -280,7 +280,7 @@ label storage:
     play music "horror.mp3" volume 3.0
     "Ese títere puede hablar."
     "Cálmate... cálmate... no entres en pánico..."
-    "Pero que debo hacer en esta situación???"
+    "Pero ¿qué debo hacer en esta situación?"
 
     menu:
         "Guardar silencio":
@@ -289,11 +289,11 @@ label storage:
         "¿Quién eres?":
             jump who
 
-        "Run":
+        "Huir":
             jump run
 
 label keep_silent:
-    "Me quedo ahí, congelada. No sé qué hacer. Incluso si digo algo, temo que sólo empeorará las cosas."
+    "Me quedo ahí sin moverme, sin saber qué hacer. Aunque diga algo, temo que solo empeorará las cosas."
     "Nunca imaginé una situación en la que un títere me hablaría."
 
     jump dicekek
@@ -330,13 +330,13 @@ label run:
     "¡¿Desde cuando?!"
     "No me atrevía a gritar ni a luchar. Tenía demasiado miedo."
     show cg_run with dissolve
-    who "Mm... esperaba que gritaras. Pero parece que eres un buen niño. Mucho mejor de lo que esperaba."
+    who "Mm... esperaba que gritaras. Pero parece que te portas bien. Mucho mejor de lo que esperaba."
     
-    "Una voz suave susurró justo contra mi oído. Es agudo, extrañamente juguetón, casi infantil."
+    "Una voz suave susurró justo contra mi oído. Es aguda, extrañamente juguetona, casi infantil."
 
     "Luego siento que otra mano se posa lentamente sobre mi hombro, haciéndome estremecerme."
 
-    who "Fácil ahora. El peligro ha pasado. Puedes permitirte relajarte."
+    who "Tranquilo. Ya pasó el peligro. Puedes relajarte."
     who "¿Por qué no vienes conmigo por el momento? Te aseguro que no soy alguien a quien debas temer."
     who "Después de todo, cualquier huésped que ponga un pie en este reino debe ser recibido adecuadamente. ¿No estarías de acuerdo?"
 
@@ -359,7 +359,7 @@ label dicekek:
 
     camera at reset
 
-    u "¡¿UGH-?!"
+    u "¡¿Agh-?!"
 
     play sound "nyekek.mp3" volume 3.0
     camera at camera_shake
@@ -374,7 +374,7 @@ label dicekek:
 
     "Su agarre se aprieta alrededor de mi cuello, cortándome el aire."
     "¡Me va a matar!"
-    "Lucho con todas las fuerzas que tengo. Golpeándole el brazo, pateándole las piernas, intentando desesperadamente liberarse."
+    "Lucho con todas las fuerzas que tengo. Golpeándole el brazo, pateándole las piernas, intentando desesperadamente liberarme."
     "Pero es inútil. Él es mucho más fuerte que yo. Él ni siquiera se mueve."
     show screen dark_effect with dissolve
     "Mi visión se vuelve más borrosa y se hunde más en la oscuridad."
@@ -389,7 +389,7 @@ label dicekek:
 
     knipuppet ".... ¿Qué estás haciendo aquí?"
 
-    "¿Eh? ¿Quién es este detrás de mí? ¿Otra marioneta???"
+    "¿Eh? ¿Quién es este detrás de mí? ¿Otra marioneta?"
     
     who "Knighter, creo que ya mencioné esto antes. ¿No sería mejor si me confiaran a mí cualquier visitante que entre en nuestro reino?"
     kni "¿Para qué? ¿Para que puedas llevar a cabo ese absurdo plan tuyo?"
@@ -401,7 +401,7 @@ label dicekek:
     "Sin embargo, la mano que cubre mis ojos no se mueve, manteniendo suavemente mi visión oscurecida."
     "Luego siento que otra mano se posa lentamente sobre mi hombro, haciéndome estremecerme."
 
-    who "Fácil ahora. El peligro ha pasado. Puedes permitirte relajarte."
+    who "Tranquilo. Ya pasó el peligro. Puedes relajarte."
     who "¿Por qué no vienes conmigo por el momento? Te aseguro que no soy alguien a quien debas temer."
     who "Después de todo, cualquier huésped que ponga un pie en este reino debe ser recibido adecuadamente. ¿No estarías de acuerdo?"
 
@@ -416,10 +416,10 @@ label ke_stage:
 
     scene black
     play sound "footstep.mp3" volume 3.0
-    "La figura detrás de mí me guía hacia adelante, llevándome a donde quieren mientras mantiene mis ojos cubiertos."
+    "La figura detrás de mí me guía hacia adelante, llevándome a donde quiere mientras me mantiene los ojos tapados."
     "Después de un rato, se detiene."
 
-    who "Hemos llegado. Ahora, por favor, siéntate aquí y ponte cómodo."
+    who "Hemos llegado. Ahora, por favor, siéntate aquí y ponte a gusto."
 
     scene bg_theaterhall with dissolve
 
@@ -437,13 +437,13 @@ label ke_stage:
     show screen dark_effect 
     
 
-    jespuppet "¡¡ABUCHEO!!"
+    jespuppet "¡¡BUUU!!"
 
     camera at reset
 
     u "¡¡AAARGH!!"
 
-    "Aún sin estar preparada y luchando por procesar lo que estaba sucediendo, grito cuando, sin previo aviso, noto que alguien está parado justo frente a mí."
+    "Todavía sin recuperarme y luchando por procesar lo que estaba pasando, grito cuando, sin previo aviso, noto que hay alguien justo frente a mí."
     play music "abandoned.mp3" volume 3.0
 
     show jes close creep2 with dissolve
@@ -470,7 +470,7 @@ label ke_stage:
     "Él es... el títere bufón."
     "...Él... se está moviendo solo."
     "Recordé la lista de deberes que leí antes de presentar la solicitud ayer."
-    "Asegúrate de que no falta ninguno de los títeres... y camina."
+    "Asegúrate de que no falte ningún títere... y de que no anden por ahí."
     "En ese momento, lo creí después de ver el títere caballero y el títere bufón moviéndose con mis propios ojos y mente."
     "... Esto no es una broma. Están vivos."
 
@@ -512,7 +512,7 @@ label stage:
     show screen dark_effect 
 
    
-    jespuppet "¡¡ABUCHEO!!"
+    jespuppet "¡¡BUUU!!"
 
     camera at reset
 
@@ -546,7 +546,7 @@ label stage:
     "¡¿Él se está... moviendo?! ¿Se muda solo?"
     "¡¿Cómo puede ser posible eso?!"
     "De repente, recordé la lista de deberes que leí antes de presentar la solicitud ayer."
-    "Asegúrate de que no falta ninguno de los títeres... y camina."
+    "Asegúrate de que no falte ningún títere... y de que no anden por ahí."
     "En ese momento lo creí después de verlo con mis propios ojos y mente."
     "....Esto no es una broma. Están vivos."
 
@@ -586,7 +586,7 @@ label money:
 
     show jes normal2
     
-    jes "Es usted muy amable, majestad. y la bondad es algo hermoso"
+    jes "Eres muy amable, majestad. Y la bondad es algo hermoso"
     jes "Pero cuando se da sin límites... se convierte en expectativa."
     
     "Inclinó la cabeza."
@@ -661,7 +661,7 @@ label channels:
     show jes normal2 with dissolve
     
     jes "Quizás demasiado lejos."
-    jes "Dígame, Su Majestad. ¿Cuál era el problema del granjero en este momento?"
+    jes "Dime, Su Majestad. ¿Cuál era esta vez el problema del granjero?"
 
     "¿Eh?"
     "La sequía hizo que las cosechas se arruinaran, dejándolos sin ingresos para comprar nuevas semillas... y..."
@@ -765,7 +765,7 @@ label seeds:
 
 label time:
     "¿Qué necesita un agricultor para evitar la pérdida de cosechas durante la estación seca?"
-    "¿Dinero? Semillas?? ¿Pero es eso realmente suficiente para hacer frente a esto?"
+    "¿Dinero? ¿Semillas? ¿Pero eso basta realmente para hacer frente a esto?"
     "Dios mío..."
     
     mc "Lo siento... yo... necesito más tiempo para pensar."
@@ -828,7 +828,7 @@ label yourselves:
     hide jes2 normal2 with dissolve
     show farm sad2 with dissolve
 
-    farm ".....Su Majestad....se lo ruego..."
+    farm ".....Su Majestad....te lo ruego..."
     stop music fadeout 2.0
     pause 1.0
     camera at camera_shake
@@ -861,7 +861,7 @@ label yourselves:
     play sound "jinglebell.mp3"
     hide screen dark_effect
     show farm close6
-    jes "Oopssy~"
+    jes "¡Ups~!"
     camera at reset
     hide farm close6 with dissolve
 
@@ -872,16 +872,16 @@ label yourselves:
     with dissolve
     play music "jestyntheme.mp3" fadein 3.0
     jes "¿No escuchaste lo que dijo [poss] Majestad, mi querido amigo granjero?"
-    jes "[poss] Majesty dijo que puedes encontrar tu propia salida. ¡Como mínimo, [poss] Majesty cree en tus habilidades!"
-    jes "Que la mismísima [poss] Majesty te conceda la confianza es como si hubieras sido bendecido por el milagro del Hada Madre. Deberías sentirte honrado."
+    jes "[poss] Majestad dijo que puedes encontrar tu propia salida. ¡Como mínimo, [poss] Majestad cree en tus habilidades!"
+    jes "Que la mismísima [poss] Majestad te conceda la confianza es como si hubieras sido bendecido por el milagro del Hada Madre. Deberías sentirte honrado."
     jes "Ahora lo mejor será que regreses y pienses bien lo que debes hacer. ¿Entiendes, amigo mío?"
-    farm "Yo... entiendo... por favor perdone mi insolencia, Su Majestad."
+    farm "Yo... entiendo... por favor perdona mi insolencia, Su Majestad."
 
     hide jes2 normal2 with dissolve
     hide farm sad2 with dissolve
     
     nara "{color=#E0AE4B}Con el corazón apesadumbrado, el granjero finalmente abandonó el reino.{/color}"
-    nara "{color=#E0AE4B}Al escuchar la decisión de [poss] Majesty anteriormente, Jestyn simplemente mostró su sonrisa habitual.{/color}"
+    nara "{color=#E0AE4B}Al escuchar la decisión de [poss] Majestad anteriormente, Jestyn simplemente mostró su sonrisa habitual.{/color}"
 
     "Podía sentir la aguda mirada de Jestyn dirigida a mí."
 
@@ -931,12 +931,12 @@ label teach:
     
     jes "Vamos, inténtalo."
     
-    "Me preparo y empiezo a lanzar las bolas, pero la mirada de Jestyn me pone nerviosa."
-    "Aun así, los lanzo al aire."
+    "Me preparo y empiezo a lanzar las bolas, pero la mirada de Jestyn me pone de los nervios."
+    "Aun así, las lanzo al aire."
     show jes laugh with dissolve
     "Jestyn deja escapar una risa suave mientras observa mi intento."
     
-    jes "Su Majestad, difícilmente se puede llamar malabarismo si lo hace tan lentamente."
+    jes "Su Majestad, eso difícilmente es malabarismo si lo haces tan despacio."
     mc "¡Vamos, vamos! ¡Estoy aprendiendo aquí!"
     hide jes laugh with dissolve
 
@@ -947,25 +947,25 @@ label teach:
     "Cuando intento acelerar, algunas bolas casi se me escapan de las manos y otras caen al suelo."
     
     show jes happy2 with dissolve
-    jes "¡Jajajaja! Vamos, acéptelo, simplemente no puede hacerlo, majestad."
+    jes "¡Jajajaja! Vamos, acéptalo, simplemente no puedes hacerlo, majestad."
 
-    mc "Pero te pedí que me enseñaras. No se burla de mí. No siento que me enseñes algo sobre malabares."
-    jes "Yo hago querida, te enseño a través de la experiencia."
+    mc "Pero te pedí que me enseñaras. No te burles de mí. No siento que me estés enseñando malabares."
+    jes "Claro que sí, cielo, te enseño con la práctica."
     mc "No creo que funcione así..."
-    jes "Ah, pero qué entusiasmo tan notable por aprender, querida. Seguramente tanta dedicación merece... un regalo."
+    jes "Ah, pero qué entusiasmo tan notable por aprender, cielo. Tanta dedicación merece... un regalo."
     
-    "Jestyn de repente lanza una sola pelota hacia mí, asustándome y haciendo que todas mis pelotas caigan."
-    "Mientras trato de atraparla, la pelota de repente se desvanece en el aire."
+    "Jestyn lanza de repente una sola bola hacia mí, me asusta y hace que se me caigan todas mis bolas."
+    "Mientras trato de atraparla, la bola desaparece de repente en el aire."
     
     show jes close smug with dissolve
-    jes "¿Ah? Parece que sus habilidades para atrapar son igual de terribles, majestad."
-    jes "Permítame. Lo atraparé por ti."
+    jes "¿Ah? Parece que tus habilidades para atrapar son igual de malas, majestad."
+    jes "Permíteme. La atraparé por ti."
     
     "Su brazo se extiende y se detiene justo detrás de mi oreja."
     show jes close normal
     show jescg leftright with dissolve
     
-    jes "¿Te importaría adivinar dónde está la pelota?"
+    jes "¿Adivinas dónde está la bola?"
     
 
     menu:
@@ -1140,16 +1140,16 @@ label collar:
 
     show jes collar flush2 with dissolve
     
-    jes "Estoy a sus órdenes, Su Majestad... Haga conmigo lo que desee."
+    jes "Estoy a tus órdenes, Su Majestad... Haz conmigo lo que quieras."
 
     "¡¿Cómo terminaron las cosas así?!"
     
     mc "J-Jestyn... esto..."
     show jes collar talk with dissolve
-    jes "Puede ordenarme que haga cualquier cosa, Su Majestad."
+    jes "Puedes ordenarme lo que sea, Su Majestad."
     show jes collar flush
-    jes "Siéntate. Acostarse. Abre mi boca... Cualquier cosa que ordenes, obedeceré."
-    jes "Por favor, relájese, Su Majestad. Y disfruta conmigo."
+    jes "Siéntate. Túmbate. Abre la boca... Lo que me ordenes, obedeceré."
+    jes "Por favor, relájate, Su Majestad. Y disfruta conmigo."
     show jes collar freak with dissolve
     jes "Yo te entretendré."
     
@@ -1173,7 +1173,7 @@ label sit:
     play sound "nyekek.mp3"
     camera at camera_shake
     show cg_sit2 with dissolve
-    "Decido tirar de su cuello, provocando un grito de sorpresa en él."
+    "Tiro de su collar y provoco en él un grito de sorpresa."
     "Su sonrisa sólo se amplía."
     camera at reset
     
@@ -1216,7 +1216,7 @@ label sit:
     "Jestyn cierra los ojos y se inclina hacia mi tacto, como si buscara más."
     "La sonrisa que luce ahora es diferente a la habitual. Es más suave, desprotegido, casi vulnerable."
     ".... Parece que le gusta."
-    jes "...Es usted una persona amable, Su Majestad."
+    jes "...Eres una persona amable, Su Majestad."
     mc "¿Qué te hace pensar eso?"
     show jescg dielus2_2 with dissolve
     jes "Esperaba que fueras duro conmigo en esta situación."
@@ -1263,7 +1263,7 @@ label lie:
     play sound "jinglebell.mp3"
     show jes lie with dissolve
     "Me mira desde abajo, esperando mi próxima orden."
-    "Decido tirar de su cuello, provocando un grito de sorpresa en él."
+    "Tiro de su collar y provoco en él un grito de sorpresa."
     "Su sonrisa sólo se amplía."
     
     jes "Su Majestad..."
@@ -1278,17 +1278,17 @@ label lie:
     window show
     jes "Nnn.."
     
-    "Coloco mi pie allí, pero estoy segura de que él puede darse cuenta de que todavía tengo dudas."
+    "Pongo el pie allí, pero sé que se nota que aún dudo."
     "No estoy poniendo ninguna presión real sobre él."
     show jes lie4 with dissolve
     
-    jes "Jeje... Su Majestad, es usted muy adorable."
+    jes "Jeje... Su Majestad, eres muy adorable."
     mc "Mmm...?"
     jes "Estás tratando de ser rudo... pero parece que tu corazón es demasiado gentil para eso."
     
     "Tal como pensaba, se dio cuenta."
     
-    jes "Es muy dulce saber que no quiere hacerme daño, Su Majestad... Pero tenga la seguridad de que estaré bien."
+    jes "Es muy dulce saber que no quiere hacerme daño, Su Majestad... Pero ten por seguro que estaré bien."
     jes "Entonces, si deseas ser duro conmigo... por favor no lo dudes."
     
     "Mi corazón comienza a latir con fuerza y el sudor me humedece la espalda."
@@ -1296,7 +1296,7 @@ label lie:
     "Sintiendo mi miedo e incertidumbre, Jestyn decide guiarme."
     show jes lie with dissolve
     
-    jes "Concentre su fuerza en su pie, luego presiónelo lentamente contra mi pecho."
+    jes "Concentra tu fuerza en el pie y presiónalo despacio contra mi pecho."
     
     "Sigo sus instrucciones."
     "Cambio mi peso hacia mi pie y presiono suavemente el pecho de Jestyn."
@@ -1307,7 +1307,7 @@ label lie:
     
     "Asiento."
     
-    jes "Ahora intente pisotearlo, Su Majestad... sólo una vez."
+    jes "Ahora intenta pisarme, Su Majestad... solo una vez."
     play sound "jinglebell.mp3"
     camera at camera_shake
     show jes lie3 with dissolve
@@ -1316,7 +1316,7 @@ label lie:
     camera at reset
     "Esto... extrañamente se siente bien."
     show jes lie4 with dissolve
-    jes "Ahora está aprendiendo, Su Majestad... Intente pisarme el pecho mientras tira de mi cuello."
+    jes "Ahora estás aprendiendo, Su Majestad... Intenta pisarme el pecho mientras tiras de mi collar."
 
     "Presiono mi pie contra su pecho nuevamente mientras tiro de su cuello."
     play sound "nyekek.mp3"
@@ -1329,7 +1329,7 @@ label lie:
     "La cara de Jestyn se pone aún más roja."
     show jes lie2 with dissolve
     
-    jes "¿Cómo va su regalo hasta ahora, Su Majestad...? ¿Estás disfrutando...?"
+    jes "¿Cómo va tu regalo hasta ahora, Su Majestad...? ¿Estás disfrutando...?"
     
     "...."
     
@@ -1345,7 +1345,7 @@ label lie:
     "Esta vez, coloco mi mano sobre su pecho y lentamente la paso sobre él."
     show jes lie7 with dissolve
     jes "Nh... oh... ya veo..."
-    jes "De ser rudo a ser gentil... ¿Me está recompensando por complacerla, Su Majestad?"
+    jes "De ser rudo a ser gentil... ¿Me estás recompensando por complacerte, Su Majestad?"
     mc "...Puedes pensarlo de esa manera."
     hide screen tangan with dissolve
     show jescg freaky with dissolve
@@ -1374,7 +1374,7 @@ label lie:
     jes "Jeje, no, no, no... Lo he sentido muchas veces antes."
     jes "Lo que quiero decir es este sentimiento... El que ni siquiera puedo expresar con palabras."
     jes "Se siente... agradable. Pero no estoy seguro de que esa palabra sea la adecuada para describir lo que siento en este momento."
-    jes "Dígame, Su Majestad... ¿Quizás ha usado magia prohibida conmigo?"
+    jes "Dime, Su Majestad... ¿Quizás has usado magia prohibida conmigo?"
 
     "Dejé escapar una risa confusa ante su ridícula especulación."
     
@@ -1399,7 +1399,7 @@ label bad_end:
 
     "Finalmente..... termina. No sé si mi cerebro podrá soportar más estas cosas del reino."
     
-    jes "Debe estar cansado, Su Majestad. ¿Qué tal si hacemos algo... calmante?"
+    jes "Esto debe de cansar, Su Majestad. ¿Qué tal si hacemos algo... relajante?"
     show jes happy with dissolve
     jes "¿Quizás un baile?"
 
@@ -1419,18 +1419,18 @@ label bad_end:
     "En el momento en que tomé su mano, las luces del escenario se apagaron de repente."
     play sound "spotlight.mp3"
     show cg dance
-    "Y cuando volvieron a sonar, sin darme cuenta, ya estaba en posición de baile con Jestyn."
+    "Y cuando volvieron a encenderse, sin darme cuenta, ya estaba en posición de baile con Jestyn."
     "Los pasos de Jestyn fueron tan lentos como había prometido."
     "Y seguí su ritmo."
     "No dijimos una palabra. Sólo la música de baile llenó el silencio en el escenario."
     
-    jes "Lo está haciendo bastante bien, Su Majestad."
+    jes "Lo estás haciendo bastante bien, Su Majestad."
     mc "... Sólo te estoy siguiendo."
     jes "Y eso es más que suficiente."
     
     "La habitación quedó en silencio una vez más."
     
-    jes "¿Sabe el nombre de este baile, Su Majestad?"
+    jes "¿Sabes el nombre de este baile, Su Majestad?"
     mc "No lo creo."
     jes "Se podría decir que este es el baile más icónico de Kingdom of Marionettes."
     jes "Al final de cada actuación, siempre bailamos ésta."
@@ -1489,16 +1489,16 @@ label cursed1:
     pause 1.5
 
     mc "{color=#FF2727}Mmmm.... que lamentable. Mis pobres agricultores...{/color}"
-    mc "{color=#FF2727}A Como tu [title], es natural que yo te proporcione. Nunca ignoraría tus dificultades.{/color}"
+    mc "{color=#FF2727}Como tu [title], es natural que yo provea para ti. Nunca ignoraría tus dificultades.{/color}"
     mc "{color=#FF2727}¿Dinero? ¿Semillas más finas y de la más alta calidad? ¿Quizás comida para aliviar tus cargas?{/color}"
     show farm happy with dissolve
     farm "O-oh... Su Majestad es demasiado amable..."
-    mc "{color=#FF2727}However...{/color}"
+    mc "{color=#FF2727}Sin embargo...{/color}"
     mc "{color=#FF2727}Si voy a derramar mi generosidad sobre ti... ¿no deberías ofrecer algo a cambio?{/color}"
     mc "{color=#FF2727}De lo contrario, sería terriblemente injusto, ¿no? ¿Yo doy y tú simplemente recibes?{/color}"
     mc "{color=#FF2727}No... si voy a bendecirte con tanta amabilidad, entonces espero que tu lealtad... y tu trabajo... reflejen tu gratitud.{/color}"
     show farm sad with dissolve
-    farm "¡Tiene toda la razón, Su Majestad! ¡Me dedicaré por completo!"
+    farm "¡Tienes toda la razón, Su Majestad! ¡Me dedicaré por completo!"
 
     hide farm sad with dissolve
     show jes2 smug with dissolve
@@ -1525,15 +1525,15 @@ label cursed2:
     mc "{color=#FF2727}Es una oferta bastante interesante.{/color}"
     mc "{color=#FF2727}Muy bien. ¿Por qué no?{/color}"
     mc "{color=#FF2727}Tomo esta decisión por el bien de mi gente.{/color}"
-    mc "{color=#FF2727}Trade será mucho más conveniente para ellos. Y al mismo tiempo, podremos establecer vínculos más fuertes con otro reino.{/color}"
+    mc "{color=#FF2727}El comercio será mucho más conveniente para ellos. Y al mismo tiempo, podremos estrechar lazos con otro reino.{/color}"
     
     play sound "jinglebell.mp3"
     show jes bow with dissolve
     jes "Mmm...? Sí, ciertamente es una decisión comprensible, Su Majestad."
-    jes "Según sus palabras, parece profundamente preocupado por su pueblo."
+    jes "Por tus palabras, se nota que tu pueblo te importa mucho."
     show jes talk2 with dissolve
-    jes "Mmm... pero ¿qué pasa con los ciudadanos que residen en la tierra que pretende vender, Su Majestad?"
-    jes "Si se separan de él... ¿no significaría eso que deben abandonar sus hogares?"
+    jes "Mmm... pero ¿qué pasa con los ciudadanos que residen en la tierra que pretendes vender, Su Majestad?"
+    jes "Si te desprendes de ella... ¿no significaría eso que deberán abandonar sus hogares?"
     jes "Parece bastante contradictorio con lo que acaba de decir acerca de preocuparse tanto por su pueblo."
     show jes happy with dissolve
     jes "A menos que… ¿sea usted un mentiroso, Su Majestad~?"
@@ -1549,7 +1549,7 @@ label cursed2:
     hide screen dark_effect with dissolve 
     jes "Muy bien entonces. Informaré a nuestros vecinos del testamento de Su Majestad."
     jes "Y creo que, por ahora, los asuntos que Su Majestad debía resolver han llegado al final del programa de hoy."
-    jes "Ahora puede descansar la cabeza, majestad~"
+    jes "Ahora puedes descansar la cabeza, majestad~"
 
     show jes suprais2 with dissolve
     jes "¡Ah! Casi lo olvido, Su Majestad. Antes de eso, tengo un regalo para ti."

@@ -28,7 +28,7 @@ label tv_day2:
     "Un hombre había sido encontrado muerto en un callejón."
     "Su cuerpo había sido dividido limpiamente en dos."
     "Oh Dios."
-    "Había oído hablar de muchos casos de asesinato antes, cada uno con sus propios detalles espantosos, pero ¿reducirlo a la mitad?"
+    "Había oído hablar de muchos asesinatos antes, cada uno con sus propios detalles espantosos, pero ¿cortado por la mitad?"
     "Eso fue horrible."
     "¿Qué clase de persona enferma podría hacer algo así...?"
 
@@ -88,8 +88,8 @@ label brat_day2:
     
     show jes close smug with dissolve
     
-    jes "Dios mío... ¿Está Su Majestad intentando hacer que este pobre bufón pierda la compostura~?"
-    jes "Un esfuerzo valiente... aunque debo admitir que Su Majestad todavía no tiene esperanzas en ello."
+    jes "Vaya, vaya... ¿Está Su Majestad intentando que este pobre bufón pierda la compostura~?"
+    jes "Un esfuerzo valiente... aunque debo admitir que a Su Majestad aún se le da fatal."
     mc ".....No tenías que decírmelo."
     jes "Ahora, ahora. No hagas pucheros."
 
@@ -103,7 +103,7 @@ label brat_day2:
 
     show jes close flirt with dissolve
     
-    jes "En otras palabras... podría ser la pieza que le falta, Su Majestad."
+    jes "En otras palabras... podría ser la pieza que te falta, Su Majestad."
     
     "Mi cara se puso aún más caliente."
     "Aunque esta vez no fue por vergüenza."
@@ -111,18 +111,18 @@ label brat_day2:
 
     show jes close smug with dissolve
 
-    jes "¡Y TA-DAA~! ¡Mirad! El arte de ponerse nervioso, realizado a la perfección por este humilde bufón~"
-    jes "Mmm~ Sólo mírate ahora... Tu cara está tan roja como un pequeño tomate expuesto al sol de verano."
-    jes "Jeje... ¡Otra actuación impecable de Este Servidor Jestyn y Jester! Me encanta una audiencia que se sonroja en el momento justo~"
+    jes "¡Y TA-CHÁN~! ¡Mira! El arte de ponerse nervioso, ejecutado a la perfección por este humilde bufón~"
+    jes "Mmm~ Solo mírate ahora... Tienes la cara tan roja como un tomatito al sol del verano."
+    jes "Jeje... ¡Otra actuación impecable de este servidor, Jestyn el Bufón! Me encanta un público que se sonroja en el momento justo~"
 
     "Parpadeé una vez, luego dos veces después de darme cuenta de que solo me estaba tomando el pelo."
     "Instintivamente empujé contra su pecho y puse cierta distancia entre nosotros antes de que mi cara se calentara más." 
     "Jestyn respondió de la misma manera que siempre lo hacía, con una risa burlona." 
 
-    jes "Su Majestad se sonroja muy fácilmente. Que absolutamente adorable~"
+    jes "Su Majestad se sonroja muy fácilmente. Eres absolutamente adorable~"
     jes "Dios mío... Qué pequeño y frágil [title]. ¿Eres realmente el soberano de este reino... o simplemente una mota de polvo? ¡Una pequeña bocanada y listo! ¡Jajaja!"
     
-    "Le respondí con nada más que una sonrisa forzada. Estaba demasiado cansada para aceptar sus bromas."
+    "Le respondí con una sonrisa forzada. No tenía energías para seguirle el juego."
     "Esta marioneta realmente tenía un talento notable para ponerme de los nervios. Constantemente."
 
     hide jes close smug with dissolve
@@ -135,7 +135,7 @@ label dohard_day2:
     "Me irritaron, y sin embargo..."
     "También me hicieron sentir extrañamente audaz."
     "Por alguna razón, sentí que por una vez podía tomar la delantera."
-    "La idea de ponerlo en su lugar le resultaba inesperadamente excitante."
+    "La idea de ponerlo en su lugar me resultaba inesperadamente excitante."
     "....."
     
     mc "¿Sabes, Jestyn?"
@@ -220,7 +220,7 @@ label maidy_day2:
     
     show maidy happy at center_to_right
     show jes happy with dissolve
-    jes "Ah, basta. Eres demasiado generoso, Maidy."
+    jes "Ah, basta. Eres demasiado generosa, Maidy."
     jes "...Aunque soy bastante sorprendente~"
     show maidy estatic with dissolve
     maidy "¡SÍ, SÍ! ¡¡ERES INCREÍBLE TYNTYN!!"
@@ -245,9 +245,9 @@ label jealous_maidy:
     
     "....."
     "Sentí... algo." 
-    "... Me sentí extrañamente molesto por la vista." 
+    "...Aquella escena me resultó extrañamente molesta." 
     "La forma en que Maidy se aferró con tanta fuerza al brazo de Jestyn..."
-    "La forma en que afectuosamente le acariciaba la cabeza..."
+    "La forma en que él le acariciaba la cabeza con cariño..."
     "La forma en que se sonrieron el uno al otro..."
     "......"
     "Un peso doloroso se instaló en mi pecho."
@@ -259,7 +259,7 @@ label jealous_maidy:
     "Desafortunadamente, parecía que Jestyn había visto mi expresión. Su sonrisa se amplió al instante."
     "..."
     "Ese bastardo. Él lo sabía."
-    "Y a juzgar por esa sonrisa, la estaba disfrutando muchísimo."
+    "Y a juzgar por esa sonrisa, lo estaba disfrutando muchísimo."
 
     jump maidy_convo2
 
@@ -275,7 +275,7 @@ label nothing_maidy:
     "Luego, poco a poco, su expresión se fue oscureciendo. Sus cejas se fruncieron y su sonrisa desapareció en una delgada línea."
     "Parecía disgustado."
     "Por alguna razón, esa expresión estaba dirigida a mí."
-    "Que??? ¿Qué hice?"
+    "¿Qué? ¿Qué hice?"
 
     jump maidy_convo2
 
@@ -283,7 +283,7 @@ label maidy_convo2:
     show maidy happy with dissolve
     show jes normal with dissolve
     jes "Maidy, cariño~"
-    jes "Por muy encantado que esté con su afecto, tal vez deberíamos abstenernos de tales demostraciones frente a [poss] Majesty."
+    jes "Por muy encantado que esté con su afecto, tal vez deberíamos abstenernos de tales demostraciones frente a [poss] Majestad."
     
     "Maidy jadeó e inmediatamente soltó su brazo."
     
@@ -296,9 +296,9 @@ label maidy_convo2:
     hide jes with dissolve
     show maidy estatic at center
     with dissolve
-    maidy "¡Eeeh! ¡Es usted tan adorable, Su Majestad!"
+    maidy "¡Eeeh! ¡Eres tan adorable, Su Majestad!"
     show maidy nosmile with dissolve
-    maidy "Pero... ¿puedo ser honesto?"
+    maidy "Pero... ¿puedo ser honesta?"
     mc "¿Seguro?"
     maidy "La primera vez que te vi, lo que tenía en la cabeza es... ¡Tenía tantas ganas de vestirte!"
     show maidy pout
@@ -365,7 +365,7 @@ label maidy_convo2:
     maidy "¡Quiero decir! ¡Sí! ¡Maidra es uno de los títeres que he disfrazado antes!"
     show maidy normal 
     maidy "Por ahora, sin embargo, todavía tengo que terminar de limpiar este corredor."
-    maidy "Si Su Majestad alguna vez necesita algo... orrr quiere que lo vista elegantemente, simplemente venga a mi habitación, ¿de acuerdo?"
+    maidy "Si Su Majestad necesita algo alguna vez... o quieres que te vista de gala, ven a mi habitación, ¿vale?"
     show maidy happy with dissolve
     maidy "¡Así que nos vemos en otro momento, Su Majestad~!"
     hide maidy with dissolve
@@ -393,7 +393,7 @@ label maidelyn_day2:
     show maidelyn talk with dissolve
     "Ella dejó escapar una suave risita."
     
-    maidelyn "Su Majestad, no me está molestando en lo más mínimo, así que no se preocupe por eso."
+    maidelyn "Su Majestad, no me estás molestando en lo más mínimo, así que no te preocupes por eso."
     maidelyn "¿Supongo que Su Majestad se acercó a mí porque deseaba tener una conversación?"
     
     "Ah. Ella era bastante observadora."
@@ -421,10 +421,10 @@ label maidelyn_day2:
     mc "¿Fiestas de té?"
     maidelyn "Sí."
     maidelyn "De vez en cuando organizo fiestas de té con mis hermanas o los otros títeres."
-    maidelyn "A veces incluso los sostengo yo solo."
-    maidelyn "Ahora que lo pienso, supongo que ese sería mi hobby."
+    maidelyn "A veces incluso las organizo yo sola."
+    maidelyn "Ahora que lo pienso, supongo que ese sería mi pasatiempo."
     show maidelyn talk with dissolve
-    maidelyn "Si le place a Su Majestad, ¿tal vez podríamos compartir el té juntos algún día?"
+    maidelyn "Si es del agrado de Su Majestad, ¿quizá podríamos compartir el té algún día?"
     
     "La idea de asistir a una fiesta de té sonaba increíblemente elegante."
     "Para mí, las fiestas de té eran el tipo de reuniones que sólo celebraban los nobles ricos y la gente de la alta sociedad."
@@ -483,13 +483,13 @@ label maidelyn_day2:
 
     show maidelyn nosmile with dissolve
     maidelyn "No quise asustarte. No pondría nada en tu té, así que no te preocupes."
-    maidelyn "Sólo quería recordarle que hay muchas personas con dos caras en este mundo, Majestad."
+    maidelyn "Solo quería recordarte que hay mucha gente con dos caras en este mundo, Majestad."
     maidelyn "Están por todas partes. En las amistades, en nuestras casas..."
     maidelyn "O incluso... en este reino."
     
     "La mirada de Maidelyn volvió a mí."
     
-    maidelyn "No se apresure a confiar en las personas que le rodean."
+    maidelyn "No te apresures a confiar en quienes te rodean."
     mc "G-gracias por el consejo... pero... ¿por qué de repente me cuentas esto...?"
     show maidelyn normal with dissolve
     "Maidelyn simplemente sonrió."
@@ -542,7 +542,7 @@ label maidra_day2:
     show maidra nosmile at center_to_right
     show jes bitch2 at left
     with dissolve
-    jes "Sí... ¿Esa voz tuya podría ser más fuerte? Las trompetas reales se están poniendo celosas."
+    jes "Uf... ¿Esa voz tuya podría sonar más fuerte? Las trompetas reales se están poniendo celosas."
     camera at camera_shake
     maidra "¡¿Dije qué diablos quisiste decir, payaso idiota?!"
     camera at reset
@@ -550,7 +550,7 @@ label maidra_day2:
     "Jestyn dejó escapar un suspiro de cansancio."
     
     show jes unimpress with dissolve
-    jes "Tsk. Eres incluso más problemático que Knighter."
+    jes "Tsk. Eres incluso más problemática que Knighter."
     show maidra smug with dissolve
     maidra "Pues, gracias."
     maidra "Disfruto poder rivalizar con ese bastardo impulsivo."
@@ -566,7 +566,7 @@ label maidra_day2:
     
     show jes normal2 with dissolve
     jes "Ahora cierra esa boca tuya."
-    jes "Vas a ahuyentar a [poss] Majesty."
+    jes "Vas a ahuyentar a [poss] Majestad."
     
     "La mirada de Maidra se dirigió hacia mí."
     "Ella me miró con una ceja levantada."
@@ -615,9 +615,9 @@ label maidra_day2:
     "A mi lado, Jestyn claramente estaba luchando por mantener la cara seria."
     
     show maidra smug with dissolve
-    maidra "¡Jajaja! Su Majestad, en realidad es bastante divertido."
+    maidra "¡Jajaja! Su Majestad, en realidad eres bastante divertido."
     maidra "Je, sólo estaba bromeando contigo."
-    maidra "Pero después de esa reacción, ahora quiero seguir jugando contigo."
+    maidra "Pero después de esa reacción, ahora quiero seguir metiéndome contigo."
     maidra "Desafiar a un títere que mide el doble de tu tamaño requiere agallas."
     maidra "Estúpidas agallas, pero agallas al fin y al cabo."
     
@@ -625,7 +625,7 @@ label maidra_day2:
     "En ese momento, no deseaba nada más que cavar el hoyo más profundo imaginable y arrojarme en él."
     
     maidra "Pero claro, Su Majestad. ¿Por qué no?"
-    maidra "Quizás algún día podamos luchar. O hacer una carrera."
+    maidra "Quizás algún día podamos echar un pulso. O una carrera."
     maidra "O luchar."
     
     "Estaba empezando a arrepentirme de haberla desafiado."
@@ -653,7 +653,7 @@ label maidra_day2:
     
     show jes creep at right
     with dissolve
-    jes "Esas son cosas bastante inapropiadas para decirle a Su Majestad, ¿no cree?"
+    jes "Esas son cosas bastante inapropiadas para decirle a Su Majestad, ¿no crees?"
     
     show maidra nosmile at left
     with dissolve
@@ -673,7 +673,7 @@ label maidra_day2:
     "Maidra lo despidió."
     
     show maidra normal with dissolve
-    maidra "Ahhh, está bien. Entonces, ¿por qué ha venido a verme, Su Majestad? ¿Supongo que querías tener una pequeña charla conmigo?"
+    maidra "Ahhh, está bien. Entonces, ¿por qué has venido a verme, Su Majestad? Supongo que querías charlar un rato conmigo?"
     mc "Sí. ¿Es tan obvio?"
     maidra "Realmente no. No estaba prestando mucha atención. Es solo que Jestyn planeaba que hablaras conmigo, así que..."
     maidra "¿Qué quieres saber de mí?"
@@ -684,7 +684,7 @@ label maidra_day2:
     "¿Qué tipo de tema le parecería realmente interesante a Maidra...? No soy muy bueno para proponer temas de conversación inusuales."
     "¿En serio iba a preguntar: '¿Y si fueras un gusano?'"
     
-    maidra "Y no me preguntes: '¿Y si soy un gusano?' Eso es raro y no me gusta. WTF, no soy un gusano. No existe el 'qué pasaría si'."
+    maidra "Y no me preguntes: '¿Y si soy un gusano?' Eso es raro y no me gusta. ¿Qué demonios? No soy un gusano. No existe el 'qué pasaría si'."
     
     "......Está bien.."
     "Maidra continuó barriendo el piso."
@@ -693,12 +693,12 @@ label maidra_day2:
     show maidra mad 
     maidra "Uf, este vestido de sirvienta sigue estorbando cuando estoy barriendo... ¿Cómo pueden Maidelyn y Maidy limpiar con trajes como este? Uf, que molesto..."
     show maidra nosmile
-    maidra "De todos modos, seguiré barriendo mientras espero su pregunta, Su Majestad."
+    maidra "De todos modos, seguiré barriendo mientras espero tu pregunta, Su Majestad."
     mc "Oh... uh... ¿no te gusta tu vestido de sirvienta?"
     maidra "¿Qué? Oh sí. Se podría decir eso."
     mc "¿Por qué?"
     show maidra mad with dissolve
-    maidra "Bueno... ¡es difícil mudarse! Quiero decir... quiero poder correr todo lo que quiera sin tener que levantarme el vestido primero."
+    maidra "Bueno... ¡es difícil moverse! Quiero decir... quiero poder correr todo lo que quiera sin tener que levantarme el vestido primero."
     maidra "Como pantalones. Si quieres correr, simplemente corre. Es mucho menos problemático que un vestido."
     mc "Ya veo... Tal vez te gustaría más tu uniforme de sirvienta si tuviera pantalones en lugar de falda."
 
@@ -716,10 +716,10 @@ label maidra_day2:
     
     maidra "...Sí y no. Podría suceder, pero la forma de hacerlo es... uh... no exactamente buena. Quiero decir, básicamente tendríamos que derrotarnos unos a otros."
     maidra "Es como la cadena alimentaria en la naturaleza. El más fuerte es el que llega a la cima."
-    maidra "Y... jaja. No es una buena idea. Entonces, por ahora, no tengo más remedio que aceptar mi papel de Maidra the Maid."
+    maidra "Y... jaja. No es una buena idea. Entonces, por ahora, no tengo más remedio que aceptar mi papel de Maidra la doncella."
     
     "Honestamente, su reacción no me sorprendió tanto."
-    "Desde el momento en que la conocí, me di cuenta de que Maidra no era exactamente del tipo femenino."
+    "Desde el momento en que la conocí, me di cuenta de que Maidra no era muy femenina."
     "Tenía sentido que no le gustara su papel."
     "Aún así… no pude evitar sentir un poco de lástima por ella. Tenía que vivir con algo que no le gustaba."
     "......"
@@ -734,7 +734,7 @@ label maidra_day2:
     maidra "¿Eh?"
     
     "Aproveché todo lo que había aprendido de las novelas, los cómics y las películas que había consumido a lo largo de los años. Todas esas historias le habían dado a mi imaginación bastante espacio para trabajar."
-    "o una vez, todo ese conocimiento aparentemente inútil podría resultar útil."
+    "Por una vez, todo ese conocimiento aparentemente inútil podría resultar útil."
 
     mc "Una vez leí un cómic sobre una espía que se coló en un palacio enemigo y se disfrazó de doncella."
     maidra "¿Qué? Nunca he oído hablar de eso."
@@ -747,7 +747,7 @@ label maidra_day2:
 
     maidra ".....Entonces..."
     maidra "¿Yo... podría ser genial así...?"
-    mc "¿Por qué no? Quiero decir, estoy seguro de que aún puedes lucir fuerte y genial, y ser tú mismo, incluso con algo femenino."
+    mc "¿Por qué no? Quiero decir, estoy seguro de que aún puedes lucir fuerte y genial, y ser tú misma, incluso con algo femenino."
     maidra "Yo....."
     maidra "...Sí. Quizás pueda."
     maidra "....."
@@ -757,7 +757,7 @@ label maidra_day2:
     maidra "M-quiero decir... sí... eso suena muy bien... ejem."
     camera at reset
     
-    "No pude evitar reírme de lo mucho que Maidra intentaba mantenerla tranquila."
+    "No pude evitar reírme de lo mucho que Maidra intentaba mantener la compostura."
     
     maidra "Mmh... está bien... Su Majestad... en realidad me hizo sentir un poco mejor ahora... uhm..."
     maidra "....Gracias... Supongo..."
@@ -777,7 +777,7 @@ label maidra_day2:
 label crownus_room1:
     "Mi atención se desvió hacia la puerta del Rey Marioneta."
     "Comparado con las otras salas de títeres, esa parecía la más..."
-    "...caótico?"
+    "...¿caótica?"
     "En la puerta principal había un nombre garabateado que decía \"Crownus\"."
     "¿Ese era el nombre del Rey Marioneta?"
     "Sentí curiosidad por lo que había dentro."
@@ -793,7 +793,7 @@ label crownus_room1:
     "Pero esta vez pareció forzado."
     
     jes "Ah, ¿la habitación del Rey Marioneta?"
-    jes "Es bastante complicado y realmente no hay nada interesante allí."
+    jes "Está bastante desordenado y no hay nada interesante allí dentro."
     jes "De verdad."
 
     show jes normal2 with dissolve
@@ -837,10 +837,10 @@ label crownus_room3:
     
     "....."
     "...¿Eh...?"
-    "Me estremecí cuando Jestyn de repente agarró mi mano y la apartó del pomo de la puerta del King Puppet."
-    "Su agarre era tan fuerte que le dolía."
+    "Me estremecí cuando Jestyn de repente agarró mi mano y la apartó del pomo de la puerta del Rey Marioneta."
+    "Me agarraba con tanta fuerza que dolía."
     play sound "nyekek.mp3" volume 2.0
-    "El dolor recorrió mi brazo donde sus dedos estaban alrededor de él."
+    "El dolor me recorrió el brazo allí donde sus dedos lo rodeaban."
     "Su mirada era aguda. Mortal."
     "No había lugar a dudas. Jestyn estaba enojado."
     "¿Pero por qué?"
@@ -888,10 +888,10 @@ label crownus_room3:
 
 label wizzyroom_day2:
 
-    "Mi mirada se dirigió a la puerta naranja. La placa de identificación simplemente decía: 'Wizard'."
+    "Mi mirada se dirigió a la puerta naranja. La placa de identificación simplemente decía: «Mago»."
     "Si no recuerdo mal, el nombre del títere mago era Wizzy."
     "Estoy bastante seguro de que Jestyn mencionó ese nombre ayer. Bueno, supongo que intentaré conocerlo primero."
-    "Señalé hacia la habitación de Wizard Puppet."
+    "Señalé hacia la habitación de la marioneta mago."
     
     mc "Creo que me gustaría conocerlo."
 
@@ -902,10 +902,10 @@ label wizzyroom_day2:
     jes "Vamos."
     
     hide jes happy2 with dissolve
-    "Jestyn me llevó hasta la puerta de Wizard Puppet."
+    "Jestyn me llevó hasta la puerta de la marioneta mago."
 
     scene bg_wizzydoor with dissolve
-    "Puso una mano sobre mi hombro y me colocó directamente frente a él."
+    "Puso una mano sobre mi hombro y me colocó directamente frente a ella."
     "Luego casualmente dio un paso hacia el lado izquierdo de la puerta."
     "... ¿Por qué estaba parado allí?"
     
@@ -928,7 +928,7 @@ label wizzyroom_day2:
     ".... No pasó nada durante unos segundos."
     "Entonces, escuché pasos acercándose desde el otro lado de la puerta."
     "Se acercaron..."
-    "...y se detuvo justo enfrente de él."
+    "...y se detuvo justo enfrente de ella."
     "........"
     "Silencio."
     "¿Qué está haciendo?"
@@ -979,7 +979,7 @@ label wizzyroom_day2:
     "Jestyn simplemente se encogió de hombros."
     
     jes "¿Quién sabe~?"
-    wiz "¡¡ACABO DE LOGRARLO- UGH!!"
+    wiz "¡¡LA ACABABA DE HACER- UFF!!"
     
     show jes laugh2 with dissolve
     "Jestyn respondió a la indignación de Wizzy con nada más que su habitual risa maníaca."
@@ -1028,7 +1028,7 @@ label wizzyroom_day2:
     hide jes normal2
     camera at camera_shake
     show jeswiz_wizroomscene
-    wiz "¡JESTÍN! ¡Te perdonaré si me ayudas un minuto!"
+    wiz "¡JESTYN! ¡Te perdonaré si me ayudas un minuto!"
 
     camera at reset
     "Jestyn miró a Wizzy con una mezcla de confusión y curiosidad."
@@ -1051,9 +1051,9 @@ label wizzyroom_day2:
     jes "¡¿Qué?! ¡Eso es demasiado!"
     wiz "¡Date prisa! [poss] ¡Majestad está esperando!"
     wiz "¡No quiero que se sientan incómodos!"
-    jes "Ahora, querido Wizard... ¿no te dijo este magnífico bufón que ordenaras este espantoso desastre esta mañana?"
+    jes "Ahora, querido mago... ¿no te dijo este magnífico bufón que ordenaras este espantoso desastre esta mañana?"
     wiz "¡Lo recuerdo! ¡Pero nunca dijiste que Su Majestad vendría esta noche!"
-    jes "¿Ah? Entonces, ¿cuándo, por favor, dígame, imaginaba que vendría [subj]? ¿Al año que viene? ¡CIERTAMENTE te lo dije esta mañana!"
+    jes "¿Ah? Entonces, ¿cuándo, dime, imaginabas que vendría [subj]? ¿El año que viene? ¡Desde luego que te lo dije esta mañana!"
     wiz "...... ¿Cuándo?"
     jes "¡Mientras te enterrabas en tus pequeños experimentos! Estaba parado JUSTO a tu lado."
     wiz "...Mentiroso. Siempre mientes."
@@ -1085,7 +1085,7 @@ label wizzyroom_day2:
 
     show jes tired at left
     with dissolve
-    wiz "¡Perdón por hacerla esperar, querida Majestad!"
+    wiz "¡Perdón por hacerte esperar, Su Majestad!"
     wiz "¡Todos los problemas finalmente desaparecieron! ¡Ahora, por favor, entra!"
     
     "La expresión nerviosa que Wizzy había tenido hace unos momentos había desaparecido por completo, reemplazada por una sonrisa brillante y acogedora."
@@ -1110,7 +1110,7 @@ label wizzyroom_day2:
 
     "Parecía que me notó mirando alrededor de su habitación."
 
-    wiz "Y-Y... Espero que mi habitación sea lo suficientemente cómoda para usted, Su Majestad. También espero que esté lo suficientemente ordenado... jeje."
+    wiz "Y-Y... Espero que mi habitación sea lo suficientemente cómoda para ti, Su Majestad. También espero que esté lo suficientemente ordenada... jeje."
 
     show wiz nervous at center_to_right
     show jes bitch2 with dissolve
@@ -1122,7 +1122,7 @@ label wizzyroom_day2:
     hide jes bitch2 with dissolve
     show wiz talk at center
     with dissolve
-    wiz "¡Ah! ¿Por qué no toma asiento primero, Su Majestad? Debes estar cansado de estar de pie."
+    wiz "¡Ah! ¿Por qué no tomas asiento primero, Su Majestad? Estar de pie debe de ser agotador."
     
     hide wiz talk with dissolve
     "Wizzy rápidamente agarró una silla y la colocó detrás de mí."
@@ -1132,7 +1132,7 @@ label wizzyroom_day2:
     with dissolve
     show wiz normal at left
     with dissolve
-    jes "Wizzy... ¿hablas en serio? ¿Vas a hacer que [poss] Majesty se siente en una silla de madera dura?"
+    jes "Wizzy... ¿hablas en serio? ¿Vas a hacer que [poss] Majestad se siente en una silla de madera dura?"
     
     show wiz panic with dissolve
     "Sólo entonces Wizzy se dio cuenta de lo que había hecho. Inmediatamente se volvió hacia mí, nervioso."
@@ -1147,7 +1147,7 @@ label wizzyroom_day2:
     "Antes de que pudiera terminar mi frase, Jestyn me interrumpió."
 
     show jes normal2 with dissolve
-    jes "Tut, tut, tut~ Eso simplemente no sirve, Su Majestad. Eres nuestro [title]. Nada menos que el mejor tratamiento será suficiente para usted."
+    jes "Tut, tut, tut~ Eso simplemente no vale, Su Majestad. Eres nuestro [title]. Nada menos que el mejor trato será suficiente para ti."
     wiz "¡Exactamente! ¡De hecho, esta vez estoy de acuerdo con Jestyn!"
 
     show jes unimpress2 with dissolve
@@ -1213,7 +1213,7 @@ label sit_on_jestyn:
     hide cg_jeschair with dissolve
     
     show wiz nosmile2 with dissolve
-    wiz "U-Um... en ese caso... Espero que esté cómodo, Su Majestad..."
+    wiz "E-Em... en ese caso... Espero que estés a gusto, Su Majestad..."
 
     jump wizzy_convo
 
@@ -1225,9 +1225,9 @@ label sit_chair:
     show jes pout2 with dissolve
     show wiz talk with dissolve
     "Jestyn inmediatamente hizo un puchero."
-    "Mientras tanto, a su lado, Wizzy dejó escapar un suspiro de alivio y me levantó el pulgar discretamente."
+    "Mientras tanto, a su lado, Wizzy dejó escapar un suspiro de alivio y me mostró el pulgar con disimulo."
     
-    jes "Prometo que estoy mucho más cómodo que esa silla. Además... usted es Su Majestad."
+    jes "Prometo que estoy mucho más cómodo que esa silla. Además... tú eres Su Majestad."
     mc "Y eso significa que puedo tener lo que quiero. Ahora quiero sentarme en la silla."
     
     "El puchero de Jestyn se hizo más profundo."
@@ -1254,7 +1254,7 @@ label wizzy_convo:
     wiz "Um... jaja... en realidad estoy muy nervioso. Todo esto es tan repentino... y completamente fuera de mi horario habitual."
 
     show wiz panic2 with dissolve
-    wiz "¡P-Pero por favor no me malinterprete, Su Majestad! ¡Realmente quiero hablar contigo!"
+    wiz "¡P-Pero por favor no me malinterpretes, Su Majestad! ¡Realmente quiero hablar contigo!"
     
     show wiz nosmile with dissolve
     "Wizzy respiró hondo, intentando calmarse."
@@ -1289,7 +1289,7 @@ label wizzy_convo:
     wiz "P-Pero... quedé tan atrapado en mis experimentos que... bueno... perdí completamente la noción del tiempo."
 
     show wiz talk with dissolve
-    wiz "Jeje... Dado que el objetivo es que nos conozcamos, no dude en preguntarme lo que quiera, Su Majestad."
+    wiz "Jeje... Dado que el objetivo es que nos conozcamos, no dudes en preguntarme lo que quieras, Su Majestad."
     
     show wiz talk2 with dissolve
     wiz "¡Ah, ay! ¡Sólo un momento! ¡Debería haberte preparado algunos refrescos! ¡Ya vuelvo, Su Majestad!"
@@ -1310,7 +1310,7 @@ label examinewizzyroom_day2:
         $ wizzyroom_text = "{color=#FFC04C}Examínelo más de cerca..{/color}"
         
     else:
-        $ wizzyroom_text = "{color=#FFC04C}Cloooser~{/color}"
+        $ wizzyroom_text = "{color=#FFC04C}Más cerca~{/color}"
     menu:
         "Examina los papeles.":
             jump examine_paper
@@ -1339,7 +1339,7 @@ label examine_paper:
     "Algunos parecían estar llenos de fórmulas químicas, mientras que otros estaban cubiertos de ecuaciones matemáticas."
     "A juzgar solo por estas notas, Wizzy debe haber sido increíblemente inteligente."
     "Continué mirando el resto de ellos."
-    "Una hoja en particular me llamó la atención. A diferencia de los demás, no estaba lleno sólo de números y fórmulas. También tenía dibujos."
+    "Una hoja en particular me llamó la atención. A diferencia de las demás, no estaba llena solo de números y fórmulas. También tenía dibujos."
     "Hice lo mejor que pude para darle sentido, pero desafortunadamente, estaba completamente fuera de mi alcance."  
 
     jump examinewizzyroom_day2  
@@ -1408,17 +1408,17 @@ label wizzy_convo2:
     show wiz talk with dissolve
     "La expresión de Wizzy se iluminó de inmediato."
     
-    wiz "¿R-En serio...? Me alegro mucho que se sienta así, Su Majestad..."
+    wiz "¿E-En serio...? Me alegra mucho que te sientas así, Su Majestad..."
     wiz "Jeje... Es usted muy amable, Su Majestad."
     
     "Con eso, Wizzy se recostó en su asiento."
 
-    wiz "Continúe y pruebe uno, Su Majestad. Son realmente buenos. Siempre le pido a Jestyn que los recoja cada vez que sale."
-    wiz "Los amo absolutamente."
+    wiz "Adelante, prueba uno, Su Majestad. Están buenísimos. Siempre le pido a Jestyn que traiga más cuando sale."
+    wiz "Las adoro absolutamente."
 
     show wiz normal with dissolve
     "Como Wizzy insistió, abrí el frasco y saqué una sola galleta."
-    "En el momento en que lo mordí, un rico sabor a chocolate llenó mi boca. Un bocado fue todo lo que necesité para darme cuenta de que eran galletas de alta calidad."
+    "En el momento en que la mordí, un rico sabor a chocolate me llenó la boca. Un bocado fue todo lo que necesité para darme cuenta de que eran galletas de alta calidad."
     "Fue una experiencia completamente nueva para alguien cuya dieta incluye principalmente alimentos instantáneos."
     
     mc "¡Mmm! ¡Están deliciosos!"
@@ -1545,7 +1545,7 @@ label wizzy_convo2:
 
                 hide jescg chair4 with dissolve
                 show wiz nosmile2 with dissolve
-                wiz "P-perdóneme, majestad... buf... ¡ejem!"
+                wiz "P-perdóname, Majestad... ¡ejem!"
 
 
 
@@ -1570,7 +1570,7 @@ label wizzy_convo2:
                 hide jes normal2_2 with dissolve
                 hide jescg gagcrief2 with dissolve
                 show wiz nosmile2 with dissolve
-                wiz "P-perdóneme, majestad... buf... ¡ejem!"
+                wiz "P-perdóname, Majestad... ¡ejem!"
             
 
         "déjalo en paz":
@@ -1660,11 +1660,11 @@ label wizzy_convo2:
     
     "......"
     
-    wiz "Por favor, no se preocupe tanto, Su Majestad. No hay necesidad de estar tan ansioso."
+    wiz "Por favor, no te preocupes tanto, Su Majestad. No hay por qué ponerse así."
 
     show wiz talk2 with dissolve
-    wiz "¿Qué tal si me preguntas algo en su lugar? El objetivo de esta conversación es que Su Majestad conozca mejor a sus sirvientes, ¿no es así?"
-    wiz "Puede preguntarme lo que quiera, Su Majestad."
+    wiz "¿Qué tal si me preguntas algo en su lugar? El objetivo de esta conversación es que conozcas mejor a tus sirvientes, ¿no es así?"
+    wiz "Puedes preguntarme lo que quieras, Su Majestad."
 
     "Wizzy se quitó la capa y la dejó cuidadosamente sobre la cama antes de regresar a su asiento para continuar nuestra conversación."
 
@@ -1726,7 +1726,7 @@ label freetime_wizzy:
     show wizconvo normal3 with dissolve
     wiz "Por ejemplo... una vez dediqué unas páginas a las rosas, ya que son mis flores favoritas."
     wiz "Las rosas vienen en todo tipo de colores. Rosa, blanco, negro..."
-    wiz "Siempre me ha fascinado eso, así que decidí escribir sobre ellos aquí."
+    wiz "Siempre me ha fascinado eso, así que decidí escribir sobre ellas aquí."
 
     show wizconvo suprais3 with dissolve
     $ voice_duck_start()
@@ -1738,7 +1738,7 @@ label freetime_wizzy:
     show wizconvo happy2 with dissolve
     wiz "¡Ah! ¡Y también escribí el significado detrás de cada color de rosa!"
     wiz "Las rosas blancas simbolizan la pureza, la inocencia, el amor sincero... y los nuevos comienzos."
-    wiz "Las rosas negras, por otro lado, suelen asociarse con el misterio, las despedidas y el dolor. Aunque... algunas personas también los ven como símbolos de fuerza interior, coraje y nuevos comienzos."
+    wiz "Las rosas negras, por otro lado, suelen asociarse con el misterio, las despedidas y el dolor. Aunque... algunas personas también las ven como símbolos de fuerza interior, coraje y nuevos comienzos."
     
     show wizconvo suprais2 with dissolve
     wiz "¡Oh! Aquí hay un dato curioso sobre las rosas negras. Si no recuerdo mal... las rosas negras puras en realidad no existen en la naturaleza. Por lo general, son tonos muy oscuros de rojo o morado."
@@ -1749,8 +1749,8 @@ label freetime_wizzy:
 
     show wizconvo normal3 with dissolve
     wiz "Rosas rojas."
-    wiz "Creo que son encantadores... especialmente porque simbolizan el amor verdadero y el romance profundo. Creo que es bastante lindo."
-    wiz "¿Qué hay de usted, Su Majestad? Si pudieras elegir, ¿qué color de rosa sería tu favorito?"
+    wiz "Creo que son encantadoras... especialmente porque simbolizan el amor verdadero y el romance profundo. Creo que es bastante lindo."
+    wiz "¿Y tú, Su Majestad? Si pudieras elegir, ¿qué color de rosa sería tu favorito?"
 
     menu:
         "Rosa roja":
@@ -1808,7 +1808,7 @@ label freetime_wizzy:
     wiz "Ésta es la medicina."
     wiz "Puedes beberlo siempre que tengas fiebre o resfriado. Sabe a jengibre y menta."
     wiz "Al principio pica un poco, por lo que puede resultar un poco desagradable. Pero una vez que te acostumbras, es bastante agradable. La menta ayuda a despejar las vías respiratorias cuando tienes la nariz congestionada."
-    wiz "Si tiene curiosidad, Su Majestad, puede olerlo. Es perfectamente seguro."
+    wiz "Si tienes curiosidad, Su Majestad, puedes olerlo. Es perfectamente seguro."
     
     "Acerqué la poción negra a mi cara y la olí cautelosamente."
     "En el momento en que lo hice, un fuerte olor a menta me picó en la nariz."
@@ -1827,7 +1827,7 @@ label freetime_wizzy:
     "Wizzy de repente se quedó en silencio."
     
     show wiz nosmile1_2 with dissolve
-    wiz "...Esta poción es poderosa. Quizás... un poco demasiado poderoso..."
+    wiz "...Esta poción es poderosa. Quizás... un poco demasiado poderosa..."
     
     "Ladeé la cabeza, desconcertada."
     
@@ -1870,9 +1870,9 @@ label freetime_wizzy:
     
     wiz "Una vez intenté aprender todo lo que pude sobre el cuerpo humano."
     wiz "Huesos. Carne. Órganos. Piel."
-    wiz "Estudié cada parte que tenemos los humanos... y nosotros no."
+    wiz "Estudié cada parte que tienen los humanos... y nosotros no."
     mc "E-Entonces... ¿qué lo hizo tan difícil?"
-    wiz "Estudié cada parte del cuerpo humano... porque quería intentar crear una."
+    wiz "Estudié cada parte del cuerpo humano... porque quería intentar crear uno."
     mc "¡¿Qué?! ¿Por qué?"
     wiz "...Es una historia larga y complicada."
     wiz "Pero pensé... si podía tener éxito... podría convertirse en un nuevo camino a seguir para todos nosotros."
@@ -1901,7 +1901,7 @@ label hat_wizzy:
     wiz "¿Eh? Por supuesto..."
 
     show wizconvo nervous with dissolve
-    wiz "¿Q-Qué pasa? ¿Estaba aburrido? ¿Hablé demasiado? ¿No fui lo suficientemente interesante?"
+    wiz "¿Q-Qué pasa? ¿Fui aburrido? ¿Hablé demasiado? ¿No fui lo suficientemente interesante?"
     mc "¡¿Qué?! ¡No, en absoluto!"
     mc "Simplemente creo que tu sombrero se ve realmente genial."
     
@@ -1913,7 +1913,7 @@ label hat_wizzy:
     show cg_wizhat with dissolve
     "Agarró suavemente su sombrero y distraídamente le pasó una mano por encima."
     
-    wiz "Gracias, Su Majestad... Me alegra mucho que le guste."
+    wiz "Gracias, Su Majestad... Me alegra mucho que te guste."
     wiz "Se podría decir que este sombrero es muy valioso para mí. Nuestro creador... el que nos creó a todos... lo hizo él mismo."
     mc "¿Tu creador?"
     
@@ -1929,20 +1929,20 @@ label hat_wizzy:
 
     hide cg_wizhat with dissolve
     show wizconvo suprais with dissolve
-    wiz "¿Eh? ¿Quiere ponerse mi sombrero, majestad?"
+    wiz "¿Eh? ¿Quieres ponerte mi sombrero, majestad?"
     mc "Sí. Pero si no te sientes cómodo con eso, está completamente bien."
 
     show wizconvo nosmile3 with dissolve
     wiz "......"
 
     show wizconvo normal3 with dissolve
-    wiz "Jeje... Por supuesto. Confío en usted, Su Majestad."
+    wiz "Jeje... Por supuesto. Confío en ti, Su Majestad."
 
     camera at reset
     show wizconvo nosmile with dissolve
     wiz "A diferencia de... alguien que viste de rojo, amarillo, negro y blanco."
     
-    "Wizzy se quitó con cuidado el sombrero y yo la corona, antes de colocarla suavemente en mi cabeza."
+    "Wizzy se quitó el sombrero con cuidado, y yo mi corona, antes de colocármelo con suavidad en la cabeza."
 
     camera at camera_shake
     show wizconvo hat 
@@ -1960,7 +1960,7 @@ label hat_wizzy:
     "Se tomó un momento para mirarme."
     
     show wizconvo anim
-    wiz "...Mmmm. En realidad le queda bastante lindo, Su Majestad."
+    wiz "...Mmmm. En realidad te queda bastante lindo, Su Majestad."
 
     if sit_on_jestyn:
         if jestyn_gagged:
@@ -1977,7 +1977,7 @@ label hat_wizzy:
             wiz "Jeje... También me gustó ver a Su Majestad usarlo. Quizás podría pedirle a alguien que haga otro igual."
 
             show wizconvo hat3 with dissolve
-            wiz "Entonces miraríamos aún más de cerca, ¿no?"
+            wiz "Entonces nos pareceríamos aún más, ¿no?"
             mc "Estoy de acuerdo. Ja ja."
             jes "Mmmrrgh!!"
 
@@ -2009,7 +2009,7 @@ label hat_wizzy:
             wiz "Jeje... También me gustó ver a Su Majestad usarlo. Quizás podría pedirle a alguien que haga otro igual."
 
             show wizconvo hat3 with dissolve
-            wiz "Entonces miraríamos aún más de cerca, ¿no?"
+            wiz "Entonces nos pareceríamos aún más, ¿no?"
             mc "Estoy de acuerdo. Ja ja."
             jes "Mmmrrgh!!"
 
@@ -2032,9 +2032,9 @@ label hat_wizzy:
     hide wizconvo with dissolve
     show wiz smirk1_2 at center
     with dissolve
-    "Wizzy se quitó el sombrero y luego me habló en un susurro."
+    "Wizzy recuperó su sombrero y luego me habló en un susurro."
 
-    wiz "Quizás la próxima vez... podría usar mi sombrero por más tiempo, Su Majestad..."
+    wiz "Quizás la próxima vez... podrías llevar mi sombrero más tiempo, Su Majestad..."
 
     "Sonreí y luego asentí con la cabeza."
 
@@ -2073,7 +2073,7 @@ label relationship_wizzy:
         jes "Hhhhmmmmmm~...."
 
     else:
-        jes "¿Oh~? Soy una buena persona, ¿verdad~? Continúe entonces. Cuéntale a [poss] Majesty todo sobre esto."
+        jes "¿Oh~? Soy una buena persona, ¿verdad~? Continúe entonces. Cuéntale a [poss] Majestad todo sobre esto."
     
     "Al verse obligado a felicitar a Jestyn justo en frente de él, Wizzy de repente pareció profundamente preocupado."
     
@@ -2130,7 +2130,7 @@ label relationship_wizzy:
     wiz "Knighter puede molestarse con Jestyn, sí... pero tiende a escucharlo. No sé por qué funciona."
 
     show wizconvo talk2 with dissolve
-    wiz "Mientras Jestyn esté con usted, Su Majestad... estará a salvo."
+    wiz "Mientras Jestyn esté contigo, Su Majestad... estarás a salvo."
 
     show wizconvo talk3 with dissolve
     wiz "Ahora bien... hmm... ¿quién más...?"
@@ -2145,7 +2145,7 @@ label relationship_wizzy:
     mc "¿Qué ocurre?"
 
     show wizconvo talk3 with dissolve
-    wiz "...Para ser honesto, no estoy muy seguro de cómo describirle a Prieston, Su Majestad."
+    wiz "...Para ser honesto, no estoy muy seguro de cómo hablarte de Prieston, Su Majestad."
     wiz "Los dos hablamos bastante a menudo y yo diría que somos bastante cercanos."
 
     show wizconvo talk2 with dissolve
@@ -2163,7 +2163,7 @@ label relationship_wizzy:
     wiz "Simplemente no le gustan las conversaciones ociosas. Por lo general, sólo sale de su habitación cuando hay un motivo para hacerlo."
 
     show wizconvo normal2 with dissolve
-    wiz "...Aunque tal vez lo conozca pronto, Su Majestad."
+    wiz "...Aunque tal vez lo conozcas pronto, Su Majestad."
 
     jump gettoknow_wizzy
 
@@ -2210,12 +2210,12 @@ label crownusask_wizzy:
     camera at camera_shake
     wiz "¡NO LE IMPORTÓ!"
     camera at reset
-    wiz "¡NUNCA SE IMPORTÓ POR NINGUNO DE NOSOTROS!"
+    wiz "¡NUNCA LE IMPORTAMOS NINGUNO DE NOSOTROS!"
     wiz "ERA TODO..."
 
     camera at camera_shake
     show wizconvo breakdown
-    wiz "¡PARA MISMO!"
+    wiz "¡TODO FUE POR SÍ MISMO!"
     camera at reset
     mc "Wizzy, ¡cálmate!"
     
@@ -2225,7 +2225,7 @@ label crownusask_wizzy:
     "Afortunadamente, volvió en sí. Al darse cuenta de lo que acababa de suceder, rápidamente se limpió el líquido negro que se filtraba debajo de la venda de sus ojos y de las comisuras de su boca."
     
     wiz "Lo siento mucho, Su Majestad... Dejé que mis emociones se apoderaran de mí."
-    mc "¿Lo que le pasó? Ese líquido negro... salía de tus ojos y de tu boca."
+    mc "¿Qué te pasó? Ese líquido negro... salía de tus ojos y de tu boca."
     wiz "Está bien... Sólo sucede cuando mis emociones se salen de control."
 
     show wizconvo breakdown3 with dissolve
@@ -2238,13 +2238,13 @@ label crownusask_wizzy:
     "Al regresar, dudó por un momento."
     
     show wizconvo nervous with dissolve
-    wiz "...No me tiene miedo, ¿verdad, majestad?"
+    wiz "...No me tienes miedo, ¿verdad, majestad?"
 
     menu:
         "Tengo miedo":
             wiz "¿Y-tú lo eres? Lo siento mucho, Su Majestad. Me aseguraré de que eso no vuelva a suceder."
 
-        "No, no lo tengo":
+        "No, no tengo miedo":
             show wizconvo talk with dissolve
             wiz "...Gracias a Dios."
             wiz "Lo siento mucho, Su Majestad..."
@@ -2263,7 +2263,7 @@ label afterconvo_wizzy:
     show wizconvo happy with dissolve
     wiz "En ese caso... Espero que haya disfrutado nuestra conversación, Su Majestad."
     wiz "Porque... ciertamente lo hice."
-    mc "Yo también, Wizzy. Realmente disfruté hablando contigo. Eres muy fácil hablar contigo."
+    mc "Yo también, Wizzy. Disfruté mucho hablando contigo. Es muy fácil hablar contigo."
 
     show wizconvo blush with dissolve
     wiz "Ejeje... Me estás haciendo sonrojar."
@@ -2283,7 +2283,7 @@ label afterconvo_wizzy:
     wiz "Hasta entonces... ¡cuídate!"
 
     show wiz pout2_2 with dissolve
-    wiz "¡Y Jestyn! ¡No le des demasiados problemas a [poss] Majesty!"
+    wiz "¡Y Jestyn! ¡No le des demasiados problemas a [poss] Majestad!"
 
     show jes happy2 at left
     with dissolve
@@ -2327,23 +2327,23 @@ label afterconvo_wizzy:
 
 label knighterroom_day2:
     if met_knighter:
-        "Mis ojos se posaron en la puerta que llevaba la placa Knight."
-        "El caballero títere."
+        "Mis ojos se posaron en la puerta con la placa «Caballero»."
+        "El títere caballero."
         "El encuentro de ayer en el pasillo todavía estaba vivo en mi mente. El caballero títere se cernía sobre mí como un muro inamovible."
         "El escalofrío persistente aún recorría mi piel cada vez que lo recordaba."
         "Especialmente en el momento en que me di cuenta... que ese títere tenía toda la intención de matarme."
         "Y sin embargo... algo muy dentro de mí me impulsó a al menos intentar presentarme al caballero títere."
 
     else:
-        "Mis ojos se posaron en la puerta que llevaba la placa Knight."
-        "El caballero títere."
+        "Mis ojos se posaron en la puerta con la placa «Caballero»."
+        "El títere caballero."
 
-    mc "Me gustaría conocer al títere Knight."
+    mc "Me gustaría conocer al títere caballero."
     show jes normal2 with dissolve
-    jes "Por supuesto, Su Majestad. De esta manera ~"
+    jes "Por supuesto, Su Majestad. Por aquí~"
     
     hide jes normal2 with dissolve
-    "Jestyn me lleva a la puerta de Knight Puppet."
+    "Jestyn me lleva a la puerta del títere caballero."
     scene bg_knidoor with dissolve
     "Y en poco tiempo estábamos justo frente a él."
     show jes nosmile with dissolve
@@ -2384,8 +2384,8 @@ label knighterroom_day2:
     
     kni "¿Qué quieres?"
     show jes normal2 with dissolve
-    jes "Knighter, mi amado caballero. Hoy os he traído al invitado más importante de todo el reino."
-    jes "[poss] Majesty desea tener una conversación con usted."
+    jes "Knighter, mi amado caballero. Hoy te he traído al invitado más importante de todo el reino."
+    jes "[poss] Majestad desea tener una conversación con usted."
     
     "El silencio llena el pasillo por unos momentos."
     
@@ -2394,8 +2394,8 @@ label knighterroom_day2:
     "... Vaya. Eso fue frío."
     
     show jes unimpress 
-    jes "¡Jadeo! ¿Cómo pudiste decir algo tan grosero delante de [poss] Majesty? ¿Dónde están tus modales?"
-    kni "Ya no hay gobernante en este reino. Fin de la discusión. Dejar."
+    jes "¡Ah! ¿Cómo pudiste decir algo tan grosero delante de [poss] Majestad? ¿Dónde están tus modales?"
+    kni "Ya no hay gobernante en este reino. Fin de la discusión. Fuera."
     
     "Jestyn me dio una palmada en el hombro antes de inclinarse para susurrar."
     show jes happy
@@ -2449,7 +2449,7 @@ label knighterroom_day2:
     show kni normal2 with dissolve
     jes "Su Majestad, este es nuestro valiente y fuerte caballero, Sir Knighter."
     jes "Knighter cariño, este es nuestro amado, asombroso, lindo, adorable, hermoso, amable, gentil [title] [player_call]"
-    jes "Ahora bien... tengamos una agradable charla. [poss] Majesty vino hasta aquí para hablar contigo."
+    jes "Ahora bien... tengamos una agradable charla. [poss] Majestad vino hasta aquí para hablar contigo."
     kni "....."
     kni "¿Sobre qué?"
     mc "En realidad, sólo una pequeña charla para conocerte mejor."
@@ -2472,7 +2472,7 @@ label knighterroom_day2:
     "Jestyn pronunció su nombre."
     "Su voz era más baja de lo habitual… y todo rastro de su tono juguetón había desaparecido."
     
-    jes "¿Qué te dije acerca de hablarle así a [poss] Majesty?"
+    jes "¿Qué te dije acerca de hablarle así a [poss] Majestad?"
     show kni annoy2 with dissolve
     kni "......"
     show kni normal2 
@@ -2480,12 +2480,12 @@ label knighterroom_day2:
     "Pero a juzgar por su lenguaje corporal... de repente parecía tenso."
     "... ¿Por qué? ¿Fue por Jestyn? ¿Le tenía... miedo?"
     
-    jes "Si hablas así con [poss] Majesty una vez más..."
+    jes "Si hablas así con [poss] Majestad una vez más..."
     kni "...Suficiente."
     show kni annoy with dissolve
     kni "...Lo entiendo."
     show jes happy3 with dissolve
-    jes "¡Bien! Ahora... habla con [poss] Majesty correctamente. Te presenté [obj], ahora pruébalo tú mismo."
+    jes "¡Bien! Ahora... habla con [poss] Majestad correctamente. Ya te lo presenté, ahora inténtalo tú mismo."
     
     hide jes with dissolve
     hide kni with dissolve
@@ -2520,8 +2520,8 @@ label knighterroom_day2:
     "Claramente irritado, Knighter inmediatamente intentó retirar su brazo."
     
     jes "Hola, Su Majestad. Soy Knighterrr~"
-    kni "¡Déjalo ir! ¡¿Qué crees que estás haciendo?!"
-    jes "Ayudándote a presentarte a [poss] Majesty, por supuesto. Ahora sé un buen caballero y coopera~"
+    kni "¡Suéltame! ¡¿Qué crees que estás haciendo?!"
+    jes "Ayudándote a presentarte a [poss] Majestad, por supuesto. Ahora sé un buen caballero y coopera~"
     
     show jestynkni2 with dissolve
     pause 0.1
@@ -2560,7 +2560,7 @@ label knighterroom_day2:
     show jestynkni3 with dissolve
     pause 0.1
     hide jestynkni4 
-    kni "...Knighter. La marioneta Knight."
+    kni "...Knighter. El títere caballero."
     
     "...Por alguna razón, toda la situación era tan ridícula que tuve que contener la risa."
     
@@ -2588,7 +2588,7 @@ label knighterroom_day2:
     show jes normal 
     "Jestyn de repente deslizó mi silla un poco más lejos de Knighter."
     
-    jes "Ahí vamos~ Por favor, tome asiento, Su Gracia~"
+    jes "Ahí vamos~ Por favor, toma asiento, Su Gracia~"
     
     hide jes with dissolve
     "¿Qué le pasa...?"
@@ -2618,7 +2618,7 @@ label examineknighterroom_day2:
         $ knighterroom_text = "{color=#FFC04C}Examínelo más de cerca..{/color}"
         
     else:
-        $ knighterroom_text = "{color=#FFC04C}Cloooser~{/color}"
+        $ knighterroom_text = "{color=#FFC04C}Más cerca~{/color}"
 
     menu:
         "Examina las decoraciones de las paredes.":
@@ -2773,7 +2773,7 @@ label freetime_knighter:
     "Knighter ni siquiera estaba tratando de mantener la conversación."
     
     jes "Señor Knighter, el honorable caballero ~ Una conversación adecuada generalmente implica AL MENOS hacer un esfuerzo para mantenerla."
-    jes "¿Qué tipo de conversación fue esa? Fue muy corto; Casi tan breve como tus modales~"
+    jes "¿Qué tipo de conversación fue esa? Fue muy corta; casi tan breve como tus modales~"
 
     show kni convo close with dissolve
     "La expresión irritada de Knighter se profundizó por un momento antes de dejar escapar un suspiro silencioso y decidir no discutir más con Jestyn."
@@ -2845,7 +2845,7 @@ label freetime_knighter:
     "Desde que leí la novela, decidí dirigir la conversación hacia la historia en sí, esperando que se sintiera un poco más cómodo hablando de ella."
     
     kni ".........."
-    kni "...Eduardo. El segundo interés amoroso."
+    kni "...Edward. El segundo interés amoroso."
     
     "Respondió a mi pregunta, lo que tomé como luz verde para mantener la conversación."
     "En la novela, el protagonista estaba atrapado entre dos hombres: Jacob, el rico director ejecutivo y principal interés amoroso de la historia, y Edward, el amigo de la infancia del protagonista y el segundo interés amoroso."
@@ -2905,7 +2905,7 @@ label compliment_knighter:
     "Pero ¿qué pasa con Knighter?"
     "A juzgar por cómo ha estado actuando, parece del tipo al que no le importa nada."
     "Es muy probable que no reaccione incluso si lo felicito."
-    "Aún así... no estaría de más intentarlo. Nunca lo sabré a menos que lo sepa, ¿verdad...?"
+    "Aún así... no estaría de más intentarlo. Nunca lo sabré a menos que lo intente, ¿verdad...?"
     "Respiré profundamente, tratando de calmar mis nervios. En realidad estaba bastante ansioso."
     
     mc "Sabes... Creo que eres muy guapo."
@@ -3007,7 +3007,7 @@ label compliment_knighter:
     
     kni "Dime eso en la cara una vez más."
     show knicg fight3 with dissolve
-    jes "¡Jajajaja~! Soy el títere Jester, cariño. Estos labios sólo hablan del dulce sabor de la verdad. No el sabor amargo y agrio de las mentiras y el engaño."
+    jes "¡Jajajaja~! Soy el títere bufón, cariño. Estos labios solo hablan del dulce sabor de la verdad. No del sabor amargo y agrio de las mentiras y el engaño."
     jes "Y si te ofreciera otra muestra de esa dulzura... ¿entonces qué? ¿Quieres revivir esos viejos tiempos MARAVILLOSOS, hm~?"
     show knicg fight4 with dissolve
     jes "No me importaría en absoluto. Déjame buscar mi hacha... y podemos empezar."
@@ -3018,13 +3018,13 @@ label compliment_knighter:
     "No... Esto no puede estar pasando."
     
     mc "¡Está bien, ya es suficiente, los dos!"
-    mc "Estamos aquí para hablar, no para pelear. ¿Recordar?"
+    mc "Estamos aquí para hablar, no para pelear. ¿Entendido?"
     
     "No se movieron ni un centímetro, incluso después de que dije eso."
     "No pude leer la expresión de Jestyn en absoluto. ¿Estaba realmente enojado... o simplemente estaba bromeando como solía hacer?"
     "Cualquiera sea el caso, la atmósfera alrededor de Jestyn se sentía... inquietante."
     
-    mc "Jestyn. Detener. Eso es suficiente."
+    mc "Jestyn. Detente. Ya basta."
     jes "........"
 
     "Incluso Jestyn no se movió."
@@ -3068,7 +3068,7 @@ label compliment_knighter:
     
     jes "......Así que el tiempo que pasamos juntos ayer no significó nada en absoluto para Su Majestad..."
     mc "N-no, ¡eso no es lo que quise decir! M-mira... volvamos a nuestra conversación, ¿vale?"
-    mc "Cualesquiera que sean los problemas que tengan entre sí, déjenlos fuera de esta conversación. ¿Entiendo?"
+    mc "Sean cuales sean vuestros problemas, dejadlos fuera de esta conversación. ¿Entendido?"
     
     "Jestyn asintió levemente."
     
@@ -3083,7 +3083,7 @@ label compliment_knighter:
     show kni glance2 with dissolve
     "Antes de finalmente mirar hacia otro lado, ambos con expresiones de molestia."
     
-    mc "Jaja... ¿Realmente tengo que guiarlos a ustedes dos a través de una disculpa como un par de niños?"
+    mc "Jaja... ¿De verdad tengo que guiaros a vosotros dos en una disculpa como a un par de niños?"
     mc "Dije, estrechar la mano. Esa es una orden."
     mc "Jestyn, extiende tu mano a Knighter."
     jes "........"
@@ -3155,7 +3155,7 @@ label relationship_knighter:
     "Knighter respondió al sarcasmo de Jestyn con nada más que poner los ojos en blanco."
     
     show kni convo talkup 
-    kni "No es más que una molestia. Un dolor de cabeza al caminar."
+    kni "No es más que una molestia. Un dolor de cabeza andante."
     show kni convo normaldown
     mc "¿Qué ha hecho exactamente para que te desagrade tanto?"
     show kni convo talkdown
@@ -3166,11 +3166,11 @@ label relationship_knighter:
     kni "Bromas. Le encanta hacer bromas a la gente. Yo especialmente."
     mc "¿Son realmente tan malas las bromas que te hace Jestyn?"
     show kni convo talkdown
-    kni "Juzguelo usted mismo."
+    kni "Júzgalo tú mismo."
     
     "Sí... creo que aceptaré su palabra."
     
-    mc "Mmm... ¿Cuál es la broma más dócil que te ha hecho?"
+    mc "Mmm... ¿Cuál es la broma más leve que te ha hecho?"
     
     show kni convo normalup with dissolve
     hide screen knihand with dissolve
@@ -3180,9 +3180,9 @@ label relationship_knighter:
     kni "Me arrojó un cubo de barro en la cabeza."
     
     "......"
-    "¿Ese es el más manso...?"
+    "¿Ese es el más leve...?"
     
-    mc "U-Uh... está bien... Entonces, ¿cuál fue el peor?"
+    mc "E-Eh... vale... Entonces, ¿cuál fue la peor?"
     
 
     "El ceño de Knighter se frunció aún más. Su mandíbula se apretó cuando la irritación cruzó por su rostro."
@@ -3217,7 +3217,7 @@ label relationship_knighter:
     jes "Una sola sonrisa de agradecimiento hubiera sido más que suficiente para mí. Entonces..." 
     jes "Este humilde bufón transformó su pesada, rígida, brillante, reluciente y espléndida armadura en algo suave, liviano y que garantizaba mantener a su portador agradable y fresco..."
     camera at camera_shake
-    kni "¡¡JESTÍN!!"
+    kni "¡¡JESTYN!!"
     camera at reset
     
     "Antes de que Knighter pudiera terminar, Jestyn instantáneamente se teletransportó detrás de él y se tapó la boca con una mano."
@@ -3255,7 +3255,7 @@ label relationship_knighter:
     show kni convo talkup
     kni "Con bastante frecuencia."
     show kni convo talkdown
-    kni "Normalmente solo hablamos de cosas al azar... o escucho mientras Wizzy continúa con sus experimentos."
+    kni "Normalmente solo hablamos de cosas al azar... o lo escucho mientras Wizzy parlotea sobre sus experimentos."
     kni "No hablo mucho. Principalmente solo escucho."
     
     show kni convo normaldown
@@ -3324,7 +3324,7 @@ label crownusask_knighter:
     "Knighter se quedó en silencio por un momento."
     
     voice "KNIGHTER06_DAY2.ogg"
-    kni "... Crownus era .... nuestro futuro .... Él-"
+    kni "...Crownus era... nuestro futuro... Él..."
     jes "Creo que terminaremos esta conversación aquí."
     
     "Jestyn interrumpió abruptamente a Knighter. Su voz sonaba tan juguetona como siempre, pero de alguna manera... la atmósfera a su alrededor de repente se sintió inquietante."
@@ -3387,7 +3387,7 @@ label Poke_knighter:
     menu :
         "Tocarle la mejilla otra vez.":
             show screen knipoke with dissolve
-            "poke"
+            "¡Toc!"
             
             camera at camera_shake
             hide screen knipoke
@@ -3410,8 +3410,8 @@ label Poke_knighter:
             show kni convo annoy with dissolve
             "Inmediatamente retiré mi mano."
             
-            kni "Haga eso de nuevo y no puedo prometerle que el siguiente pellizco no le dolerá aún más."
-            jes "¡¿Cómo te atreves a herir la majestad de [poss]?!"
+            kni "Haz eso de nuevo y no puedo prometerte que el próximo pellizco no te duela aún más."
+            jes "¡¿Cómo te atreves a hacer daño a [poss] Majestad?!"
             show kni convo close
             show screen knibook
             kni "Fue sólo un pellizco. No seas tan dramático. Deberías estar agradecido de que no fui tan imprudente como para desenvainar mi espada."
@@ -3433,7 +3433,7 @@ label  afterconvo_knighter:
     "Y honestamente... Knighter parecía exhausto. Emocionalmente, más que nada."
     
     show kni normal with dissolve
-    kni "Finalmente. Me he quedado completamente sin energía social al tratar con ustedes dos."
+    kni "Finalmente. Me he quedado completamente sin energía social al tratar con vosotros dos."
     kni "Entonces, ahora que he satisfecho su curiosidad, les ruego a ambos que abandonen mi habitación."
     kni "Ahora."
 

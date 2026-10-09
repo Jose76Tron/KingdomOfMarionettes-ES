@@ -66,7 +66,7 @@ label kom_day2:
     "¿Qué hora es ahora...?"
     "Busqué a tientas en mi colchón, tratando de descubrir dónde había dejado mi teléfono anoche."
     "Cuando finalmente lo encontré y revisé la pantalla, ya eran las 4 de la tarde."
-    "Gracias a Dios no me quedé dormido. Todavía tengo tiempo suficiente para prepararme..."
+    "Menos mal que no se me hizo tarde. Todavía tengo tiempo de sobra para arreglarme..."
     "Dejé mi teléfono sobre la cama y pasé un momento mirando fijamente al techo, reuniendo suficiente fuerza de voluntad para funcionar."
     "Finalmente, salí de mi cama ridículamente cómoda y comencé a prepararme para ir a trabajar." 
     
@@ -75,7 +75,7 @@ label kom_day2:
     "Después de pasar aproximadamente una hora preparándome, decidí salir un poco más temprano y pasar por la tienda de conveniencia."
     "Necesitaba algunos bocadillos para sobrevivir mi turno."
     "Originalmente, también estaba planeando comprar alimentos para el mes. La última vez que revisé, mi refrigerador estaba casi tan vacío como mi billetera."
-    "Pero, curiosamente, cuando revisé después de mi ducha antes, estaba llena de comida."
+    "Pero, curiosamente, cuando lo revisé después de ducharme, estaba lleno de comida."
     "¿Olvidé que ya tenía compras?"
     "No. Recuerdo claramente que mi refrigerador estaba prácticamente vacío. Entonces... ¿de alguna manera olvidé que ayer había ido de compras al supermercado?"
     "Ah, no lo sé. Estoy demasiado cansado para recordar."
@@ -162,7 +162,7 @@ label tothetheater_day2:
 
     play music "seduction.mp3" fadein 2.0 volume 0.6
     show jes close smug with dissolve
-    jes "Hermosa, magnífica, sexy, irresistible, impresionante-"
+    jes "Hermoso, magnífico, sexy, irresistible, impresionante-"
     mc "En serio, no puedes dejar de hablar de ti ni un segundo, ¿verdad?"
 
     show jes close flush with dissolve 
@@ -175,7 +175,7 @@ label tothetheater_day2:
         "No, gracias":
             jump nothx_day2
 
-        "Brat":
+        "Malcriado":
             jump brat_day2
 
         "Lo haré. duro":
@@ -215,8 +215,8 @@ label timetowork_day2:
     mc "Bueno, supongo que haré mi trabajo como siempre..."
 
     show jes suprais2 
-    jes "¡Ay! Tartas dulces y nata! ¡Su Majestad! ¡Has olvidado algo!"
-    mc "Eh??? ¿Qué?"
+    jes "¡Ay! ¡Tarta dulce y crema! ¡Su Majestad! ¡Has olvidado algo!"
+    mc "¿Eh? ¿Qué?"
 
     hide jes suprais2 with dissolve
     "Jestyn chasqueó los dedos y, en un instante, apareció una corona en su mano."
@@ -227,7 +227,7 @@ label timetowork_day2:
     jes "Ah... mucho mejor..."
     show jes laugh 
     camera at camera_shake
-    jes "¡¡¡HUZZAAAHHH!!! ¡Todos saluden a [poss] Majestad!"
+    jes "¡¡¡HURRAAA!!! ¡Viva [poss] Majestad!"
     camera at reset
     hide jes laugh 
     "Jestyn estalló en vítores al unísono, mientras yo todavía intentaba procesar todo lo que acababa de suceder."
@@ -248,8 +248,8 @@ label timetowork_day2:
     "¿Dónde están?"
     "¿A dónde fueron todos mis artículos de limpieza?"
     "Ayer devolví todo a su lugar, ¿no?"
-    "¿O lo hice por- OOF-!"
-    "Me di la vuelta e inmediatamente caminé de cara al pecho de Jestyn."
+    "¿O lo hice por...? ¡Ay-!"
+    "Me di la vuelta y me di de cara con el pecho de Jestyn."
     "¡¿Este títere me había estado siguiendo todo el tiempo?!"
     
     mc "Uf, Jestyn... ¿por qué sigues siguiéndome?"
@@ -266,11 +266,11 @@ label timetowork_day2:
     show jes normal2
     jes "Sin."
     show jes talk2
-    jes "A."
+    jes "Nin."
     show jes happy2
-    jes "Soltero."
+    jes "Gu-na."
     show jes flush2
-    jes "Excepción, cariño ~"
+    jes "Excepción, cielo~"
     mc "Está bien, solo estoy buscando algunos artículos de limpieza y luego regresaré."
     
     hide jes flush2
@@ -283,7 +283,7 @@ label timetowork_day2:
     
 
     jes "Tsk, tsk, tsk ~"
-    jes "¡Escucha! Parece que ha olvidado algo, Su Majestad."
+    jes "¡Escucha! Parece que has olvidado algo, Su Majestad."
     jes "Dijiste que ibas a limpiar el reino, ¿no?"
 
     camera at reset
@@ -303,7 +303,7 @@ label timetowork_day2:
     show jes backday2_3 with dissolve
     jes "Pequeñas cosas mundanas como el empleo, los ingresos y la trágica necesidad de seguir con vida."
     jes "Al contrario, Su Majestad."
-    jes "¿Por qué un [title] debería desperdiciar su preciosa energía fregando pisos cuando tiene sirvientas leales a su disposición?"
+    jes "¿Por qué un [title] debería desperdiciar tu preciosa energía fregando suelos cuando tienes sirvientas leales a tu disposición?"
     mc "¿Eh?"
     
     hide jes backday2_3 with dissolve
@@ -318,22 +318,22 @@ label timetowork_day2:
     show maidelyn normal
     show maidy polite at left
     show maidra polite at right
-    maid "¡SÍ, JESTÍN!"
+    maid "¡SÍ, JESTYN!"
     camera at reset
     
     "Me sobresalté cuando tres marionetas sirvientas aparecieron aparentemente de la nada."
     
-    jes "¿Puedo presentarles a las estimadas Maid Sisters? ¡Maidelyn, Maidy y Maidra!"
+    jes "¿Puedo presentarles a las estimadas hermanas doncellas? ¡Maidelyn, Maidy y Maidra!"
     jes "Señorías, este es nuestro querido nuevo [title], [player_call]."
     
     "Las tres doncellas inclinaron la cabeza con gracia después de la presentación."
     
     play music "bgs_medieval normal.mp3" volume 2.0 fadein 3.0
     show maidy normal with dissolve
-    maidy "¡Ay! ¡Es un verdadero honor conocerle, Su Majestad [player_call]! ¡¡Soy Maidy!!"
+    maidy "¡Ay! ¡Es un verdadero honor conocerte, Su Majestad [player_call]! ¡¡Soy Maidy!!"
     maidy "Jestyn nos habló un poco sobre ti, ¡y ahora finalmente puedo conocerte en persona!"
     show maidy nosmile with dissolve
-    maidy "...Para ser honesto..."
+    maidy "...Para ser honesta..."
     maidy "Esperaba que fueras lindo."
     
     "El cambio repentino en su tono me puso nervioso."
@@ -341,25 +341,25 @@ label timetowork_day2:
     mc "Um... perdón por decepcionarte..."
     
     show maidy happy
-    maidy "¡SÍ! ¡NO ERES LINDO!"
+    maidy "¡SÍ! ¡NO ERES ADORABLE!"
     camera at camera_shake
     show maidy estatic 
-    maidy "¡¡¡ERES SUPER-DUPER CUUUUUUTEEEEEE!!!"
+    maidy "¡¡¡ERES SÚPER-MEGA ADORAAAAABLE!!!"
     camera at reset
     
     "Bien, al menos logré superar sus expectativas. Creo."
     
-    maidy "Maidelyn! [poss] majesty es súper linda, ¿verdad? Estás de acuerdo conmigo, ¿no?!?!"
+    maidy "¡Maidelyn! ¡[poss] Majestad es superpreciosa, ¿verdad?! ¡Estás de acuerdo conmigo, ¿no?!"
     show maidelyn talk with dissolve
-    maidelyn "De hecho. Sí."
-    maidy "¡¿Y tú, Maidra?! [poss] majesty is super-duper cute too, riiiiight?!?!?!"
+    maidelyn "Desde luego que sí."
+    maidy "¡¿Y tú, Maidra?! ¡[poss] Majestad también es superpreciosa, ¿nooooo?!"
     show maidra nosmile with dissolve
-    maidra "Tsk. Eres tan ruidoso. Cállate ya."
+    maidra "Tsk. Eres tan ruidosa. Cállate ya."
     show maidy pout with dissolve
-    maidy "¡Mmm! ¡¡No eres divertido!!"
+    maidy "¡Mmm! ¡¡No eres divertida!!"
     show maidelyn annoy with dissolve
     maidelyn "Señoras, eso es suficiente."
-    maidelyn "[poss] La Majestad está ante nosotros. Por favor compórtense con cierta dignidad."
+    maidelyn "[poss] Majestad está ante nosotras. Por favor, compórtense con un mínimo de dignidad."
     
     "El recordatorio inmediatamente llamó la atención de las otras dos sirvientas."
     show maidelyn normal with dissolve
@@ -378,8 +378,8 @@ label timetowork_day2:
     maidra "Maidra."
     
     "Bueno, eso ya me dijo bastante."
-    "Maidelyn parecía ser el que estaba compuesto."
-    "Maidy fue definitivamente el más alegre y enérgico."
+    "Maidelyn parecía ser la más serena."
+    "Maidy fue definitivamente la más alegre y enérgica."
     "Y Maidra..."
     "Digamos que parecía que preferiría golpear a alguien que tener una conversación educada."
     "Definitivamente la marimacho del grupo."
@@ -400,9 +400,9 @@ label timetowork_day2:
     maidelyn "¡Silencio!"
     
     show maidy pout
-    "Los miré fijamente por un momento."
+    "Las miré fijamente por un momento."
     "¿Qué?"
-    "¿Iban a limpiarme el teatro?"
+    "¿Iban a limpiar el teatro por mí?"
     
     hide maidelyn
     hide maidy
@@ -421,9 +421,9 @@ label timetowork_day2:
     "La atención de Jestyn volvió a mí."
     
     show jes normal2 with dissolve
-    jes "Ahora bien, creo que una de tus otras tareas es controlar a los títeres, ¿no es así?"
+    jes "Ahora bien, creo que una de tus otras tareas es vigilar a los títeres, ¿no es así?"
     mc "Ah... cierto."
-    jes "En ese caso, ¿por qué no aprovechar esta oportunidad para familiarizarse con sus sujetos?"
+    jes "En ese caso, ¿por qué no aprovechar esta oportunidad para familiarizarte con tus súbditos?"
     jes "Como [title], al menos deberías conocer a los ciudadanos de tu reino, ¿no?"
     
     "Guió suavemente mi atención hacia las criadas que trabajaban cerca. Era obvio lo que quería que hiciera."
@@ -517,10 +517,10 @@ label chooseroom_day2:
         $ crownus_text = "La habitación de Crownus"
         
     elif crownus_room == 0:
-        $ crownus_text = "{color=#FFC04C}Here.{/color}"
+        $ crownus_text = "{color=#FFC04C}Aquí.{/color}"
         
     elif crownus_room == 1:
-        $ crownus_text = "{color=#FFC04C}Again.{/color}"
+        $ crownus_text = "{color=#FFC04C}Otra vez.{/color}"
         
     else:
         $ crownus_text = "{color=#FFC04C}Una vez más.{/color}"
@@ -544,7 +544,7 @@ label chooseroom_day2:
             elif crownus_room == 3:
                 jump crownus_room3
 
-        "Done":
+        "Terminar":
             if crownus_secret_point >= 5:
                 jump the_truth_route
                 
@@ -575,7 +575,7 @@ label repeat_route:
     "Y en un instante estaba de vuelta en mi oficina, con Jestyn detrás de mí."
     
     show jes normal with dissolve
-    jes "¿Tiene hambre, Su Majestad? No has comido nada desde esta mañana."
+    jes "¿Tienes hambre, Su Majestad? No has comido nada desde esta mañana."
     
     "Antes de que pudiera responder, mi estómago se me adelantó."
     
@@ -645,10 +645,10 @@ label outergate_day2:
         camera at reset
         mc "AAAAAAHHHHHHHH!!!!!"
 
-        "La cara de Jestyn apareció de repente en mi monitor. Casi salté de mi piel."
-        "Maldita sea... Este títere me está jugando otra vez."
+        "La cara de Jestyn apareció de repente en mi monitor. Casi di un respingo del susto."
+        "Maldita sea... Este títere me está tomando el pelo otra vez."
         play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
-        mc "¡JESTÍN!"
+        mc "¡JESTYN!"
         mc "¡¡DEJA DE HACER ESO!!"
         
         "Jestyn simplemente se rió antes de desaparecer de la pantalla nuevamente."
@@ -678,10 +678,10 @@ label corridor1_day2:
         camera at reset
         mc "AAAAAAHHHHHHHH!!!!!"
 
-        "La cara de Jestyn apareció de repente en mi monitor. Casi salté de mi piel."
-        "Maldita sea... Este títere me está jugando otra vez."
+        "La cara de Jestyn apareció de repente en mi monitor. Casi di un respingo del susto."
+        "Maldita sea... Este títere me está tomando el pelo otra vez."
         play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
-        mc "¡JESTÍN!"
+        mc "¡JESTYN!"
         mc "¡¡DEJA DE HACER ESO!!"
         
         "Jestyn simplemente se rió antes de desaparecer de la pantalla nuevamente."
@@ -712,10 +712,10 @@ label theaterhall_day2:
         camera at reset
         mc "AAAAAAHHHHHHHH!!!!!"
 
-        "La cara de Jestyn apareció de repente en mi monitor. Casi salté de mi piel."
-        "Maldita sea... Este títere me está jugando otra vez."
+        "La cara de Jestyn apareció de repente en mi monitor. Casi di un respingo del susto."
+        "Maldita sea... Este títere me está tomando el pelo otra vez."
         play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
-        mc "¡JESTÍN!"
+        mc "¡JESTYN!"
         mc "¡¡DEJA DE HACER ESO!!"
         
         "Jestyn simplemente se rió antes de desaparecer de la pantalla nuevamente."
@@ -746,10 +746,10 @@ label storage_day2:
         camera at reset
         mc "AAAAAAHHHHHHHH!!!!!"
 
-        "La cara de Jestyn apareció de repente en mi monitor. Casi salté de mi piel."
-        "Maldita sea... Este títere me está jugando otra vez."
+        "La cara de Jestyn apareció de repente en mi monitor. Casi di un respingo del susto."
+        "Maldita sea... Este títere me está tomando el pelo otra vez."
         play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
-        mc "¡JESTÍN!"
+        mc "¡JESTYN!"
         mc "¡¡DEJA DE HACER ESO!!"
         
         "Jestyn simplemente se rió antes de desaparecer de la pantalla nuevamente."
@@ -780,10 +780,10 @@ label stage_day2:
         camera at reset
         mc "AAAAAAHHHHHHHH!!!!!"
 
-        "La cara de Jestyn apareció de repente en mi monitor. Casi salté de mi piel."
-        "Maldita sea... Este títere me está jugando otra vez."
+        "La cara de Jestyn apareció de repente en mi monitor. Casi di un respingo del susto."
+        "Maldita sea... Este títere me está tomando el pelo otra vez."
         play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
-        mc "¡JESTÍN!"
+        mc "¡JESTYN!"
         mc "¡¡DEJA DE HACER ESO!!"
         
         "Jestyn simplemente se rió antes de desaparecer de la pantalla nuevamente."
@@ -814,7 +814,7 @@ label dinner_day2:
     show jes close creep
     jes "Lo hice."
     camera at reset
-    mc "¡¡JESTYN, DEJA DE APARECER DE LA NINGUNA PARTE ASÍ!!"
+    mc "¡¡JESTYN, DEJA DE APARECER DE LA NADA ASÍ!!"
 
     show jes close smug with dissolve
     play music "bgs_medieval normal.mp3" volume 3.0 fadein 3.0
@@ -850,14 +850,14 @@ label dinner_day2:
     "... Vaya. Mi cerebro de fideos instantáneos definitivamente no estaba equipado para procesar una comida tan elegante."
     
     show jes talk2 with dissolve
-    jes "Además, sé que Su Majestad ha vivido una vida trágicamente empobrecida. Lo mínimo que puedo hacer es permitirte experimentar una fiesta real adecuada."
+    jes "Además, sé que Su Majestad ha vivido una vida trágicamente pobre. Lo mínimo que puedo hacer es permitirte disfrutar de un banquete real en condiciones."
     mc "Vaya. Qué increíblemente amable de tu parte."
     mc "Pero... ¿de dónde sacaste todo esto????"
 
     show jes bow with dissolve
     jes "Un restaurante de cinco estrellas, por supuesto."
     
-    "...Está bien. De hecho, este títere salió del teatro sólo para ir a cenar."
+    "...Está bien. De hecho, este títere salió del teatro solo para traer la cena."
     
     mc "¿Y? ¿Cómo pagaste por todo esto? Incluso si tuvieras dinero, esto parece ridículamente caro."
 
@@ -924,8 +924,8 @@ label dinner_day2:
     mc "Ya veo... Entonces, ¿podrías-?"
 
     show jes normal2_2
-    jes "No es necesario, Su Majestad~ Usted es el que tiene hambre. Eso es todo lo que importa."
-    mc "¿Qué pasa si hago un pedido? Se siente raro comer solo."
+    jes "No es necesario, Su Majestad~ Eres tú quien tiene hambre. Eso es todo lo que importa."
+    mc "¿Y si te lo ordeno? Se me hace raro comer solo."
     
     show jes suprais2 with dissolve
     "Los ojos de Jestyn se abrieron con sorpresa antes de que un leve sonrojo se extendiera por sus mejillas."
@@ -956,7 +956,7 @@ label dinner_day2:
 
     show jescg dinner3 with dissolve
     jes "......D...."
-    jes ".... Fecha....? ¿Acaba de decir fecha, Su Majestad...?"
+    jes "....¿Una cita....? ¿Acaba de decir «cita», Su Majestad...?"
     mc "¿Dije algo malo?"
     jes "No. No, no... Todo lo contrario."
     jes "Me acabo de dar cuenta de algo..."
@@ -1032,7 +1032,7 @@ label dinner_day2:
     "La sonrisa de Jestyn se amplió aún más al oír su nombre."
     $ voice_duck_start()
     voice "JESTYN02_DAY2.ogg"
-    jes "Quiero preguntarle si a Su Majestad le gusta el ambiente de nuestra pequeña cena. Aunque... supongo que también estás disfrutando de la vista frente a ti, ¿hm~?"
+    jes "Quiero preguntarte si te gusta el ambiente de nuestra pequeña cena. Aunque... supongo que también estás disfrutando de la vista que tienes delante, ¿hm~?"
     $ voice_duck_end()
     "Salí de mi aturdimiento."
     
@@ -1044,7 +1044,7 @@ label dinner_day2:
     jes "Para ser honesto... nunca he estado en algo llamado cita. Sólo he leído sobre ellos en libros."
     jes "Entonces... este es el primero."
     jes "Estuve bastante tiempo decidiendo qué ponerme..."
-    jes "Supongo que me veo un poco diferente... pero dígame, Su Majestad..."
+    jes "Supongo que me veo un poco diferente... pero dime, Su Majestad..."
     show jes dinner smug with dissolve
     jes "¿Te gusta~?"
 
@@ -1061,7 +1061,7 @@ label dinner_day2:
             show jes dinner pout with dissolve
             "Su sonrisa instantáneamente se convirtió en un puchero."
             
-            jes "Hmph. Qué cruel. Me tomé la molestia de vestirme sólo para usted, Su Majestad."
+            jes "Hmph. Qué cruel. Me tomé la molestia de vestirme solo para ti, Su Majestad."
 
             show jes dinner horny with dissolve
             jes ".....Mmmnnn... pero claro... Supongo que tampoco puedo rechazarlo..."
@@ -1072,7 +1072,7 @@ label dinner_day2:
     show jes dinner normal with dissolve
     jes "Ahora bien~ ¿Qué tal si continuamos con la cena que fue tan bruscamente interrumpida?"
     
-    "Jestyn chasqueó los dedos y, en un instante, la sopa de pan y crema que habíamos estado comiendo antes reapareció en la mesa."
+    "Jestyn chasqueó los dedos y, en un instante, el pan y la sopa de crema que habíamos estado comiendo reaparecieron en la mesa."
     
     show jes dinner smirk with dissolve
     jes "Por favor, disfrute su comida, Su Majestad~"
@@ -1090,7 +1090,7 @@ label dinner_day2:
     "Jestyn soltó una risita silenciosa antes de finalmente darle un mordisco a su pan y mojarlo en la sopa de crema."
     
     show jes dinner normal with dissolve
-    jes "Su Majestad... ¿puedo preguntarle algo?"
+    jes "Su Majestad... ¿puedo preguntarte algo?"
     mc "¿Mmm?"
     jes "Antes, cuando Su Majestad estaba pasando tiempo con Knighter y Wizzy..."
     mc "...¿Sí?"
@@ -1100,7 +1100,7 @@ label dinner_day2:
     
     "Se quedó en silencio por un momento, dando otro bocado a su pan."
     
-    jes "...Su Majestad parecía... cercana a ellos."
+    jes "...Su Majestad parecía tenerles mucho cariño."
     jes "Y me hizo sentir... no sé muy bien cómo decirlo."
     
     "..."
@@ -1204,7 +1204,7 @@ label dinner_day2:
         
 
     else:
-        jes "...Para ser honesto, Su Majestad... Esperaba que al menos se pusiera un poco celoso."
+        jes "...Para ser honesto, Su Majestad... Esperaba que al menos sintieras un poco de celos."
         mc "¿Celoso...?"
         show jes dinner nosmiletalk2 with dissolve
         jes "Cuando abracé a Maidy... no reaccionaste en absoluto. Ni siquiera el más mínimo cambio en tu expresión."
@@ -1261,7 +1261,7 @@ label punishment_day2:
     
     if mc_jealous:
         show jescg gagbread5 with dissolve
-        jes "Ehe... ¿Está Su Majestad... celosa~?"
+        jes "Ehe... ¿Siente celos Su Majestad~?"
         "........"
         "La forma en que dijo esas palabras despertó algo dentro de mí."
         "Me hizo querer ponerlo en su lugar... hacer que se portara bien."
@@ -1288,7 +1288,7 @@ label punishment_day2:
     jes "Nngh... Mmh..."
     
     "Intenté recordar lo que había leído antes sobre este tipo de dinámica."
-    "Si no recuerdo mal... había algo llamado 'domesticación de mocosos', donde la pareja más dominante disciplina a un sumiso travieso hasta que se porta bien."
+    "Si no recuerdo mal... había algo llamado «doma del malcriado», donde la parte dominante disciplina a un sumiso travieso hasta que se porta bien."
     "...O al menos eso es lo que recuerdo haber leído en línea."
     "Pero… ¿qué debo hacer desde aquí?"
     "Al ver la expresión confusa en mi rostro, Jestyn comenzó a hacer gestos."
@@ -1306,7 +1306,7 @@ label punishment_day2:
             show jescg slap with dissolve
             "Decidí darle una palmada en la mejilla."
             "Lentamente levanté la mano."
-            "Pero… ¿realmente tuve el descaro de golpearlo tan fuerte…?"
+            "Pero… ¿realmente tenía el valor de golpearlo tan fuerte…?"
             "......"
             "No... Pase lo que pase, no quería lastimar a Jestyn."
             "Mi mano aterrizó suavemente contra su mejilla."
@@ -1318,14 +1318,14 @@ label punishment_day2:
             camera at reset
             "La bofetada fue ligera, dejando sólo un leve sonrojo en su mejilla."
             show jescg slap4 with dissolve
-            "Jestyn me miró confundido, como si estuviera comprobando si algo había salido mal, antes de darme cuenta de que simplemente no podía hacerle daño."
+            "Jestyn me miró confundido, como si estuviera comprobando si algo había salido mal, antes de darse cuenta de que yo simplemente no podía hacerle daño."
             "Su expresión se suavizó gradualmente."
             "Sin decir una palabra, sus ojos parecieron decirme... que estaba bien si lo golpeaba más fuerte."
             "Esta vez le di una bofetada más fuerte."
             play sound "slap.mp3"
             camera at camera_shake
             show jescg slap2
-            "¡¡¡BOFETA!!!"
+            "¡¡¡ZAS!!!"
             camera at reset
             jes "MNNHHH-!!"
             
@@ -1348,11 +1348,11 @@ label punishment_day2:
                     show jescg slap2 with dissolve
                     "Le di una bofetada a Jestyn nuevamente."
                     camera at reset
-                    "¡BOFETA!"
+                    "¡ZAS!"
                     
                     jes "Mnhhhh!!"
 
-                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómalo."
+                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómala."
                     mc "Yo te daré. Mucha de mi atención."
                     show jescg slap3 with dissolve
                     "Jestyn asintió con entusiasmo."
@@ -1367,7 +1367,7 @@ label punishment_day2:
                     camera at reset
                     jes "¡¡¡NGHHHH!!! MNHHHH!!"
 
-                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómalo."
+                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómala."
                     mc "Yo te daré. MUCHA de mi atención."
 
                     "Jestyn asintió con entusiasmo."
@@ -1379,7 +1379,7 @@ label punishment_day2:
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg slap2 with dissolve
-                    "¡¡¡BOFETA!!!"
+                    "¡¡¡ZAS!!!"
                     camera at reset
                     jes "NGHHH!!!"
                     show jescg slap3 with dissolve
@@ -1388,7 +1388,7 @@ label punishment_day2:
                             play sound "slap.mp3"
                             camera at camera_shake
                             show jescg slap2 with dissolve
-                            "BOFETA!!!!"
+                            "ZAS!!!!"
                             camera at reset
                             jes "MNHHHHNN!!! ¡¡NHH!!"
 
@@ -1397,17 +1397,17 @@ label punishment_day2:
                                     play sound "slap.mp3"
                                     camera at camera_shake
                                     show jescg slap2 with dissolve
-                                    "¡¡BOFETA!!"
+                                    "¡¡ZAS!!"
                                     camera at reset 
                                     pause 0.5
                                     play sound "slap.mp3"
                                     camera at camera_shake
-                                    "¡¡¡BOFETA!!!"
+                                    "¡¡¡ZAS!!!"
                                     camera at reset 
                                     pause 0.5
                                     play sound "slap.mp3"
                                     camera at camera_shake
-                                    "BOFETA!!!!"
+                                    "ZAS!!!!"
                                     camera at reset 
                                     pause 0.5
                                     play sound "slap.mp3"
@@ -1436,7 +1436,7 @@ label punishment_day2:
                                             show jescg slap7 with dissolve
                                             "Rápidamente saqué el trozo de pan de la boca de Jestyn."
                                             play music "date.mp3" volume 3.0 fadein 3.0
-                                            mc "¡JESTÍN! ¡Lo siento mucho! ¡Realmente lo soy! ¡¿Estás bien?!"
+                                            mc "¡JESTYN! ¡Lo siento mucho! ¡De verdad! ¿Estás bien?!"
                                             
                                             "Pero Jestyn no pareció escucharme."
                                             
@@ -1456,7 +1456,7 @@ label punishment_day2:
                                             "Jestyn se detuvo antes de que pudiera terminar."
                                             
                                             show jescg slap10 with dissolve
-                                            jes "...No es nada, jeje... No se preocupe, Su Majestad..."
+                                            jes "...No es nada, jeje... No te preocupes, Su Majestad..."
                                             
 
                         "eso es suficiente":
@@ -1520,7 +1520,7 @@ label punishment_day2:
             
             show jescg spank with dissolve
             "Luego retiré mi brazo, preparándome para azotarlo."
-            "Pero… ¿realmente tuve el descaro de golpearlo tan fuerte…?"
+            "Pero… ¿realmente tenía el valor de golpearlo tan fuerte…?"
             "......"
             "No... Pase lo que pase, no quería lastimar a Jestyn."
             "Mi mano aterrizó suavemente contra su trasero."
@@ -1531,7 +1531,7 @@ label punishment_day2:
             jes "¡Mmm!"
             camera at reset
             "La bofetada fue ligera, solo una bofetada normal."
-            "Jestyn me miró confundido, como si estuviera comprobando si algo había salido mal, antes de darme cuenta de que simplemente no podía hacerle daño."
+            "Jestyn me miró confundido, como si estuviera comprobando si algo había salido mal, antes de darse cuenta de que yo simplemente no podía hacerle daño."
             show jescg spank3 with dissolve
             "Su expresión se suavizó gradualmente."
             "Sin decir una palabra, sus ojos parecieron decirme... que estaba bien si lo golpeaba más fuerte."
@@ -1539,7 +1539,7 @@ label punishment_day2:
             play sound "slap.mp3"
             camera at camera_shake
             show jescg spank4 
-            "¡¡¡BOFETA!!!"
+            "¡¡¡ZAS!!!"
             camera at reset
             jes "MNNHHH-!!"
             
@@ -1560,11 +1560,11 @@ label punishment_day2:
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg spank4 
-                    "¡BOFETA!"
+                    "¡ZAS!"
                     camera at reset
                     jes "Mnhhhh!!"
 
-                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómalo."
+                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómala."
                     mc "Yo te daré. Mucha de mi atención."
                     show jescg spank5 with dissolve
                     "Jestyn asiente con entusiasmo"
@@ -1578,7 +1578,7 @@ label punishment_day2:
                     show jescg spank4 
                     jes "¡¡¡NGHHHH!!! MNHHHH!!"
 
-                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómalo."
+                    mc "Quieres tanto mi atención, ¿verdad? Entonces aquí. Tómala."
                     mc "Yo te daré. MUCHA de mi atención."
                     show jescg spank5 with dissolve
                     "Jestyn asintió con entusiasmo."
@@ -1591,7 +1591,7 @@ label punishment_day2:
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg spank4 
-                    "¡¡¡BOFETA!!!"
+                    "¡¡¡ZAS!!!"
                     camera at reset
                     jes "NGHHH!!!"
                     show jescg spank5 with dissolve
@@ -1601,7 +1601,7 @@ label punishment_day2:
                             play sound "slap.mp3"
                             camera at camera_shake
                             show jescg spank4 
-                            "BOFETA!!!!"
+                            "ZAS!!!!"
                             camera at reset
                             jes "MNHHHHNN!!! ¡¡NHH!!"
                             show jescg spank5 with dissolve
@@ -1611,19 +1611,19 @@ label punishment_day2:
                                     play sound "slap.mp3"
                                     camera at camera_shake
                                     show jescg spank4 
-                                    "¡¡BOFETA!!"
+                                    "¡¡ZAS!!"
                                     camera at reset
                                     pause 0.5
                                     play sound "slap.mp3"
                                     show jescg spank4 
                                     camera at camera_shake
-                                    "¡¡¡BOFETA!!!" 
+                                    "¡¡¡ZAS!!!" 
                                     camera at reset
                                     pause 0.5
                                     play sound "slap.mp3"
                                     show jescg spank4 
                                     camera at camera_shake
-                                    "BOFETA!!!!"
+                                    "ZAS!!!!"
                                     camera at reset
 
                                     jes "¡NGH! ¡¡GHHH!! ¡¡¡NHHHHHH!!!"
@@ -1647,7 +1647,7 @@ label punishment_day2:
                                             show jescg spank8 with dissolve
                                             "Rápidamente saqué el trozo de pan de la boca de Jestyn."
                                             play music "date.mp3" volume 3.0 fadein 3.0
-                                            mc "¡JESTÍN! ¡Lo siento mucho! ¡Realmente lo soy! ¡¿Estás bien?!"
+                                            mc "¡JESTYN! ¡Lo siento mucho! ¡De verdad! ¿Estás bien?!"
                                             
                                             "Pero Jestyn no pareció escucharme."
                                             
@@ -1666,7 +1666,7 @@ label punishment_day2:
                                             
                                             "Jestyn se detuvo antes de que pudiera terminar."
                                             show jescg spank12 with dissolve
-                                            jes "...No es nada, jeje... No se preocupe, Su Majestad..."
+                                            jes "...No es nada, jeje... No te preocupes, Su Majestad..."
                                             
 
                         "eso es suficiente":
@@ -1808,14 +1808,14 @@ label punishment_day2:
     "Pero al ver mi impaciencia, Jestyn se inclinó lentamente."
     
     show jes dinner horny with dissolve
-    jes "Entonces... si me disculpan..."
+    jes "Entonces... con permiso..."
     
     hide jes dinner horny with dissolve
     "Jestyn mordió suavemente el extremo opuesto del trozo de carne que tenía entre mis labios."
     "Me di cuenta de que no estaba prestando atención a la carne en sí ni a su sabor."
     "Sus ojos nunca dejaron los míos mientras tomaba bocados lentos y deliberados, como si saboreara el momento mucho más que la comida."
     "Nuestros ojos permanecieron fijos el uno en el otro."
-    "Por mucho que intenté actuar como un dom experimentado, no pude evitar que el calor subiera a mis mejillas o los frenéticos latidos de mi corazón."
+    "Por mucho que intenté actuar como un dominante experimentado, no pude evitar que el calor me subiera a las mejillas ni los frenéticos latidos de mi corazón."
     "Su mirada me estaba haciendo sonrojar. Aun así, hice todo lo que pude para no fallar."
     "Después de tragar, Jestyn dio otro mordisco, sin romper ni una sola vez el contacto visual."
     "En este punto, pensé que iba a perder la cabeza."
@@ -1837,17 +1837,17 @@ label punishment_day2:
     jes "Y parece que, después de todo, Su Majestad no es más que una oveja vestida de lobo. Jaja ~"
     
     "Lo dijo con una inconfundible sonrisa burlona."
-    "Si no conociera a Jestyn tan bien como lo sabía, podría haber tomado esas palabras al pie de la letra."
-    "Pero yo lo sabía mejor. Incluso ahora, sólo estaba tratando de provocarme. Sinceramente... fue casi impresionante."
+    "Si no conociera a Jestyn tan bien como lo conozco, podría habérmelas tomado al pie de la letra."
+    "Pero yo ya lo conocía. Incluso ahora, solo estaba tratando de provocarme. Sinceramente... fue casi impresionante."
     
-    mc "Jestyn, ¿pensé que querías una recompensa?"
+    mc "Jestyn, pensé que querías una recompensa."
     show jes dinner smirk with dissolve
     jes "Oh, ciertamente lo hago~ Pero como dije... simplemente no puedo evitar ser... travieso."
     jes "Especialmente... cuando se trata de Su Majestad. Jejeje~"
 
     "Entonces... todavía quería actuar como un mocoso."
     "Algo me dijo que necesitaba hacerlo un poco más obediente."
-    "Y creo que la creatividad me golpeó la cabeza."
+    "Y creo que se me acaba de ocurrir una idea."
 
     mc "Creo que es hora del postre, ¿no?"
     show jes dinner normal2 with dissolve
@@ -1872,7 +1872,7 @@ label punishment_day2:
     jes "Ahora bien, ¿cómo podría rechazar una ofrenda tan generosa de la Corona?"
     mc "Entonces abre la boca..."
     
-    "Mis dedos viajaron más alto. Lentamente subí hasta sus labios hasta que lentamente deslicé uno en su boca."
+    "Mis dedos subieron más y más. Lentamente llegaron hasta sus labios, hasta que deslicé uno en su boca."
     show jescg lick with dissolve
     "Jestyn me agarró suavemente la muñeca y probó la mermelada de fresa con la yema del dedo."
     "La lengua de Jestyn lamió lentamente la mermelada de fresa de mi dedo índice. Sus movimientos eran lentos y cuidadosos."
@@ -1882,7 +1882,7 @@ label punishment_day2:
     "Como si quisiera ver más de mi reacción, Jestyn ralentizó aún más sus movimientos, haciendo que cada movimiento fuera más deliberado y provocativo."
     "Maldita sea… de alguna manera, solo logró hacer que mis mejillas ardieran aún más y dejarme aún más nerviosa."
     "Mi reacción sólo pareció alimentar su ego."
-    "Uf... tenía que recordar que yo era el que estaba a cargo aquí. No iba a dejar que tomara el control cuando quisiera."
+    "Uf... tenía que recordar que yo era quien llevaba las riendas aquí. No iba a dejar que tomara el control cuando quisiera."
     "¿Pero qué se suponía que debía hacer...?"
     "...."
     camera at camera_shake
@@ -1906,7 +1906,7 @@ label punishment_day2:
 
     menu:
         "Sí":
-            mc "Mmm... Creo que te lo mereces, Jestyn. Seguir."
+            mc "Mmm... Creo que te lo mereces, Jestyn. Continúa."
 
             "Le di permiso."
             show jescg lick6 with dissolve
@@ -1939,9 +1939,9 @@ label punishment_day2:
     
     "Estabilizó su respiración y se tomó unos momentos para recomponerse antes de mirarme con una sonrisa descarada."
     show jes dinner horny with dissolve
-    jes "...Él... jeje... Su Majestad se está volviendo notablemente hábil en esto..."
+    jes "...Eh... jeje... Su Majestad se está volviendo notablemente hábil en esto..."
     
-    mc "¿Bueno?"
+    mc "¿Bien?"
     
     "Jestyn asintió, todavía luciendo un poco aturdido por el momento que acabábamos de compartir."
     "Me acerqué y le revolví suavemente el pelo."
@@ -1961,7 +1961,7 @@ label punishment_day2:
     hide jes dinner pout2 with dissolve
     "A mi orden, Jestyn tomó el vaso de agua y se lo bebió."
 
-    mc "¿Se siente mejor?"
+    mc "¿Te sientes mejor?"
     show jes dinner love with dissolve
     jes "...Sí..."
     mc "......"
@@ -1993,7 +1993,7 @@ label let_it_slide:
     mc "Sí, lo sé. Pero aún así."
     show jes dinner giggle with dissolve
     jes "Jeje, por supuesto, Su Majestad. Nunca se me ocurriría obligarte a castigarme."
-    jes "Pero si ese es el caso... entonces supongo que simplemente tendré que hacer un desempeño aún mejor y trabajar un poco más duro para conseguir lo que quiero."
+    jes "Pero si ese es el caso... entonces supongo que tendré que hacer una actuación aún mejor y esforzarme un poco más para conseguir lo que quiero."
     
     "Así que debería prepararme para lo que venga después, ¿eh...? Maravilloso."
     "Continué comiendo mi pan."
@@ -2023,7 +2023,7 @@ label let_it_slide:
     
     "Eh... Para que pueda avergonzarse después de todo. Eso es inesperado."
     
-    mc "Tengo curiosidad. ¿Qué sueles usar con ese outfit?"
+    mc "Tengo curiosidad. ¿Qué sueles usar con ese atuendo?"
     show jes dinner nosmile2 
     jes "¿Mmm? ¿Qué significa Su Majestad?"
     mc "Quiero decir, eres un bufón títere. Así que esperaría que solo tuvieras trajes de bufón."
@@ -2056,7 +2056,7 @@ label let_it_slide:
     
     "Los ojos de Jestyn se dirigen lentamente hacia la mesa."
     
-    jes "........Sí. Hice."
+    jes "........Es un pesado."
     jes "Pero supongo que es un sentimiento de hace mucho tiempo. Ya no siento lo mismo por ellos."
     show jes dinner sad
     jes "Se siente... incómodo."
@@ -2089,7 +2089,7 @@ label let_it_slide:
     jes "Mmm... Creo que es hora de pasar al plato principal, Su Majestad."
     
     show jes dinner normal2 
-    "Jestyn luego chasquea los dedos. En un instante, mi plato vacío es reemplazado por uno lleno de rebanadas de carne asada, generosamente cubiertas con salsa BBQ."
+    "Jestyn luego chasquea los dedos. En un instante, mi plato vacío es reemplazado por uno lleno de rebanadas de carne asada, generosamente cubiertas con salsa barbacoa."
     
     jes "Por favor, disfrute, Su Majestad. No me hagas caso."
     show jes dinner smirk 
@@ -2104,7 +2104,7 @@ label let_it_slide:
     "Quien haya cocinado esto realmente sabía lo que estaba haciendo."
     "Al verme devorar la carne, Jestyn sólo pudo sonreír ampliamente, luciendo bastante satisfecho consigo mismo."
     
-    jes "¿Bueno?"
+    jes "¿Bien?"
     
     "Asiento sin pensarlo dos veces."
     
@@ -2119,11 +2119,11 @@ label let_it_slide:
     play sound "snap.mp3"
     show jes dinner normal2
     "Jestyn no se molesta en contestar. Simplemente chasquea los dedos."
-    "La carne que casi se había acabado, la mayor parte de la cual ya comí, se repone de repente."
+    "La carne, que ya casi se había acabado porque me comí la mayor parte, se repone de repente."
     
-    mc "¿Todavía tenías más??? ¿De dónde lo conseguiste?"
+    mc "¿Todavía tenías más? ¿De dónde lo has sacado?"
     show jes dinner normal 
-    jes "Compré el doble, por si Su Majestad quisiera unos segundos. Y parece que mis instintos estaban en lo cierto, ¿eh?"
+    jes "Compré el doble, por si Su Majestad quería repetir. Y parece que mis instintos no me fallaron, ¿eh?"
     jes "Además, parecías hambriento."
     
     "Inmediatamente me siento avergonzado."
@@ -2161,7 +2161,7 @@ label let_it_slide:
     
     show jes dinner normal with dissolve
     jes "Continúe, Su Majestad. Sigue comiendo."
-    jes "Termínalo."
+    jes "Termínala."
     
     "Quería seguir comiendo."
     "Pero por alguna razón, mi mano se sentía extrañamente pesada cuando intenté levantarla, aunque sabía que podía hacerlo."
@@ -2197,7 +2197,7 @@ label let_it_slide:
     
     "Asiento."
     "Jestyn tomó otro trozo de carne."
-    "Y lo metí en mi boca."
+    "Y me lo llevó a la boca."
     "Una y otra vez..."
     "Hasta que no quedó ni un solo trozo de carne en el plato."
     
@@ -2289,7 +2289,7 @@ label end_repeat_route:
     "Acaricié suavemente el cabello de Jestyn. Parecía disfrutar cada segundo."
     
     jes "...Su Majestad todavía estará aquí cuando despierte... ¿no es así?"
-    mc "¿Cómo se supone que voy a irme cuando estás acostada encima de mí así?"
+    mc "¿Cómo se supone que voy a irme cuando estás acostado encima de mí así?"
     jes "Jeje... bastante cierto..."
     jes "...Entonces... buenas noches, Su Majestad..."
     mc "...Buenas noches, Jestyn."
@@ -2317,7 +2317,7 @@ label end_repeat_route:
 
     if crownus_wizzy:
         "Y... aprendí un poco sobre el Rey Marioneta."
-        "A juzgar por lo que Wizzy dijo antes... el Rey Puppet no parecía una buena persona."
+        "A juzgar por lo que Wizzy dijo antes... el Rey Marioneta no parecía una buena persona."
         "Si eso es cierto... entonces tal vez su muerte realmente fue lo mejor."
         "Después de todo... la gente cruel no merece vivir."
         "...Mi vida probablemente también sería mejor sin gente así."
@@ -2386,7 +2386,7 @@ label end_repeat_route:
         
         hide text
         
-        show text "{size=90}{cps=15}{color=#EEC594}...Sigh...{/color}{/cps}{/size}" at nightmare_text
+        show text "{size=90}{cps=15}{color=#EEC594}...Suspiro...{/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
         
@@ -2400,7 +2400,7 @@ label end_repeat_route:
         with dissolve
         pause 2.5
         
-        show text "{size=90}{cps=15}{color=#EEC594}Eres bastante adorable cuando pareces tan despistado.{/color}{/cps}{/size}" at nightmare_text
+        show text "{size=90}{cps=15}{color=#EEC594}Eres bastante adorable cuando pones esa cara de no enterarte de nada.{/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
         
@@ -2428,7 +2428,7 @@ label end_repeat_route:
         hide text
         
         voice "CROWNUS14_DAY2.ogg"
-        show text "{size=90}{cps=15}{color=#EEC594}¿Qué? ¿Esperabas que te insultara otra vez? ¿Te llama una pequeña mascota humilde y fea? {/color}{/cps}{/size}" at nightmare_text
+        show text "{size=90}{cps=15}{color=#EEC594}¿Qué? ¿Esperabas que volviera a insultarte? ¿Que te llamara una pequeña mascota insignificante y fea? {/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 8.5
         
@@ -2443,7 +2443,7 @@ label end_repeat_route:
         pause 2.5
 
     elif repeat_route == 4:
-        show text "{size=80}{cps=15}{color=#EEC594}Necesitado, ¿eh? Realmente tenías tantas ganas de verme. Esta ya es la cuarta vez. {/color}{/cps}{/size}" at nightmare_text
+        show text "{size=80}{cps=15}{color=#EEC594}Con ganas de verme, ¿eh? Realmente tenías tantas ganas. Esta ya es la cuarta vez. {/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
         
@@ -2463,7 +2463,7 @@ label end_repeat_route:
         with dissolve
         pause 2.5
         
-        show text "{size=90}{cps=15}{color=#EEC594}¡Ahora, shoo!{/color}{/cps}{/size}" at nightmare_text
+        show text "{size=90}{cps=15}{color=#EEC594}¡Ahora, fuera!{/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
 
@@ -2474,7 +2474,7 @@ label end_repeat_route:
         
         hide text
         
-        show text "{size=90}{cps=15}{color=#EEC594}Sé mi buena mascota y termina tu tarea, tonto.{/color}{/cps}{/size}" at nightmare_text
+        show text "{size=90}{cps=15}{color=#EEC594}Sé mi buena mascota y termina tu tarea, tontaina.{/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
         
@@ -2488,14 +2488,14 @@ label end_repeat_route:
         hide text
         
     elif repeat_route == 7:
-        show text "{size=80}{cps=15}{color=#EEC594}Mira lo que tengo ~ ¡Oh! ¡Un hueso! Ahora ve allí. Coger algo. {/color}{/cps}{/size}" at nightmare_text
+        show text "{size=80}{cps=15}{color=#EEC594}Mira lo que tengo ~ ¡Oh! ¡Un hueso! Ahora ve allí. Tráelo. {/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
 
         hide text
 
     else:
-        show text "{size=80}{cps=15}{color=#EEC594}Hola, mi mascota fea. Tu dueño está cansado ahora mismo. Por favor, deja un masaje después del pitido. BIP. {/color}{/cps}{/size}" at nightmare_text
+        show text "{size=80}{cps=15}{color=#EEC594}Hola, mi mascota fea. Tu dueño está cansado ahora mismo. Por favor, deja un mensaje después del pitido. BIP. {/color}{/cps}{/size}" at nightmare_text
         with dissolve
         pause 2.5
 
@@ -2521,7 +2521,7 @@ label the_truth_route :
     "Una parte de mí quería descansar."
     "Pero otra parte de mí insistía en que ahora no era el momento."
     "Había un sentimiento de inquietud persistiendo en el fondo de mi mente."
-    "Algo en todo esto se negaba a sentarme bien."
+    "Algo en todo esto no me cuadraba."
     "¿Por qué tuve la sensación de que Jestyn ocultaba algo?"
     "Ese extraño sentimiento había comenzado en el momento en que se negó a dejarme entrar a la habitación del Rey Marioneta."
 
@@ -2542,7 +2542,7 @@ label jestynotfollow_day2:
     
     show jes normal2 with dissolve
     jes "¿Hay algo que le preocupa, Su Majestad?"
-    mc "...En realidad, estoy cansado de estar sentado en mi habitación."
+    mc "...En realidad, necesito salir de mi habitación un rato."
     mc "Creo que necesito un poco de aire fresco para aclarar mi cabeza."
     mc "Así que voy a dar un paseo un rato."
     jes "En ese caso, permítame-"
@@ -2604,7 +2604,7 @@ label jestynotfollow_day2:
     "Levanté la mano y acaricié suavemente su mejilla. Mi pulgar acarició suavemente su piel, esperando calmarlo."
     "Un leve sonrojo se extendió gradualmente por las mejillas de Jestyn."
     
-    mc "Pero quiero estar solo ahora mismo."
+    mc "Pero quiero estar a solas ahora mismo."
     mc "Y como mi leal bufón... quiero que me dejes en paz. Sólo por ahora."
     mc "Lo entiendes... ¿no?"
     
@@ -2675,7 +2675,7 @@ label jestynotfollow_day2:
     "Luego mi mirada se desvió hacia el extremo más oscuro del pasillo de las marionetas."
     "Sabía muy bien que este pasillo era mucho más largo de lo que parecía."
     "Ayer no le había prestado mucha atención. Sólo quería terminar mis deberes. Pero ahora que mi situación había empezado a parecer algo sacado directamente de una historia de fantasía, pensé que sería mejor explorarla."
-    "Maldita sea, olvidé traer mi linterna. ¿Dónde lo puse?"
+    "Maldita sea, olvidé traer mi linterna. ¿Dónde la puse?"
     "Finalmente decidí seguir caminando sin uno. No puede ser tan oscuro... ¿verdad?"
     "Luego caminé más profundamente por los pasillos bordeados por las habitaciones de los títeres."
     play sound  "footstep.mp3"
@@ -2792,7 +2792,7 @@ label butley_askday2:
             
             "¿Jestyn...? ¿Mentirme?"
             "Mi mente luchó por procesar todo lo que Butley acababa de decirme."
-            "...... Entonces... ¿me ha estado engañando todo este tiempo? Pero por qué...?"
+            "......Entonces... ¿me ha estado engañando todo este tiempo? Pero ¿por qué...?"
             "¿Sobre qué ha estado mintiendo exactamente?"
             
             but "No sé qué está planeando... pero..."
@@ -2814,7 +2814,7 @@ label butley_askday2:
             show but happy
             "Su rostro se iluminó y una amplia sonrisa se dibujó en él."
             
-            but "¡Ah! ¡Se refiere al Señor Crownus, Su Majestad!"
+            but "¡Ah! ¡Te refieres a Lord Crownus, Su Majestad!"
             but "¡Él es el mejor!"
             but "¡Él quiere lo mejor para todos nosotros! Él está ayudando a todos y cada uno de nosotros a encontrar nuestro camino."
             but "¡Y estamos más que felices de darle todo lo que tenemos a Lord Crownus como muestra de nuestra inmensa gratitud!"
@@ -2858,11 +2858,11 @@ label butley_askday2:
             "Mi curiosidad se despertó inmediatamente cuando Butley mencionó a sus hermanas mayores."
             
             mc "¿Tienes hermanas mayores?"
-            but "Yo lo hago. Son trillizos. Si ya las conociste, son las criadas."
+            but "Así es. Son trillizas. Si ya las conociste, son las doncellas."
             
             "¡Ah! Entonces, ¿Maidelyn, Maidy y Maidra son las hermanas mayores de Butley?"
             
-            mc "Los he conocido a los tres, sí."
+            mc "Las he conocido a las tres, sí."
             show but smile with dissolve
             but "Espero que hayan causado una buena primera impresión a Su Majestad."
             but "Los cuatro solíamos ser muy cercanos... pero..."
@@ -2928,12 +2928,12 @@ label butley_askday2:
                 but "Pero él... todavía lo recuerdo claramente..."
                 but "Estaba sonriendo detrás de las cortinas... mientras miraba el cuerpo de Lord Crownus."
                 
-                "Wizzy's earlier description of Prieston suddenly felt much more believable. Quienquiera que fuera este títere, mi curiosidad por él no hizo más que crecer."
+                "La descripción que Wizzy hizo antes de Prieston de pronto me resultó mucho más creíble. Quienquiera que fuese esta marioneta, mi curiosidad por él no hacía más que crecer."
                 
                 mc "¿Alguna vez has hablado con él?"
                 but "Algunas veces, pero muy raramente. Casi nunca sale de su habitación."
                 but "La única forma de conocer a Prieston es si él decide salir... o si alguien va a su habitación."
-                but "Y... hubo una vez que lo encontré parado solo en el escenario, rodeado de oscuridad."
+                but "Y... una vez lo encontré de pie, a solas en el escenario, rodeado de oscuridad."
                 
                 "Por alguna razón, un escalofrío recorrió mi espalda."
                 
@@ -3033,7 +3033,7 @@ label the_truth_route_2:
 
     scene black with dissolve
     hide but happy
-    who "Butley! ¡Así que finalmente atrapaste a ese humano! ¡Jajaja!"
+    who "¡Butley! ¡Así que finalmente atrapaste a ese humano! ¡Jajaja!"
     who "¡No puedo creer que tu plan realmente haya funcionado!"
     but "Sí..."
     
@@ -3058,7 +3058,7 @@ label the_truth_route_2:
         jump jestyn_route_day2
 
 label jestyn_route_day2:
-    mc "¡¡JESTÍN!!"
+    mc "¡¡JESTYN!!"
     
     stop music
     show but suprais
@@ -3113,7 +3113,7 @@ label jestyn_route_day2:
     "No sabía que era capaz de hacer una expresión así."
     
     show jes scared with dissolve
-    jes "Su Majestad... no tiene idea de lo aliviado que estoy..."
+    jes "Su Majestad... no tienes idea de lo aliviado que estoy..."
     jes "Desde entonces no he podido dejar de pensar demasiado..."
     jes "Simplemente no podía calmarme."
     jes "...Entonces te escuché decir mi nombre."
@@ -3188,7 +3188,7 @@ label jestyn_route_day2:
     "...Me sentí un poco mejor ahora, aunque mi cuerpo todavía estaba débil."
     "Sentado a mi lado, Jestyn nunca me quitó los ojos de encima."
     "Tenía la sensación de que todavía estaba conmocionado por lo que había sucedido antes."
-    "Se sentía extraño no escuchar a Jestyn ladrar como solía hacer. Normalmente, nunca dejaba de hablar, de burlarse de mí, de hacer comentarios sarcásticos o de decir lo que se le ocurría sólo para mantener la conversación."
+    "Se sentía extraño no escuchar a Jestyn parlotear como solía hacer. Normalmente, nunca dejaba de hablar, de burlarse de mí, de hacer comentarios sarcásticos o de decir lo que se le ocurría sólo para mantener la conversación."
     "Pero no esta vez. Simplemente se sentó allí, mirándome en silencio."
     
     mc "¿Jestyn?"
@@ -3206,7 +3206,7 @@ label jestyn_route_day2:
     show jes scared with dissolve
     jes "¿Es por… cómo actué antes…?"
     mc "No. Has estado muy callado."
-    mc "De hecho, prefiero cuando estás ladrando como lo haces normalmente."
+    mc "De hecho, prefiero cuando estás parloteando como lo haces normalmente."
     show jes suprais with dissolve
     jes "Ah..."
     mc "Di algo. Cualquier cosa. Incluso puedes burlarte de mí como siempre lo haces."
@@ -3217,7 +3217,7 @@ label jestyn_route_day2:
     "Lentamente, pude ver regresar el habitual Jestyn."
     
     show jes happy with dissolve
-    jes "¿Oh~? ¿Quiere que me burle de usted, majestad? No tenía idea de que te gustaba que te degradaran..."
+    jes "¿Oh~? ¿Quieres que me burle de ti, majestad? No tenía idea de que te gustaba que te degradaran..."
     jes "Pequeño masoquista..."
     
     "...Sí. Este imbécil había vuelto por completo."
@@ -3251,7 +3251,7 @@ label jestyn_route_day2:
     show jes breakdown
     "Se agarró el cuello mientras su respiración se hacía gradualmente más rápida."
     
-    mc "¡¿JESTÍN?!"
+    mc "¡¿JESTYN?!"
     
     "Inmediatamente tomé su mano."
     
@@ -3269,13 +3269,13 @@ label jestyn_route_day2:
     show jes suprais with dissolve
     "Sus ojos se abrieron con sorpresa."
     
-    jes "...¿Indulto?"
+    jes "...¿Perdón?"
     mc "Creo que ambos necesitamos descansar un poco, ¿no? Así que... acuéstate conmigo."
     
     show jes flush with dissolve
     "Un leve sonrojo se extendió lentamente por las mejillas de Jestyn."
     
-    jes "Jeje... vaya, vaya... ¿Está haciendo algo conmigo, Su Majestad~?"
+    jes "Jeje... vaya, vaya... ¿Se me está insinuando, Su Majestad~?"
     mc "Esa es una orden."
     jes "...Como desee, Su Majestad."
     
@@ -3289,7 +3289,7 @@ label jestyn_route_day2:
     
     "Me notó mirando su cabello."
     
-    mc "...Te ves hermosa."
+    mc "...Te ves hermoso."
     
     show jescg bed blush with dissolve
     "El rubor de sus mejillas se hizo más intenso."
@@ -3517,7 +3517,7 @@ label prieston_route_day2:
     but "Yo solo... no era mi intención-"
     show jes normal at right
     with dissolve
-    jes "Entiendo lo que intentas decir, Butley, querida."
+    jes "Entiendo lo que intentas decir, Butley, querido."
     jes "Desafortunadamente para ti... tengo ojos."
     hide jes normal with dissolve
     show jespri creep with dissolve
@@ -3543,7 +3543,7 @@ label prieston_route_day2:
     hide screen dark_effect with dissolve
     mc "Jestyn..."
     mc "Gracias..."
-    jes "No piense en ello, Su Majestad."
+    jes "No pienses en ello, Su Majestad."
     jes "Parece que Butley y otros títeres te causaron bastantes problemas."
     jes "Por favor perdónalos."
     
@@ -3559,16 +3559,16 @@ label prieston_route_day2:
     
     "Hizo una pausa."
     
-    jes "Pero me temo que Su Majestad todavía no está en condiciones de resistir. ¿Me harías el honor de descansar un rato en mi habitación?"
+    jes "Pero me temo que Su Majestad todavía no está en condiciones de levantarse. ¿Me harías el honor de descansar un rato en mi habitación?"
     mc "...Está bien."
     
     hide jespri with dissolve
     "Jestyn me asintió levemente y me indicó que siguiera adelante."
     scene bg_corridor
     "Mientras caminábamos, mi mente seguía volviendo a lo que acababa de suceder."
-    "Estoy tratando de recordar lo que dijo Butley. Por lo que había dicho Butley... él no quería que reemplazaran al Rey Puppet."
+    "Intento recordar lo que dijo Butley. Por lo que contaba... no quería que reemplazaran al Rey Marioneta."
     "Eso significaba que era ferozmente leal al Rey Crownus."
-    "Y no solo Butley se sentía así... Podrían haber varios títeres como los títeres que estuvieron con él mientras me atacaba..."
+    "Y no solo Butley se sentía así... Podría haber varias marionetas como las que estaban con él cuando me atacó..."
     "...o quizás muchos más de ellos que permanecieron leales al Rey Marioneta y se negaron a aceptarme como su sucesor."
     "......"
     "...Harían cualquier cosa para deshacerse de mí."
@@ -3596,7 +3596,7 @@ label prieston_route_day2:
     jes "Ahora... Permíteme guiarte a mi habitación."
     
     "Manteniendo una mano sobre mis ojos, Jestyn me llevó suavemente hacia su habitación."
-    "Y después de caminar un rato, escuché un crujido de puerta al abrirse. Supuse que era la entrada al barrio de los títeres."
+    "Y después de caminar un rato, escuché el crujido de una puerta al abrirse. Supuse que era la entrada a los aposentos de los títeres."
     "Una vez que estuvimos dentro, Jestyn continuó guiándome hacia adelante."
     play sound "opendoor.mp3"
     "Un momento después, escuché que se abría otra puerta. Y pensé que debía haber sido la puerta de la habitación de Jestyn."
@@ -3625,7 +3625,7 @@ label prieston_route_day2:
     mc "...quien..."
     mc "...¿Quién eres?"
     voice "PRIESTON01_DAY2.ogg"
-    who "Tenía muchas ganas de conocerte... hija mía."
+    who "Tenía muchas ganas de conocerte... criatura mía."
     play music "seduction.mp3" volume 3.0 fadein 3.0
     show pricg reveal3 with dissolve
     pause 1.0
@@ -3659,18 +3659,18 @@ label prieston_route_day2:
     show pri normal with dissolve
     "Frente a mí había un títere vestido de sacerdote."
     "Su largo cabello negro estaba bien cuidado y un único cuerno sobresalía del lado izquierdo de su cabeza."
-    "Cada movimiento que hizo fue compuesto y deliberado."
+    "Cada uno de sus movimientos era sereno y deliberado."
     "Sólo por la forma en que se comportaba, me di cuenta de que era alguien que siempre mantenía una imagen impecable frente a los demás."
     "Y de alguna manera, me puso nervioso."
     
     who "A juzgar solo por mi apariencia, imagino que ya habrás adivinado el papel que desempeño dentro de este reino. Aun así, antes de continuar, permíteme presentarme, hija mía."
     show pri talk 
-    pri "Puedes llamarme Prieston. Soy la marioneta Priest del reino."
+    pri "Puedes llamarme Prieston. Soy la marioneta sacerdote del reino."
     show pri normal
     "Dio unos pasos mesurados hacia mí y simplemente me miró fijamente durante unos momentos."
     "Al mirar más de cerca, noté que sus pupilas se parecían a las de una cabra."
     show pri nosmile2 with dissolve
-    "Su mirada recorrió lentamente mí, de pies a cabeza, examinando cuidadosamente cada detalle de mi apariencia."
+    "Su mirada me recorrió lentamente, de pies a cabeza, examinando con atención cada detalle de mi apariencia."
     show pri happy2 with dissolve
     "Después de un breve silencio, finalmente habló. Su sonrisa se amplió."
     
@@ -3696,12 +3696,12 @@ label prieston_route_day2:
     "Al ver lo débil que estaba, Prieston me ofreció su mano para ayudarme a levantarme."
     
     show pri talk2 with dissolve
-    pri "Ven, hija mía. Déjame guiarte en la silla. Necesitas descansar."
+    pri "Ven, criatura mía. Déjame acompañarte hasta la silla. Necesitas descansar."
     
     "Después de un breve momento de vacilación..."
     "... Extendí la mano y tomé su mano."
     
-    pri "Disculpe."
+    pri "Disculpa."
     
     show pri normal 
     camera at camera_shake
@@ -3720,7 +3720,7 @@ label prieston_route_day2:
     "Antes de tomar un sorbo, percibí el delicado aroma a jazmín que emanaba del té. Mientras bebía, su calidez floral permaneció en mi lengua antes de calmar suavemente mi garganta."
     
     show pri normal with dissolve
-    pri "¿Se siente mejor?"
+    pri "¿Te sientes mejor?"
     
     "Asentí."
     
@@ -3765,8 +3765,8 @@ label prieston_ask:
             pri "Además... ahora eres el [title] de este reino."
             pri "Ahora bien, volvamos a tu pregunta. ¿Me preguntaste por qué te ayudé?"
             pri "No hubo ninguna razón en particular."
-            pri "Simplemente te vi... parado solo en ese escenario, rodeado por una multitud de marionetas hambrientas."
-            pri "Y allí estabas, justo en medio de ellos... indefenso, necesitando que alguien te extendiera una mano."
+            pri "Simplemente te vi... a solas en ese escenario, entre una multitud de marionetas hambrientas."
+            pri "Y allí estabas, justo en medio... sin defensa posible, necesitando que alguien te tendiera una mano."
             
             show pri table annoy with dissolve
             "Prieston colocó una mano sobre su pecho, un gesto tranquilo que hablaba de su sinceridad."
@@ -3888,7 +3888,7 @@ label prieston_ask:
             mc "Lo siento... no estoy seguro si me estoy explicando muy bien."
             show pri table gentle with dissolve
             pri "No hay necesidad de disculparte, hija mía. Entiendo exactamente lo que quieres decir."
-            pri "Y debo decir... agradezco tanto su respuesta como su observación."
+            pri "Y debo decir... agradezco tanto tu respuesta como tu observación."
             mc "Entonces... ¿tenía razón?"
             show pri table normal with dissolve
             pri "La respuesta, hija mía... es paciencia."
@@ -3921,7 +3921,7 @@ label prieston_ask:
             mc "Y luego está lo que me dijo Butley... que Jestyn sólo me está utilizando a mí. Manipulándome."
             mc "Entonces... ya no sé qué creer. ¿Es todo eso cierto?"
             pri "Ya veo."
-            pri "Me temo que sólo puedo contarles un hecho sobre ese hombre."
+            pri "Me temo que solo puedo contarte un hecho sobre ese hombre."
             pri "Jestyn odia a Crownus."
             
             "Mis ojos se abrieron ante esas palabras. Así que todo este tiempo..."
@@ -3977,7 +3977,7 @@ label prieston_ask:
             pri "Todo lo que siempre ha querido... es que todos sean felices."
             pri "Quizás, desde donde estás ahora, veas a Jestyn como un títere travieso... sarcástico... aficionado a burlarse de los demás... tal vez incluso un poco malvado."
             show pri table nosmile2 with dissolve
-            pri "Pero el Jestyn ya sabes... no es el mismo Jestyn que yo conozco, hija mía."
+            pri "Pero el Jestyn que conoces... no es el mismo Jestyn que yo conozco, criatura mía."
             pri "Después de todo... he vivido mucho más que tú."
             pri "Para mí, sigue siendo el mismo Jestyn que siempre he conocido..."
             pri "Simplemente lleva... una cara diferente."
@@ -3998,7 +3998,7 @@ label prieston_ask:
             
             "La sonrisa de Prieston se amplió. Sus ojos se entrecerraron mientras me miraba, agudo pero divertido, mientras apoyaba cómodamente su barbilla en una mano."
             
-            pri "Mi, mi..."
+            pri "Vaya, vaya..."
             pri "¿Quieres saber más sobre mí?"
             pri "No tenía idea de que era tan misterioso a tus ojos, hija mía."
             show pri table amused2 with dissolve
@@ -4061,7 +4061,7 @@ label prieston_ask:
             pause 0.7
             show pricg poke2 with dissolve
             pri "Lo que quiero decir es... deberíamos hablar más a menudo, Su Majestad."
-            pri "Ahora eres el [title] de este reino. Y como es [title], es natural que sepas cómo les va a tus sujetos, ¿no te parece?"
+            pri "Ahora eres el [title] de este reino. Y como [title], es natural que sepas cómo les va a tus súbditos, ¿no te parece?"
             show pricg poke3 with dissolve
             pri "Yo no soy una excepción."
             show pricg poke4 with dissolve
@@ -4094,7 +4094,7 @@ label prieston_convo2:
     show pri nosmile with dissolve
     "Prieston se levantó de su silla y se acercó a mí."
     
-    pri "Disculpe."
+    pri "Disculpa."
     camera at camera_shake
     
     "Suavemente me tomó en sus brazos una vez más y me recostó en su cama."
@@ -4141,16 +4141,16 @@ label prieston_convo2:
     mc "Mmm..."
     voice "PRIESTON06_DAY2.ogg"
     pri "Ahora... quiero que imagines algo para mí. ¿Puedes hacer eso, hija mía?"
-    mc "Si...."
+    mc "Sí...."
     pri "Bueno..."
     pri "Ahora imagina un bosque."
     play music "morning.mp3" volume 3.0
     scene anim fairytale with dissolve
-    pri 'A vast, beautiful forest... lush and green, with trees stretching high above your head.'
+    pri 'Un bosque vasto y hermoso... frondoso y verde, con árboles que se alzan muy por encima de tu cabeza.'
     pri "¿Puedes verlo?"
     mc "Sí."
     pri "Bueno..."
-    pri "Ahora... escuche atentamente. ¿Qué crees que encontrarías en un bosque como ese?"
+    pri "Ahora... escucha atentamente. ¿Qué crees que encontrarías en un bosque como ese?"
     mc "mmmm...."
     show dog_fairytale with dissolve
     pri "¿Quizás un perro?"
@@ -4270,7 +4270,7 @@ label prieston_convo2:
     stop music fadeout 3.0
     "........"
     
-    pri "...Parece que te has quedado dormido, hija mía. Me alegro que esta historia haya podido adormecerte."
+    pri "...Parece que el sueño te ha vencido, [gend] mío. Me alegro de que esta historia haya podido adormecerte."
 
     "Dejó escapar una suave risita."
     
@@ -4310,7 +4310,7 @@ label prieston_convo2:
     "Después de eso, Prieston se acercó a Jestyn."
     
     show pri amused with dissolve
-    pri "No hice nada. Simplemente dejo descansar a [player_call]. [subj] casi muere después de ser devorado por Butley y otros títeres."
+    pri "No hice nada. Simplemente dejé descansar a [player_call]. [subj] casi muere después de ser devorado por Butley y otros títeres."
     
     show jes3 sadsuprais with dissolve
     "Los ojos de Jestyn se abrieron mientras apretaba los dientes."
@@ -4322,7 +4322,7 @@ label prieston_convo2:
     
     pri "Tengo la sensación de que las cosas sólo se volverán más complicadas a partir de aquí."
     show pri gentle with dissolve
-    pri "Así que cuiden bien de nuestra Majestad, Jestyn."
+    pri "Así que cuida bien de nuestra Majestad, Jestyn."
     
     show jes3 sad with dissolve
     "Sosteniendo al MC con fuerza en sus brazos, Jestyn salió silenciosamente de la habitación de Prieston."
@@ -4430,7 +4430,7 @@ label credits:
 
     pause 1.0
 
-    show text "{size=60}{b}{color=#ff0000}REINO DE LAS MARIONETTES{/b}{/size}{/color}\n\nCreado por Thepipi\nMúsica de Pixabay" at truecenter with dissolve
+    show text "{size=60}{b}{color=#ff0000}KINGDOM OF MARIONETTES{/b}{/size}{/color}\n\nCreado por Thepipi\nMúsica de Pixabay" at truecenter with dissolve
 
     pause 
 
@@ -4444,7 +4444,7 @@ label credits:
     hide text
     with dissolve
 
-    show text "{size=60}{b}{color=#ff0000}GRACIAS ESPECIALES A FOR{/b}{/size}{/color}\nProbadores beta y a todos por apoyar a Kingdom Of Marionettes." at truecenter with dissolve
+    show text "{size=60}{b}{color=#ff0000}AGRADECIMIENTO ESPECIAL{/b}{/size}{/color}\nA los probadores beta y a todos por apoyar a Kingdom Of Marionettes." at truecenter with dissolve
 
     pause
     stop music fadeout 3.0

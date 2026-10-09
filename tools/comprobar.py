@@ -12,8 +12,10 @@ NOMBRES = ["Jestyn", "Knighter", "Wizzy", "Prieston", "Crownus", "Butley",
 RE_TAG = re.compile(r"\{[^{}]*\}|\[[^\[\]]*\]")
 RE_DQ = re.compile(r'"((?:\\.|[^"\\])*)"')
 
-MAL_TRADUCIDOS = {"Caballero": "Knighter", "Bufon": "Jestyn", "Bufón": "Jestyn",
-                  "Maguito": "Wizzy", "Cura": "Prieston", "Mayordomo": "Butley"}
+MAL_TRADUCIDOS = {"Maguito": "Wizzy", "Cura": "Prieston", "Mayordomo": "Butley"}
+# Nota: "Bufón" y "Caballero" no se vigilan aquí porque son roles genéricos
+# (marioneta bufón, títere caballero, placas «Bufón»/«Caballero»); los nombres
+# propios Jestyn/Knighter se verifican por conteo exacto en check_qa.py.
 
 def cadenas(fich):
     return RE_DQ.findall(open(fich, encoding="utf-8").read())

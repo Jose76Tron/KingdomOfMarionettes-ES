@@ -1,5 +1,7 @@
 # no distribuir originales ni juego completo
 original/
 tools/mt_cache.json
+revision_reporte.txt
+revision_lote3.txt
 __pycache__/
 *.pyc
