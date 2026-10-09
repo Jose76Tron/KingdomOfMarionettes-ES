@@ -4228,7 +4228,7 @@ label prieston_convo2:
     hide lionbunny with dissolve
     show lionbunny2 with dissolve
     pri "Pero, lamentablemente, el Rey León se negó. Descartó la idea del Conejo como una tontería, insistiendo en que la comida que ya tenían era más que suficiente."
-    pri "'La fiesta de este año seguirá siendo exactamente como está. No habrá cambios. No aceptaré una idea tan ridícula\", dijo el Rey León."
+    pri "\"La fiesta de este año seguirá siendo exactamente como está. No habrá cambios. No aceptaré una idea tan ridícula\", dijo el Rey León."
     pri "Pero el Conejo siguió suplicando al Rey León, insistiendo en que todos los animales del bosque merecían una mejor comida."
     pri "Desafortunadamente... el Rey León todavía se negó."
     hide lionbunny2 with dissolve
