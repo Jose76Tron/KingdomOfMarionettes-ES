@@ -3,5 +3,7 @@ original/
 tools/mt_cache.json
 revision_reporte.txt
 revision_lote3.txt
+release/
+tools/menus2_log.txt
 __pycache__/
 *.pyc
