@@ -323,7 +323,7 @@ label performance:
     jes "Y el papel que actualmente está vacante... es el de rey, la reina, el gobernante del reino."
     mc "A-Está bien... uh... pero ¿por qué solo está vacía la posición de rey? ¿Qué pasó con el rey anterior?"
 
-    "Cuando revisé los títeres antes, había una habitación etiquetada como 'El Rey'. Entonces el rey títere debe haber existido."
+    "Cuando revisé los títeres antes, había una habitación etiquetada como «El Rey». Entonces el Rey Marioneta debió de existir."
 
     show jes nosmile2
 
@@ -450,7 +450,7 @@ label performance:
             else:
                 jump money
 
-        "construir canales de agua":
+        "Construir canales de agua":
             $ choice = "a"
             $ affection += 2
 
@@ -470,7 +470,7 @@ label performance:
             else:
                 jump seeds
 
-        "necesito tiempo para pensar":
+        "Necesito tiempo para pensar":
             $ first_delay = True
             $ choice = "b"
 

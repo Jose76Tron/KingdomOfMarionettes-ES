@@ -1,0 +1,17 @@
+OK script.rpy: 1x construir canales de agua
+OK script.rpy: 1x necesito tiempo para pensar
+OK script day2.rpy: 1x mira la televisión
+OK script day2.rpy: 1x mira el telefono
+OK script day2.rpy: 1x Nada interesante para mi
+OK script day2.rpy: 1x Lo haré. duro
+OK script day2.rpy: 6x eso es suficiente
+OK script day2.rpy: 1x Déjalo deslizar
+OK script day2.rpy: 1x Dale una bofetada más fuerte
+OK script day2.rpy: 1x Pégale más fuerte
+OK script day2.rpy: 1x opinas del rey títere?
+OK script day2.rpy: 1x eso es todo
+OK script day2.rpy: 1x quiero saber más sobre ti
+OK script day2.rpy: 1x tengo sueño..
+OK day2 choice.rpy: 3x eso es suficiente
+OK day2 choice.rpy: 1x déjalo en paz
+OK day2 choice.rpy: 2x opinas del rey títere?

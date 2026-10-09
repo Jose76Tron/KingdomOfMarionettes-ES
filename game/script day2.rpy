@@ -98,13 +98,13 @@ label minimarket_day2:
         "Mirar por la ventana":
             jump lookwindow_day2
 
-        "mira la televisión":
+        "Mirar la televisión":
             jump tv_day2
 
-        "mira el telefono":
+        "Mirar el teléfono":
             jump phone_day2
 
-        "Nada interesante para mi":
+        "Aquí no hay nada interesante para mí":
             jump tothetheater_day2
 
 
@@ -178,7 +178,7 @@ label tothetheater_day2:
         "Malcriado":
             jump brat_day2
 
-        "Lo haré. duro":
+        "Lo haré. Duro.":
             jump dohard_day2
 
 
@@ -358,7 +358,7 @@ label timetowork_day2:
     show maidy pout with dissolve
     maidy "¡Mmm! ¡¡No eres divertida!!"
     show maidelyn annoy with dissolve
-    maidelyn "Señoras, eso es suficiente."
+    maidelyn "Señoras, Eso es suficiente."
     maidelyn "[poss] Majestad está ante nosotras. Por favor, compórtense con un mínimo de dignidad."
     
     "El recordatorio inmediatamente llamó la atención de las otras dos sirvientas."
@@ -445,7 +445,7 @@ label maidconvo:
         "Habla con Maidra":
             jump maidra_day2
             
-        "eso es suficiente":
+        "Eso es suficiente":
             jump otherpuppet_day2
         
 label otherpuppet_day2: 
@@ -1229,7 +1229,7 @@ label dinner_day2:
         "Castigarlo":
             jump punishment_day2
 
-        "Déjalo deslizar":
+        "Déjalo pasar":
             jump let_it_slide
 
 label punishment_day2:
@@ -1359,7 +1359,7 @@ label punishment_day2:
 
                     jes "Nhhh...hhhh...."
 
-                "Dale una bofetada más fuerte":
+                "Darle una bofetada más fuerte":
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg slap2 with dissolve
@@ -1459,7 +1459,7 @@ label punishment_day2:
                                             jes "...No es nada, jeje... No te preocupes, Su Majestad..."
                                             
 
-                        "eso es suficiente":
+                        "Eso es suficiente":
                             show jescg slap11 with dissolve
                             "Creo que es suficiente."
                             show jescg slap12 with dissolve
@@ -1481,7 +1481,7 @@ label punishment_day2:
                             
                             "Le acaricié suavemente la cabeza y Jestyn prácticamente se derritió bajo los elogios, pareciendo genuinamente feliz con el afecto que le di."
 
-                "eso es suficiente":
+                "Eso es suficiente":
                     show jescg slap11 with dissolve
                     "Creo que es suficiente."
                     show jescg slap12 with dissolve
@@ -1571,7 +1571,7 @@ label punishment_day2:
 
                     jes "nhh...hhhh...."
 
-                "Pégale más fuerte":
+                "Pegarle más fuerte":
                     "Le di una palmada una vez más... esta vez incluso más fuerte que antes."
                     play sound "slap.mp3"
                     camera at camera_shake
@@ -1669,7 +1669,7 @@ label punishment_day2:
                                             jes "...No es nada, jeje... No te preocupes, Su Majestad..."
                                             
 
-                        "eso es suficiente":
+                        "Eso es suficiente":
                             "Creo que es suficiente."
                             "Acaricié suavemente el trasero de Jestyn nuevamente."
                             show jescg spank5 with dissolve
@@ -1688,7 +1688,7 @@ label punishment_day2:
                             
                             "Le acaricié suavemente la cabeza y Jestyn prácticamente se derritió bajo los elogios, pareciendo genuinamente feliz con el afecto que le di."
 
-                "eso es suficiente":
+                "Eso es suficiente":
                     "Creo que es suficiente."
                     "Acaricié suavemente el trasero de Jestyn nuevamente."
                     show jescg spank5 with dissolve
@@ -2808,7 +2808,7 @@ label butley_askday2:
             jump butley_askday2
 
 
-        "¿Qué opinas del rey títere?":
+        "¿Qué opinas del Rey Marioneta?":
             show but suprais with dissolve
             "En el momento en que mencioné el Rey Marioneta, la cabeza de Butley se giró hacia mí."
             show but happy
@@ -2948,7 +2948,7 @@ label butley_askday2:
 
             jump butley_askday2
 
-        "eso es todo":
+        "Eso es todo":
             jump the_truth_route_2
 
 
@@ -3550,7 +3550,7 @@ label prieston_route_day2:
     play music "sad.mp3" volume 3.0 fadein 3.0
     "No pensé que sería capaz de actuar normalmente con ellos, especialmente con Butley, la próxima vez que nos encontráramos."
     "Pero… ¿Por qué actuó así tan de repente?"
-    "¿Es porque... no quiere que reemplace al rey títere...?"
+    "¿Es porque... no quiere que reemplace al Rey Marioneta...?"
     
     mc "Jestyn..."
     mc "¿Por qué...? ¿Por qué hizo eso?"
@@ -3991,7 +3991,7 @@ label prieston_ask:
 
             jump prieston_ask
 
-        "quiero saber más sobre ti":
+        "Quiero saber más sobre ti":
             mc "Me gustaría saber más sobre ti."
             show pri table amused with dissolve
             pri "Mmmm~?"
@@ -4081,7 +4081,7 @@ label prieston_ask:
             jump prieston_ask
 
 
-        "tengo sueño..":
+        "Tengo sueño...":
             jump prieston_convo2
 
 label prieston_convo2:

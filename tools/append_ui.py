@@ -1,0 +1,120 @@
+import io, os, re
+BASE = os.path.dirname(os.path.abspath(__file__))
+P = os.path.join(BASE, "..", "game", "tl", "spanish", "screens.rpy")
+txt = io.open(P, encoding="utf-8").read()
+have = set(re.findall(r'^\s*old "(.*)"$', txt, re.M))
+
+N = [
+("Prefs", "Ajustes"),
+("End Replay", "Terminar repetición"),
+("Main Menu", "Menú principal"),
+("Menu", "Menú"),
+("empty slot", "hueco vacío"),
+("Upload Sync", "Subir sincronización"),
+("Download Sync", "Descargar sincronización"),
+("Display", "Pantalla"),
+("Window", "Ventana"),
+("Fullscreen", "Pantalla completa"),
+("Unseen Text", "Texto no visto"),
+("After Choices", "Tras las elecciones"),
+("Transitions", "Transiciones"),
+("Text Speed", "Velocidad del texto"),
+("Music Volume", "Volumen de la música"),
+("Sound Volume", "Volumen de los efectos"),
+("Test", "Probar"),
+("Voice Volume", "Volumen de las voces"),
+("Mute All", "Silenciar todo"),
+("Language", "Idioma"),
+("Calibrate", "Calibrar"),
+("The dialogue history is empty.", "El historial de diálogo está vacío."),
+("Keyboard", "Teclado"),
+("Mouse", "Ratón"),
+("Gamepad", "Mando"),
+("Enter", "Intro"),
+("Space", "Espacio"),
+("Arrow Keys", "Flechas del teclado"),
+("Escape", "Escape"),
+("Ctrl", "Ctrl"),
+("Tab", "Tabulador"),
+("Page Up", "Re Pág"),
+("Page Down", "Av Pág"),
+("Left Click", "Clic izquierdo"),
+("Middle Click", "Clic central"),
+("Right Click", "Clic derecho"),
+("Mouse Wheel Up", "Rueda arriba"),
+("Mouse Wheel Down", "Rueda abajo"),
+("Right Trigger\\nA/Bottom Button", "Gatillo derecho\\nBotón A/inferior"),
+("Left Trigger\\nLeft Shoulder", "Gatillo izquierdo\\nHombro izquierdo"),
+("Right Shoulder", "Hombro derecho"),
+("D-Pad, Sticks", "Cruceta, sticks"),
+("Y/Top Button", "Botón Y/superior"),
+("Advances dialogue and activates the interface.", "Avanza el diálogo y activa la interfaz."),
+("Advances dialogue without selecting choices.", "Avanza el diálogo sin elegir opciones."),
+("Navigate the interface.", "Navega por la interfaz."),
+("Accesses the game menu.", "Abre el menú del juego."),
+("Toggles dialogue skipping.", "Activa o desactiva el salto de diálogo."),
+("Rolls back to earlier dialogue.", "Retrocede a diálogos anteriores."),
+("Rolls forward to later dialogue.", "Avanza a diálogos posteriores."),
+("Hides the user interface.", "Oculta la interfaz."),
+("Takes a screenshot.", "Hace una captura de pantalla."),
+("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.",
+ "Activa o desactiva la {a=https://www.renpy.org/l/voicing}lectura en voz alta{/a}."),
+("Opens the accessibility menu.", "Abre el menú de accesibilidad."),
+("Version [config.version!t]\\n", "Versión [config.version!t]\\n"),
+("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\\n\\n[renpy.license!t]",
+ "Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\\n\\n[renpy.license!t]"),
+("{#file_time}%A, %B %d %Y, %H:%M", "{#file_time}%A, %d de %B de %Y, %H:%M"),
+("{#weekday}Monday", "{#weekday}lunes"),
+("{#weekday}Tuesday", "{#weekday}martes"),
+("{#weekday}Wednesday", "{#weekday}miércoles"),
+("{#weekday}Thursday", "{#weekday}jueves"),
+("{#weekday}Friday", "{#weekday}viernes"),
+("{#weekday}Saturday", "{#weekday}sábado"),
+("{#weekday}Sunday", "{#weekday}domingo"),
+("{#weekday_short}Mon", "{#weekday_short}lun"),
+("{#weekday_short}Tue", "{#weekday_short}mar"),
+("{#weekday_short}Wed", "{#weekday_short}mié"),
+("{#weekday_short}Thu", "{#weekday_short}jue"),
+("{#weekday_short}Fri", "{#weekday_short}vie"),
+("{#weekday_short}Sat", "{#weekday_short}sáb"),
+("{#weekday_short}Sun", "{#weekday_short}dom"),
+("{#month}January", "{#month}enero"),
+("{#month}February", "{#month}febrero"),
+("{#month}March", "{#month}marzo"),
+("{#month}April", "{#month}abril"),
+("{#month}May", "{#month}mayo"),
+("{#month}June", "{#month}junio"),
+("{#month}July", "{#month}julio"),
+("{#month}August", "{#month}agosto"),
+("{#month}September", "{#month}septiembre"),
+("{#month}October", "{#month}octubre"),
+("{#month}November", "{#month}noviembre"),
+("{#month}December", "{#month}diciembre"),
+("{#month_short}Jan", "{#month_short}ene"),
+("{#month_short}Feb", "{#month_short}feb"),
+("{#month_short}Mar", "{#month_short}mar"),
+("{#month_short}Apr", "{#month_short}abr"),
+("{#month_short}May", "{#month_short}may"),
+("{#month_short}Jun", "{#month_short}jun"),
+("{#month_short}Jul", "{#month_short}jul"),
+("{#month_short}Aug", "{#month_short}ago"),
+("{#month_short}Sep", "{#month_short}sep"),
+("{#month_short}Oct", "{#month_short}oct"),
+("{#month_short}Nov", "{#month_short}nov"),
+("{#month_short}Dec", "{#month_short}dic"),
+]
+out = [u"", u"    # --- Ampliación v0.4: preferencias, ayuda, carga/fechas ---", u""]
+n = 0
+for old, new in N:
+    if old in have:
+        print("DUP, se omite:", old[:50])
+        continue
+    out.append(u'    old "%s"' % old)
+    out.append(u'    new "%s"' % new)
+    out.append(u"")
+    have.add(old)
+    n += 1
+io.open(P, "a", encoding="utf-8").write(u"\n".join(out))
+print("añadidas:", n)
+olds = re.findall(r'^\s*old "(.*)"$', io.open(P, encoding="utf-8").read(), re.M)
+print("total:", len(olds), "unicas:", len(set(olds)))

@@ -1330,7 +1330,7 @@ label examinewizzyroom_day2:
         "Examina el estante de pociones de Wizzy.":
             jump examine_potion
 
-        "eso es suficiente":
+        "Eso es suficiente":
             jump wizzy_convo2
 
 label examine_paper:
@@ -1573,7 +1573,7 @@ label wizzy_convo2:
                 wiz "P-perdóname, Majestad... ¡ejem!"
             
 
-        "déjalo en paz":
+        "Déjalo en paz":
             $ jestyn_gagged = False
 
             if sit_on_jestyn:
@@ -1683,11 +1683,11 @@ label gettoknow_wizzy:
         "Quiero saber sobre tu relación con todos.":
             jump relationship_wizzy
 
-        "¿Qué opinas del rey títere?" if examinecornerwizzy >= 3:
+        "¿Qué opinas del Rey Marioneta?" if examinecornerwizzy >= 3:
             $ examinecornerwizzy
             jump crownusask_wizzy
 
-        "eso es todo":
+        "Eso es todo":
             jump afterconvo_wizzy
 
 label freetime_wizzy:
@@ -2083,7 +2083,7 @@ label relationship_wizzy:
     show wizconvo nosmile2 with dissolve
     wiz "Él me ayuda... y a los otros títeres... más a menudo de lo que jamás admitiría. Entonces..."
     wiz "Yo... entiendo por lo que ha pasado. Al menos... un poco."
-    wiz "Supongo que eso es suficiente para perdonar... algunos de sus hábitos más exasperantes."
+    wiz "Supongo que Eso es suficiente para perdonar... algunos de sus hábitos más exasperantes."
     wiz "....."
 
     show wizconvo pout with dissolve
@@ -2639,7 +2639,7 @@ label examineknighterroom_day2:
         "Examina la estantería de libros de Knighter.":
             jump examine_book
 
-        "eso es suficiente":
+        "Eso es suficiente":
             jump knighter_convo2
 
 label examine_decoration:
@@ -2750,11 +2750,11 @@ label gettoknow_knighter:
         "Toca su mejilla":
             jump Poke_knighter
 
-        "¿Qué opinas del rey títere?" if examinetableknighter >= 3:
+        "¿Qué opinas del Rey Marioneta?" if examinetableknighter >= 3:
             $ examinetableknighter
             jump crownusask_knighter
 
-        "eso es todo":
+        "Eso es todo":
             jump afterconvo_knighter
 
 label freetime_knighter:

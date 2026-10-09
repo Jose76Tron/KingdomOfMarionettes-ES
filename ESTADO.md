@@ -55,6 +55,24 @@ completos (~4400 cadenas), verificando cada cambio contra el original.
   duplicado eliminado a posta), tags íntegros, 0 comillas rotas,
   `tools/comprobar.py` limpio.
 
+## v0.4 — interfaz completa, menús y crédito
+
+- `tl/spanish/screens.rpy` ampliado de 53 a 148 cadenas: preferencias
+  (pantalla, volúmenes, transiciones...), ayuda de teclado/ratón/mando,
+  `Prefs`, `End Replay`, `Main Menu`, `Language`, `Upload/Download Sync`,
+  `The dialogue history is empty.`, `Version`, `Made with Ren'Py...`,
+  carga (`empty slot` → `hueco vacío`, formato de fecha español
+  + días/meses traducidos) y `Calibrate/Menu/Y-Top Button` que faltaban.
+  Cobertura verificada con `tools/missing_ui.py` (84/84 en uso).
+- Menús de elección re-auditados con volcado completo (`dump_choices.py`
+  reescrito): 20 minúsculas/rarezas corregidas (`mira la televisión` →
+  `Mirar la televisión`, `Déjalo deslizar` → `Déjalo pasar`,
+  `Lo haré. duro` → `Lo haré. Duro.`, `Eso es suficiente`, `Tengo sueño...`,
+  `rey títere` residual → `Rey Marioneta`) + chequeo permanente
+  `tools/check_caps.py`.
+- `game/creditos_es.rpy`: la pantalla Acerca de muestra
+  "Traducción fan al español: Jose76Tron".
+
 Leyenda: ✅ listo · 🔄 generado por MT con glosario, pendiente de repaso ·
 ⏭️ no aplica.
 

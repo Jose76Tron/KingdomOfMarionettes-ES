@@ -167,7 +167,7 @@ label king:
     "Examino cada rincón de la habitación, pero no encuentro al Rey Marioneta por ninguna parte."
     "Oh no... ¿falta el Rey Marioneta?"
     "Reviso la lista de títeres que llevo, pero tampoco veo el nombre del Rey Marioneta."
-    "Para empezar, supongo que nunca hubo un rey títere. ¿O… hace tiempo que está desaparecido?"
+    "Para empezar, supongo que nunca hubo un Rey Marioneta. ¿O… hace tiempo que está desaparecido?"
 
     jump knightjester
 
