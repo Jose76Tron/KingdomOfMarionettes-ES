@@ -1,0 +1,5 @@
+# no distribuir originales ni juego completo
+original/
+tools/mt_cache.json
+__pycache__/
+*.pyc

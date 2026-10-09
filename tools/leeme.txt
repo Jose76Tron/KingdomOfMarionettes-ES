@@ -1,0 +1,2 @@
+# Herramientas del parche al español de Kingdom of Marionettes 2.0
+# Uso: python tools/extract_rpa.py <ruta_juego> ; python tools/translate_rpy.py
