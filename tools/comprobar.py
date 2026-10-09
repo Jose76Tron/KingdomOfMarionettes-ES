@@ -45,7 +45,7 @@ def main():
                 for i, ln in enumerate(pt.splitlines(), 1):
                     if ln.strip().startswith("#"):
                         continue
-                    if re.search(rf'"{[^"]*{mal}[^"]*}"', ln) and bien.lower() not in ln.lower():
+                    if mal in ln and '"' in ln and bien.lower() not in ln.lower():
                         print(f"[WARN] {rel}:{i} posible nombre traducido '{mal}' (esperado {bien})")
             # placeholders vs original
             if os.path.exists(o):

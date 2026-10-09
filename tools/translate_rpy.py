@@ -36,12 +36,16 @@ RE_TAG = re.compile(r"\{[^{}]*\}|\[[^\[\]]*\]")
 RE_EXACT_SKIP = re.compile(r"^[\s\W\d]*$")
 
 def proteger_nombres(s):
-    """Sustituye nombres por ZZNAME<n>ZZ para que el motor no los toque."""
+    """Sustituye nombres por ZZNAME<n>ZZ para que el motor no los toque.
+    Solo palabras completas (evita romper 'Knight' con 'Kni', etc.).
+    Orden: terminos largos primero para no fragmentar ('Jestyn' antes que 'Jes').
+    """
     mapa = {}
-    for i, n in enumerate(NOMBRES):
+    for i, n in sorted(enumerate(NOMBRES), key=lambda t: -len(t[1])):
         tok = f"ZZNAME{i}ZZ"
-        if n in s:
-            s = s.replace(n, tok)
+        s2, k = re.subn(r"\b" + re.escape(n) + r"\b", tok, s)
+        if k:
+            s = s2
             mapa[tok] = n
     return s, mapa
 
@@ -56,8 +60,11 @@ def proteger_tags(s):
 def restaurar(s, mapa):
     for tok, val in mapa.items():
         s = s.replace(tok, val)
-        # el motor a veces minusculiza el token
+        # el motor a veces minusculiza el token o traduce NAME->NOMBRE dentro
         s = s.replace(tok.lower(), val)
+        nombre_tok = tok.replace("ZZNAME", "ZZNOMBRE")
+        s = s.replace(nombre_tok, val)
+        s = s.replace(nombre_tok.lower(), val)
     return s
 
 def es_traducible(contenido, linea):

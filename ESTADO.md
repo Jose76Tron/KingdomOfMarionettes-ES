@@ -6,11 +6,16 @@
 | `game/tl/spanish/screens.rpy` | — | 35 | ✅ Revisado a mano |
 | `game/tl/spanish/common.rpy` | — | 35 | ✅ Revisado a mano |
 | `game/Animation.rpy` | 951 | 0 | ✅ Sin texto (copia directa) |
-| `game/script.rpy` | 1043 | 373 | 🔄 Base automática + repaso manual de apertura |
-| `game/choice chapter 1.rpy` | 1703 | 602 | 🔄 Base automática (en curso) |
-| `game/day2 choice.rpy` | 3480 | 1547 | 🔄 Base automática (en curso) |
-| `game/script day2.rpy` | 4451 | 1917 | 🔄 Base automática (en curso) |
+| `game/script.rpy` | 1043 | 373 | ✅ Base MT + repaso manual de apertura |
+| `game/choice chapter 1.rpy` | 1703 | 602 | ✅ Base MT + micro-repaso |
+| `game/day2 choice.rpy` | 3480 | 1547 | ✅ Base MT + corrección `[title]` |
+| `game/script day2.rpy` | 4451 | 1917 | ✅ Base MT + micro-repaso |
 | `options.rpy / gui.rpy / screens.rpy` | — | — | ⏭️ No se tocan (solo config; la UI va por `tl/spanish`) |
+
+Verificación automática (`tools/comprobar.py` + `check_qa.py`): ✅
+nombres propios intactos al 100% (Jestyn 290/290, Knighter 111/111…),
+placeholders `[player_call]/[title]/[poss]/[subj]` y `{tags}` íntegros,
+cero líneas con comillas rotas.
 
 Leyenda: ✅ listo · 🔄 generado por MT con glosario, pendiente de repaso ·
 ⏭️ no aplica.
