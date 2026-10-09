@@ -234,10 +234,10 @@ label maidy_day2:
     "Sentí..."
 
     menu:
-        "Jealous":
+        "Celos":
             jump jealous_maidy
 
-        "Nothing":
+        "Nada":
             jump nothing_maidy
 
 label jealous_maidy:
@@ -462,7 +462,7 @@ label maidelyn_day2:
     "Pero... ¿era esta una pregunta capciosa? ¿Me estaba poniendo a prueba?"
 
     menu:
-        "Yes":
+        "Sí":
             mc "Por supuesto. ¿Por qué no lo haría? Después de todo, pasaste por todos esos problemas para hacerlo por mí."
             
             "Maidelyn dejó escapar una suave risa."
@@ -1753,25 +1753,25 @@ label freetime_wizzy:
     wiz "¿Qué hay de usted, Su Majestad? Si pudieras elegir, ¿qué color de rosa sería tu favorito?"
 
     menu:
-        "rosa roja":
+        "Rosa roja":
             wiz "¡¿Ah?! ¡Eso significa que tenemos el mismo gusto! ¡Jajaja!"
 
-        "rosa blanca":
+        "Rosa blanca":
             wiz "Pureza, inocencia, amor sincero y nuevos comienzos. Buena elección, Su Majestad."
 
-        "rosa negra":
+        "Rosa negra":
             wiz "Misterio, despedidas y duelo. ¡Vaya, es usted tan misterioso, Su Majestad!"
 
-        "rosa rosa":
+        "Rosa rosa":
             wiz "Gentileza, gracia, gratitud y admiración. Buena elección, Su Majestad."
 
-        "rosa amarilla":
+        "Rosa amarilla":
             wiz "Amistad cercana, alegría, felicidad y energía positiva. Vaya, buena elección, Su Majestad."
 
-        "rosa naranja":
+        "Rosa naranja":
             wiz "Entusiasmo, energía y admiración. Buena elección, Su Majestad."
 
-        "rosa morada":
+        "Rosa morada":
             wiz "Encanto, amor a primera vista y elegancia. ¡Guau, esa es una buena elección, Su Majestad!"
 
     show wizconvo smirk3 with dissolve
@@ -2241,10 +2241,10 @@ label crownusask_wizzy:
     wiz "...No me tiene miedo, ¿verdad, majestad?"
 
     menu:
-        "tengo miedo":
+        "Tengo miedo":
             wiz "¿Y-tú lo eres? Lo siento mucho, Su Majestad. Me aseguraré de que eso no vuelva a suceder."
 
-        "No, no lo soy":
+        "No, no lo tengo":
             show wizconvo talk with dissolve
             wiz "...Gracias a Dios."
             wiz "Lo siento mucho, Su Majestad..."
@@ -3367,7 +3367,7 @@ label Poke_knighter:
     "Volvió a leer su libro."
 
     menu :
-        "Golpéalo de nuevo":
+        "Tocarle la mejilla otra vez":
             "Ignoré su advertencia y volví a tocar su mejilla."
             show screen knipoke
             show kni convo suprais
@@ -3381,11 +3381,11 @@ label Poke_knighter:
             kni "...O te mataré."
             hide screen knipoke with dissolve
 
-        "Mejor para":
+        "Mejor parar":
             jump gettoknow_knighter
             
     menu :
-        "Golpéalo de nuevo.":
+        "Tocarle la mejilla otra vez.":
             show screen knipoke with dissolve
             "poke"
             
@@ -3417,7 +3417,7 @@ label Poke_knighter:
             kni "Fue sólo un pellizco. No seas tan dramático. Deberías estar agradecido de que no fui tan imprudente como para desenvainar mi espada."
             jump gettoknow_knighter
 
-        "Mejor para":
+        "Mejor parar":
             jump gettoknow_knighter
 
 

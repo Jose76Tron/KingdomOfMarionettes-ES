@@ -440,7 +440,7 @@ label performance:
     $ affection = 0
 
     menu:
-        "darles dinero":
+        "Darles dinero":
             $ choice = "a"
             $ affection += 2
 
@@ -538,7 +538,7 @@ label problem2:
     hide jes2 talk with dissolve
 
     menu:
-        "Agree":
+        "Aceptar":
             $ affection -= 1
 
             if cursed_route:
@@ -547,7 +547,7 @@ label problem2:
             else:
                 jump agree
 
-        "Refuse":
+        "Rechazar":
             $ affection += 1
 
             if cursed_route:
@@ -676,12 +676,12 @@ label after_acting:
     "Una vez leí que la tarea de un bufón en un reino... es entretener. Y parte de eso... es revelar la verdad a través de la broma."
    
     menu:
-        "ríe con eso":
+        "Reírse con él":
             $ affection +=1
             jump funny
 
 
-        "eso es molesto":
+        "Qué molesto":
             jump annoying
 
 
@@ -786,11 +786,11 @@ label advice:
     jes "Así que espero que saborees mi chocolate hecho a mano y no olvides el color de su envoltorio, Su Majestad~"
 
     menu:
-        "Eat":
+        "Comer":
             $ affection -=1
             jump eatchocolate
 
-        "no comas":
+        "No comer":
             jump donteat
 
 label eatchocolate:
@@ -895,11 +895,11 @@ label freakymomen:
     "Jestyn chasqueó los dedos."
 
     menu:
-        "Balls":
+        "Las pelotas":
             $ choice = "juggling"
             jump balls
 
-        "Collar" if affection >= 4:
+        "El collar" if affection >= 4:
             $ choice = "collar"
             jump collar
 

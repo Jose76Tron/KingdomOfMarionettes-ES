@@ -123,7 +123,7 @@ label knightjester:
 
     menu:
 
-        "Marque la marioneta Jester" if not asked_jester:
+        "Revisar la marioneta bufón" if not asked_jester:
             $ asked_jester = True
             jump jester
 
@@ -283,7 +283,7 @@ label storage:
     "Pero que debo hacer en esta situación???"
 
     menu:
-        "guardar silencio":
+        "Guardar silencio":
             jump keep_silent
 
         "¿Quién eres?":
@@ -969,10 +969,10 @@ label teach:
     
 
     menu:
-        "Left":
+        "Izquierda":
             jump snakebunny
 
-        "Right":
+        "Derecha":
             jump bunnysnake
 
 label snakebunny:
@@ -1158,7 +1158,7 @@ label collar:
     hide jes collar freak with dissolve
 
     menu:
-        "Sit":
+        "Siéntate":
             jump sit
 
         "Acuéstate":

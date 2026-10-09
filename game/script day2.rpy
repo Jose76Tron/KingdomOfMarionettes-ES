@@ -95,7 +95,7 @@ label kom_day2:
 
 label minimarket_day2:
     menu:
-        "mira la ventana":
+        "Mirar por la ventana":
             jump lookwindow_day2
 
         "mira la televisión":
@@ -172,7 +172,7 @@ label tothetheater_day2:
     jes "Entonces sé tú quien me silencie."
 
     menu:
-        "no gracias":
+        "No, gracias":
             jump nothx_day2
 
         "Brat":
@@ -1049,7 +1049,7 @@ label dinner_day2:
     jes "¿Te gusta~?"
 
     menu:
-        "Yes":
+        "Sí":
             mc "Sí. Te ves diferente y guapo."
             show jes dinner horny with dissolve
             "Jestyn se rió como una chica de secundaria enamorada."
@@ -1173,7 +1173,7 @@ label dinner_day2:
             "Podía ser insoportablemente descarado con todas sus burlas... pero también era reflexivo, afectuoso y sorprendentemente divertido."
             "Me gustaba... pero todo estaba sucediendo muy rápido."
 
-        "no estoy seguro":
+        "No estoy seguro":
             "...."
             "No estoy seguro de si me gusta Jestyn de esa manera."
             "Claro, es un títere divertido... pero todo está sucediendo demasiado rápido para mí."
@@ -1226,7 +1226,7 @@ label dinner_day2:
     jes "No tengo la menor idea de qué está hablando Su Majestad~"
 
     menu:
-        "castigarlo":
+        "Castigarlo":
             jump punishment_day2
 
         "Déjalo deslizar":
@@ -1301,7 +1301,7 @@ label punishment_day2:
     "Tengo 2 opciones. ¿Qué se supone que debo hacer?"
 
     menu:
-        "Dale una palmada en la mejilla":
+        "Darle una bofetada en la mejilla":
             hide jes dinner with dissolve
             show jescg slap with dissolve
             "Decidí darle una palmada en la mejilla."
@@ -1342,7 +1342,7 @@ label punishment_day2:
             "Acaricié suavemente la mejilla de Jestyn... antes de darle otra bofetada."
 
             menu:
-                "Dale una bofetada":
+                "Darle una bofetada":
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg slap2 with dissolve
@@ -1375,7 +1375,7 @@ label punishment_day2:
                     jes "Nhhh...hhhh...."
 
             menu:
-                "Again":
+                "Otra vez":
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg slap2 with dissolve
@@ -1384,7 +1384,7 @@ label punishment_day2:
                     jes "NGHHH!!!"
                     show jescg slap3 with dissolve
                     menu: 
-                        "Again":
+                        "Otra vez":
                             play sound "slap.mp3"
                             camera at camera_shake
                             show jescg slap2 with dissolve
@@ -1393,7 +1393,7 @@ label punishment_day2:
                             jes "MNHHHHNN!!! ¡¡NHH!!"
 
                             menu:
-                                "AGAIN":
+                                "OTRA VEZ":
                                     play sound "slap.mp3"
                                     camera at camera_shake
                                     show jescg slap2 with dissolve
@@ -1419,7 +1419,7 @@ label punishment_day2:
                                     stop music fadeout 2.0
                                     menu:
                                         
-                                        "AGAIN":
+                                        "OTRA VEZ":
                                             play sound "glitch.mp3"
                                             camera at camera_shake
                                             show glitch jesslap 
@@ -1503,7 +1503,7 @@ label punishment_day2:
                     "Le acaricié suavemente la cabeza y Jestyn prácticamente se derritió bajo los elogios, pareciendo genuinamente feliz con el afecto que le di."
 
 
-        "darle una palmada":
+        "Darle un azote":
             "Le pedí a Jestyn que se inclinara sobre la mesa."
             hide jes dinner with dissolve
             show jescg spank with dissolve
@@ -1555,7 +1555,7 @@ label punishment_day2:
             "Acaricié suavemente el trasero de Jestyn... antes de darle otro azote."
 
             menu:
-                "darle una palmada":
+                "Darle un azote":
                     "Le di una palmada a Jestyn nuevamente."
                     play sound "slap.mp3"
                     camera at camera_shake
@@ -1587,7 +1587,7 @@ label punishment_day2:
                     show jescg spank5 with dissolve
 
             menu:
-                "Again":
+                "Otra vez":
                     play sound "slap.mp3"
                     camera at camera_shake
                     show jescg spank4 
@@ -1597,7 +1597,7 @@ label punishment_day2:
                     show jescg spank5 with dissolve
 
                     menu: 
-                        "Again":
+                        "Otra vez":
                             play sound "slap.mp3"
                             camera at camera_shake
                             show jescg spank4 
@@ -1607,7 +1607,7 @@ label punishment_day2:
                             show jescg spank5 with dissolve
 
                             menu:
-                                "AGAIN":
+                                "OTRA VEZ":
                                     play sound "slap.mp3"
                                     camera at camera_shake
                                     show jescg spank4 
@@ -1631,7 +1631,7 @@ label punishment_day2:
                                     show jescg spank6 with dissolve
                                     stop music fadeout 2.0
                                     menu:
-                                        "AGAIN":
+                                        "OTRA VEZ":
                                             play sound "glitch.mp3" 
                                             show glitch2 jesspank
                                             "!!!!!"
@@ -1905,7 +1905,7 @@ label punishment_day2:
     "Podía sentir mis mejillas calentarse, pero..."
 
     menu:
-        "Yes":
+        "Sí":
             mc "Mmm... Creo que te lo mereces, Jestyn. Seguir."
 
             "Le di permiso."
@@ -3458,7 +3458,7 @@ label jestyn_route_day2:
     $ voice_duck_end()
 
     menu:
-        "Yes":
+        "Sí":
             show jescg bed caress with dissolve
             "Jestyn acarició suavemente mi cabello. Se sintió tan reconfortante que mis párpados se volvieron aún más pesados."
             
@@ -3788,7 +3788,7 @@ label prieston_ask:
             pri "¿Eso responde a tu pregunta, hija mía?"
 
             menu:
-                "Yes":
+                "Sí":
                     "Ahora que lo pienso... su explicación tenía mucho sentido. ¿Por qué necesitaría alguna razón más profunda sólo para ayudarme...?"
                     "Sentí como si estuviera sospechando injustamente de él."
                     
