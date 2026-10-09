@@ -3,4 +3,4 @@
 # (gui.about viene vacío en el juego original; esto lo rellena.)
 
 init 5 python:
-    gui.about = "Traducción fan al español: Jose76Tron (v0.4).\n\nJuego original: sus respectivos autores. Parche sin ánimo de lucro."
+    gui.about = "Traducción fan al español: Jose76Tron (v0.5).\n\nJuego original: sus respectivos autores. Parche sin ánimo de lucro."
