@@ -73,6 +73,15 @@ completos (~4400 cadenas), verificando cada cambio contra el original.
 - `game/creditos_es.rpy`: la pantalla Acerca de muestra
   "Traducción fan al español: Jose76Tron".
 
+## v0.5 — selector de idioma Español
+
+- El juego ya traía selector English/Chinese en Ajustes > Idioma; el
+  parche añade el botón **Español** (`game/screens.rpy`, 1 línea sobre
+  el original) + arranque por defecto en español (`fijar_espanol.rpy`).
+- Nota de diseño: la historia está traducida en los propios guiones,
+  así que **Español = juego 100% en español**. English/Chinese cambian
+  la interfaz pero la historia sigue en español (limitación conocida).
+
 Leyenda: ✅ listo · 🔄 generado por MT con glosario, pendiente de repaso ·
 ⏭️ no aplica.
 
