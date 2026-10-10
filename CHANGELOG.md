@@ -1,5 +1,10 @@
 # Historial — Parche ES Kingdom of Marionettes
 
+## v0.6
+- Género neutro para el jugador (He/Him ya no recibe femeninos).
+- Snacks → `algo de picar`; `al MC` → nombre del jugador.
+- Nombres verificados línea a línea; comillas y repos neutros.
+
 ## v0.5
 - Botón **Español** en Ajustes > Idioma (el juego ya traía English/Chinese).
 - Arranque por defecto en español.
