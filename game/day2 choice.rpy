@@ -299,7 +299,7 @@ label maidy_convo2:
     maidy "¡Eeeh! ¡Eres tan adorable, Su Majestad!"
     show maidy nosmile with dissolve
     maidy "Pero... ¿puedo ser honesta?"
-    mc "¿Seguro?"
+    mc "¿De verdad?"
     maidy "La primera vez que te vi, lo que tenía en la cabeza es... ¡Tenía tantas ganas de vestirte!"
     show maidy pout
     maidy "Pero Maidelyn nunca lo permitiría. Ella sigue diciendo que no sería apropiado."
@@ -747,7 +747,7 @@ label maidra_day2:
 
     maidra ".....Entonces..."
     maidra "¿Yo... podría ser genial así...?"
-    mc "¿Por qué no? Quiero decir, estoy seguro de que aún puedes lucir fuerte y genial, y ser tú misma, incluso con algo femenino."
+    mc "¿Por qué no? Quiero decir, sé que aún puedes lucir fuerte y genial, y ser tú misma, incluso con algo femenino."
     maidra "Yo....."
     maidra "...Sí. Quizás pueda."
     maidra "....."
@@ -890,7 +890,7 @@ label wizzyroom_day2:
 
     "Mi mirada se dirigió a la puerta naranja. La placa de identificación simplemente decía: «Mago»."
     "Si no recuerdo mal, el nombre del títere mago era Wizzy."
-    "Estoy bastante seguro de que Jestyn mencionó ese nombre ayer. Bueno, supongo que intentaré conocerlo primero."
+    "Seguro que Jestyn mencionó ese nombre ayer. Bueno, supongo que intentaré conocerlo primero."
     "Señalé hacia la habitación de la marioneta mago."
     
     mc "Creo que me gustaría conocerlo."
@@ -1042,7 +1042,7 @@ label wizzyroom_day2:
     camera at camera_shake
     scene bg_wizzydoor
     "Antes de que pudiera decir algo, Wizzy agarró a Jestyn por el brazo, lo arrastró hacia su habitación y cerró la puerta de golpe frente a mí."
-    "Dejándome sola en el pasillo, completamente confundida."
+    "Dejándome en el pasillo, sin entender nada."
 
     camera at reset
     "Aun así, todavía podía oírlos a los dos hablando en voz baja desde el interior de la habitación."
@@ -1436,7 +1436,7 @@ label wizzy_convo2:
 
     show wiz normal 
     wiz "Sólo llevas aquí dos días, pero... parece que te estás adaptando bastante bien."
-    mc "En realidad... sí y no. No estoy realmente seguro. Ayer, Jestyn estuvo... bastante intenso. Me dejó una impresión tan fuerte que todavía no puedo dejar de pensar en ello."
+    mc "En realidad... sí y no. No lo sé realmente. Ayer, Jestyn estuvo... bastante intenso. Me dejó una impresión tan fuerte que todavía no puedo dejar de pensar en ello."
 
     if sit_on_jestyn:
         camera at camera_shake
@@ -2945,7 +2945,7 @@ label compliment_knighter:
     kni "¿Qué diablos acabas de decir?"
     mc "Sólo estaba diciendo la verdad."
     
-    "Sinceramente, no estaba seguro de si decir eso era una buena idea."
+    "Sinceramente, no sabía si decir eso era una buena idea."
     
     show kni convo annoy with dissolve
     kni "Debe haber algo mal en tu cabeza."
@@ -2953,7 +2953,7 @@ label compliment_knighter:
     "¿Tal vez si sigo adelante, podría suavizarlo un poco?"
     
     mc "Por supuesto~ ¿Quién podría resistirse a una cara tan hermosa?"
-    mc "Estoy seguro de que cualquiera que te vea por primera vez se volverá completamente loco por ti."
+    mc "Seguro que cualquiera que te vea por primera vez se volverá completamente loco por ti."
     
     show kni convo suprais
     "......."

@@ -73,7 +73,7 @@ label kom_day2:
     hide bg_apt with dissolve
 
     "Después de pasar aproximadamente una hora preparándome, decidí salir un poco más temprano y pasar por la tienda de conveniencia."
-    "Necesitaba algunos bocadillos para sobrevivir mi turno."
+    "Necesitaba algo de picar para aguantar mi turno."
     "Originalmente, también estaba planeando comprar alimentos para el mes. La última vez que revisé, mi refrigerador estaba casi tan vacío como mi billetera."
     "Pero, curiosamente, cuando lo revisé después de ducharme, estaba lleno de comida."
     "¿Olvidé que ya tenía compras?"
@@ -111,7 +111,7 @@ label minimarket_day2:
 label tothetheater_day2:
 
     "Después de esperar un rato, finalmente llegó mi turno de pagar." 
-    "Pagué mis bocadillos y me dirigí directamente al teatro." 
+    "Pagué lo que había cogido para picar y me dirigí directo al teatro." 
     "El teatro no estaba exactamente lejos de mi departamento, pero tampoco cerca." 
 
     hide bg_minimart with dissolve
@@ -1173,9 +1173,9 @@ label dinner_day2:
             "Podía ser insoportablemente descarado con todas sus burlas... pero también era reflexivo, afectuoso y sorprendentemente divertido."
             "Me gustaba... pero todo estaba sucediendo muy rápido."
 
-        "No estoy seguro":
+        "No lo sé":
             "...."
-            "No estoy seguro de si me gusta Jestyn de esa manera."
+            "No sé si me gusta Jestyn de esa manera."
             "Claro, es un títere divertido... pero todo está sucediendo demasiado rápido para mí."
             
     mc "...La verdad es, Jestyn... nos conocimos ayer."
@@ -1741,11 +1741,11 @@ label punishment_day2:
     "Le di otro mordisco."
     "Nuestros labios casi se rozaron, haciendo que Jestyn dejara escapar un suspiro tembloroso."
     "Con un gemido suave y desesperado, empujó el trozo restante de filete hacia mí, pidiéndome en silencio que lo terminara."
-    "Se está volviendo necesitado, ¿no?"
+    "Se está volviendo muy dependiente, ¿no?"
     
     mc "No, Jestyn. Los buenos chicos saben comportarse, ¿no?"
     
-    "Se quedó paralizado por un segundo, antes de eso asintió levemente en señal de comprensión."
+    "Se quedó paralizado por un segundo, y luego asintió levemente en señal de comprensión."
 
     hide jescg meat with dissolve
     hide jesmeat2 with dissolve
@@ -1769,7 +1769,7 @@ label punishment_day2:
     "Me incliné y tomé el último trozo de filete de entre sus labios."
     show jes dinner love2 with dissolve
     "Por un breve momento, mi lengua rozó la suya mientras la tomaba."
-    "Era suave... suave... inconfundiblemente cálido."
+    "Era blando... suave... inconfundiblemente cálido."
     "Dejó escapar otro gemido necesitado."
     
     show jes dinner pout with dissolve
@@ -1823,7 +1823,7 @@ label punishment_day2:
     "En cambio, lentamente pasó su lengua a lo largo de su punta... lentamente... deliberadamente... centímetro a centímetro, su lengua trazó su camino hacia arriba."
     "Mi mente luchó por procesar lo que estaba haciendo hasta que una suave sensación rozó mi labio inferior."
     "La lengua de Jestyn había llegado a mis labios, rozando suavemente mi labio inferior con movimientos lentos y deliberados."
-    "Sorprendida, rápidamente me aparté de Jestyn."
+    "Del susto, me aparté rápidamente de Jestyn."
     "Y mi cara se sonrojó incontrolablemente."
     
     mc "Jestyn, ¿qué estás-?"
@@ -1880,7 +1880,7 @@ label punishment_day2:
     show jescg lick2 with dissolve
     "Notó mi expresión sonrojada y su sonrisa se amplió con satisfacción."
     "Como si quisiera ver más de mi reacción, Jestyn ralentizó aún más sus movimientos, haciendo que cada movimiento fuera más deliberado y provocativo."
-    "Maldita sea… de alguna manera, solo logró hacer que mis mejillas ardieran aún más y dejarme aún más nerviosa."
+    "Maldita sea… de alguna manera, solo logró que me ardieran aún más las mejillas y que se me acelerara el pulso."
     "Mi reacción sólo pareció alimentar su ego."
     "Uf... tenía que recordar que yo era quien llevaba las riendas aquí. No iba a dejar que tomara el control cuando quisiera."
     "¿Pero qué se suponía que debía hacer...?"
@@ -2148,7 +2148,7 @@ label let_it_slide:
     jes "Y también significa que hay alguien aquí que se preocupará sinceramente por ti... y te mantendrá a salvo."
     
     "La voz de Jestyn no era como siempre. Suena más profundo, más suave."
-    "Se siente... reconfortante."
+    "Es... reconfortante."
     "La idea de tener a alguien que pueda protegerte de la crueldad del mundo se siente como estar envuelto en algo cálido en medio de un viento frío."
     
     mc "Pero no eres más que una marioneta... Quiero decir, somos diferentes."
@@ -3573,7 +3573,7 @@ label prieston_route_day2:
     "......"
     "...Harían cualquier cosa para deshacerse de mí."
     "Un sudor frío se extendió por mi cuerpo mientras una horrible posibilidad tras otra llenaba mi mente."
-    "Perdida en mis pensamientos, seguí avanzando sin prestar mucha atención a hacia dónde me dirigía."
+    "Con la mente en otra parte, seguí avanzando sin prestar atención a dónde iba."
     "Mis pies simplemente se movían solos."
     show hand_cover
     "De repente, me estremecí cuando una mano cubrió suavemente mis ojos, sacándome de mi espiral de pensamientos."
@@ -3885,7 +3885,7 @@ label prieston_ask:
                     mc "Quiero decir... cuando Butley y los otros títeres me atacaron y trataron de devorarme... no te uniste a ellos."
                     mc "Entonces, aunque encuentres fascinante a Crownus... el hecho de que hayas elegido salvarme hace que sea difícil para mí verte como uno de ellos."
 
-            mc "Lo siento... no estoy seguro si me estoy explicando muy bien."
+            mc "Lo siento... no sé si me estoy explicando muy bien."
             show pri table gentle with dissolve
             pri "No hay necesidad de disculparte, hija mía. Entiendo exactamente lo que quieres decir."
             pri "Y debo decir... agradezco tanto tu respuesta como tu observación."
@@ -4045,7 +4045,7 @@ label prieston_ask:
             
             "Fue casi divertido. De todos los títeres con los que había hablado, la mayoría pasaba el día leyendo, escribiendo o bebiendo té."
             "Parecía que realmente no tenían mucho más que hacer, ¿eh? Pero eso tiene sentido."
-            "Perdido en mis pensamientos, de repente me di cuenta de que Prieston no había apartado la mirada de mí ni una sola vez."
+            "Con la mente en otra parte, de repente me di cuenta de que Prieston no había apartado la mirada de mí ni una sola vez."
             
             show pri table normal with dissolve
             pri "Ya sabes, hija mía..."
@@ -4306,7 +4306,7 @@ label prieston_convo2:
     play music "sad.mp3" volume 3.0 fadein 3.0
     show pri happy with dissolve
     "Prieston respondió a la mirada asesina de Jestyn con nada más que una sonrisa."
-    "Luego se levantó de la cama y con cuidado levantó al MC en sus brazos."
+    "Luego se levantó de la cama y con cuidado levantó a [player_call] en sus brazos."
     "Después de eso, Prieston se acercó a Jestyn."
     
     show pri amused with dissolve
@@ -4325,7 +4325,7 @@ label prieston_convo2:
     pri "Así que cuida bien de nuestra Majestad, Jestyn."
     
     show jes3 sad with dissolve
-    "Sosteniendo al MC con fuerza en sus brazos, Jestyn salió silenciosamente de la habitación de Prieston."
+    "Sosteniendo a [player_call] con fuerza en sus brazos, Jestyn salió silenciosamente de la habitación de Prieston."
     hide jes3 with dissolve
     hide pri with dissolve
     "Justo cuando llegaba a la puerta, Jestyn se detuvo de repente."

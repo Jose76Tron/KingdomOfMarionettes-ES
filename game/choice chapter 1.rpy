@@ -27,13 +27,13 @@ label q_clean:
     show cg_bola with dissolve
 
     "Cuando miro hacia abajo, veo una bola roja."
-    "Ah. Sólo una pelota. No recuerdo haber visto una bola roja antes."
+    "Ah. Sólo una bola. No recuerdo haber visto una bola roja antes."
     "Debo habérmelo perdido."
 
     hide cg_bola with dissolve
 
     play sound "pickup.mp3" volume 3.0
-    "Una vez que estoy seguro de haber reunido todos los artículos de limpieza, vuelvo al escenario."
+    "Una vez reunidos todos los artículos de limpieza, vuelvo al escenario."
 
     scene black with dissolve
     scene bg_corridorjes with dissolve
@@ -156,7 +156,7 @@ label knight:
     "Un escudo robusto e imponente está montado en la pared, junto con... varias otras decoraciones de escudo."
     "Hay bastantes escudos, todos de diferentes formas y diseños."
     "En la cama, veo un títere sentado erguido, con una capa roja oscura cubriendo su rostro."
-    "Estoy seguro de que es el títere caballero. Revisado."
+    "Seguro que es el títere caballero. Revisado."
 
     jump knightjester
 
@@ -487,7 +487,7 @@ label stage:
     stop music
     "Espera un segundo... ¿qué diablos es eso?"
     "A través de la señal de CCTV, puedo ver una figura de pie en el centro del escenario."
-    "Es difícil distinguirlo en la oscuridad, pero estoy seguro de que hay alguien allí."
+    "Es difícil distinguirlo en la oscuridad, pero seguro que hay alguien allí."
     "¿Son los vándalos? ¿Cómo entraron siquiera?"
 
     hide cctv stage with dissolve
@@ -543,7 +543,7 @@ label stage:
 
     "Espera un segundo... ¿no es así?"
     "Ese es... el títere bufón que revisé antes."
-    "¡¿Él se está... moviendo?! ¿Se muda solo?"
+    "¡¿Él se está... moviendo?! ¿Se mueve él solo?"
     "¡¿Cómo puede ser posible eso?!"
     "De repente, recordé la lista de deberes que leí antes de presentar la solicitud ayer."
     "Asegúrate de que no falte ningún títere... y de que no anden por ahí."
@@ -1125,7 +1125,7 @@ label collar:
     hide collar with dissolve
     hide jes talk2 with dissolve
     
-    "Luego se quita la corbata y se afloja el cuello."
+    "Luego se quita la corbata y se afloja el cuello de la camisa."
     "Confundido, sólo puedo permanecer sentado, sin poder moverme."
     show cg_collar with dissolve
     "Sin embargo, en el momento en que se pone el collar alrededor del cuello, empiezo a comprender lo que pretende."
@@ -1318,7 +1318,7 @@ label lie:
     show jes lie4 with dissolve
     jes "Ahora estás aprendiendo, Su Majestad... Intenta pisarme el pecho mientras tiras de mi collar."
 
-    "Presiono mi pie contra su pecho nuevamente mientras tiro de su cuello."
+    "Presiono mi pie contra su pecho nuevamente mientras tiro de su collar."
     play sound "nyekek.mp3"
     camera at camera_shake
     show jes lie5 with dissolve
@@ -1603,14 +1603,14 @@ label handsome:
     kni "¿Qué diablos acabas de decir?"
     mc "Sólo estaba diciendo la verdad."
     
-    "Honestamente, no estaba seguro de si decir eso era una buena idea."
+    "Honestamente, no sabía si decir eso era una buena idea."
     
     kni "Debe haber algo mal en tu cabeza. ¿Estás realmente diciendo la verdad?"
     
     "Oh, ¿logré suavizarlo un poco?"
     
     mc "Por supuesto ~. ¿Quién podría resistirse a una cara tan bonita?"
-    mc "Estoy seguro de que cualquiera que te vea por primera vez se volverá completamente loco por ti al cien por cien."
+    mc "Seguro que cualquiera que te vea por primera vez se volverá completamente loco por ti al cien por cien."
     
     "Sus labios lentamente se curvaron en una sonrisa."
     

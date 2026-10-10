@@ -955,9 +955,9 @@ label balls:
     jes "Hoho... una respuesta honesta. Me gusta eso."
     show jes talk2 with dissolve
     jes "Hacer malabarismos es equilibrio. Momento. Saber qué bola atrapar primero y cuál debes dejar caer."
-    "Casualmente lanza la pelota al aire y la atrapa con facilidad."
+    "Casualmente lanza la bola al aire y la atrapa con facilidad."
     show jes normal with dissolve
-    "Luego deja que la pelota se le escape de los dedos y golpea el escenario con un sonido sordo. luego me mira fijamente"
+    "Luego deja que la bola se le escape de los dedos y golpea el escenario con un sonido sordo. luego me mira fijamente"
     
     jump teach
 

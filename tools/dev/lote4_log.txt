@@ -1,0 +1,32 @@
+OK script day2.rpy: 1x Necesitaba algunos bocadillos para sobrevivir mi turno.
+OK script day2.rpy: 1x Pagué mis bocadillos y me dirigí directamente al teatro.
+OK script day2.rpy: 1x con cuidado levantó al MC en sus brazos.
+OK script day2.rpy: 1x Sosteniendo al MC con fuerza en sus brazos, Jestyn salió sil
+OK script day2.rpy: 1x Sorprendida, rápidamente me aparté de Jestyn.
+OK script day2.rpy: 1x solo logró hacer que mis mejillas ardieran aún más y dejarme
+OK script day2.rpy: 1x Perdida en mis pensamientos, seguí avanzando sin prestar muc
+OK script day2.rpy: 1x Perdido en mis pensamientos, de repente me di cuenta de que 
+FALLO script day2.rpy: Dejándome sola en el pasillo, completamente confundida.
+OK script day2.rpy: 1x No estoy seguro de si me gusta Jestyn de esa manera.
+OK script day2.rpy: 1x Lo siento... no estoy seguro si me estoy explicando muy bien
+OK script day2.rpy: 1x Se está volviendo necesitado, ¿no?
+OK script day2.rpy: 1x antes de eso asintió levemente en señal de comprensión.
+OK script day2.rpy: 1x Era suave... suave... inconfundiblemente cálido.
+OK script day2.rpy: 1x Se siente... reconfortante.
+FALLO script day2.rpy: lanza la pelota al aire y la atrapa con facilidad.
+FALLO script day2.rpy: deja que la pelota se le escape de los dedos y golpea el esc
+FALLO script.rpy: Sólo una pelota. No recuerdo haber visto una bola roja
+OK choice chapter 1.rpy: 1x Una vez que estoy seguro de haber reunido todos los artículo
+OK choice chapter 1.rpy: 1x Estoy seguro de que es el títere caballero. Revisado.
+OK choice chapter 1.rpy: 1x pero estoy seguro de que hay alguien allí.
+OK choice chapter 1.rpy: 1x Estoy seguro de que cualquiera que te vea por primera vez se
+OK choice chapter 1.rpy: 1x no estaba seguro de si decir eso era una buena idea
+OK choice chapter 1.rpy: 1x ¡¿Él se está... moviendo?! ¿Se muda solo?
+OK choice chapter 1.rpy: 1x Luego se quita la corbata y se afloja el cuello.
+OK choice chapter 1.rpy: 1x nuevamente mientras tiro de su cuello.
+OK day2 choice.rpy: 1x estoy seguro de que aún puedes lucir fuerte y genial
+OK day2 choice.rpy: 1x No estoy realmente seguro. Ayer, Jestyn estuvo
+OK day2 choice.rpy: 1x Estoy bastante seguro de que Jestyn mencionó ese nombre ayer
+OK day2 choice.rpy: 1x no estaba seguro de si decir eso era una buena idea
+OK day2 choice.rpy: 1x Estoy seguro de que cualquiera que te vea por primera vez se
+OK day2 choice.rpy: 1x ¿Seguro?
