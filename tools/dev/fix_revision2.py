@@ -3,7 +3,7 @@ Orden: lineas individuales primero, reemplazos globales al final.
 Cada entrada informa de su conteo; los fallos (0 coincidencias) se listan.
 """
 import os
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 
 # (fichero, viejo, nuevo) — reemplazo de TODAS las apariciones, informa conteo

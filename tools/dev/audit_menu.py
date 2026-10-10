@@ -1,8 +1,8 @@
 """Extrae todas las opciones de menu (choice strings) EN vs ES para auditoria."""
 import os, re
 BASE = os.path.dirname(os.path.abspath(__file__))
-ORIG = os.path.join(BASE, "..", "original")
-GAME = os.path.join(BASE, "..", "game")
+ORIG = os.path.join(BASE, "../..", "original")
+GAME = os.path.join(BASE, "../..", "game")
 RE_DQ = re.compile(r'"((?:\\.|[^"\\])*)"')
 
 def choices(path):

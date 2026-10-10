@@ -1,7 +1,7 @@
 import os, re, collections
 BASE = os.path.dirname(os.path.abspath(__file__))
-ORIG = os.path.join(BASE, "..", "original")
-GAME = os.path.join(BASE, "..", "game")
+ORIG = os.path.join(BASE, "../..", "original")
+GAME = os.path.join(BASE, "../..", "game")
 files = ["script.rpy", "script day2.rpy", "choice chapter 1.rpy", "day2 choice.rpy"]
 for f in files:
     o = open(os.path.join(ORIG, f), encoding="utf-8").read()

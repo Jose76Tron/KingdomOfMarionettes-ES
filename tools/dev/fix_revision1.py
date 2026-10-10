@@ -2,7 +2,7 @@
 Humano, sin APIs. Cada entrada verifica su existencia antes de aplicar.
 """
 import os
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 
 # (fichero, viejo, nuevo, todas_las_apariciones)

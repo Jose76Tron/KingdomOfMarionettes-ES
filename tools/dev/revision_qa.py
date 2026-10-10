@@ -4,13 +4,13 @@ Uso: python tools/revision_qa.py > revision_reporte.txt
 """
 import os, re, collections
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ORIG = os.path.join(BASE, "original")
 GAME = os.path.join(BASE, "game")
 FILES = ["script.rpy", "script day2.rpy", "choice chapter 1.rpy", "day2 choice.rpy"]
 
 import sys
-sys.stdout = open(os.path.join(BASE, "revision_reporte.txt"), "w", encoding="utf-8")
+sys.stdout = open(os.path.join(BASE, "../../revision_reporte.txt"), "w", encoding="utf-8")
 
 # Palabras inglesas comunes que JAMAS deberian aparecer en texto ES
 # (excluye nombres propios del glosario y terminos validos en ambos idiomas).

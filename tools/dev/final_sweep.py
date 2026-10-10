@@ -1,6 +1,6 @@
 import io, os, re
 BASE = os.path.dirname(os.path.abspath(__file__))
-GAME = os.path.join(BASE, "..", "game")
+GAME = os.path.join(BASE, "../..", "game")
 pats = [r"\bJester\b", r"\bKnight\b(?!er)", r"\bWizard\b", r"\bPriest\b(?!on)",
         r"\bKing Puppet\b", r"\bMaid Sisters\b", r"JEST.N\b", "MARIONETTES",
         "BOFETA", "SLAP", "OOF", "UGH", "WTF", "However", r"\bTrade\b",

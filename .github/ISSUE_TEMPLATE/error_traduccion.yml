@@ -1,0 +1,34 @@
+name: Error de traducción
+description: Una frase suena rara, está en inglés o rompe el glosario
+title: "[TRAD] "
+labels: ["traducción"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      description: La ves en Acerca de o en el nombre del zip (p. ej. v0.5)
+      placeholder: v0.5
+    validations:
+      required: true
+  - type: textarea
+    id: frase
+    attributes:
+      label: Frase exacta (o captura)
+      description: Copia la frase tal como sale en el juego
+    validations:
+      required: true
+  - type: input
+    id: donde
+    attributes:
+      label: ¿Dónde sale?
+      description: Escena, día, ruta o menú (p. ej. día 2, habitación de Wizzy)
+    validations:
+      required: false
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ¿Cómo debería decirlo?
+      description: Tu propuesta, si tienes
+    validations:
+      required: false

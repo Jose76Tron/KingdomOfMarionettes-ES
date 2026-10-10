@@ -1,6 +1,6 @@
 """Repara tokens ZZNOMBREnZZ que el motor tradujo (NAME->NOMBRE) sin restaurar."""
 import os, re
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 NOMBRES = [
     "Kingdom of Marionettes", "Kingdom Of Marionettes", "Jestyn", "Jester",

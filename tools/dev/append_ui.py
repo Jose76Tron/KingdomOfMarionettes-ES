@@ -1,6 +1,6 @@
 import io, os, re
 BASE = os.path.dirname(os.path.abspath(__file__))
-P = os.path.join(BASE, "..", "game", "tl", "spanish", "screens.rpy")
+P = os.path.join(BASE, "../..", "game", "tl", "spanish", "screens.rpy")
 txt = io.open(P, encoding="utf-8").read()
 have = set(re.findall(r'^\s*old "(.*)"$', txt, re.M))
 

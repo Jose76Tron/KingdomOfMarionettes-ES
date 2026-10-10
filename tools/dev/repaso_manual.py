@@ -5,7 +5,7 @@ version curada. Idempotente: se puede ejecutar varias veces.
 """
 import os, json
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 CACHE = os.path.join(BASE, "tools", "mt_cache.json")
 

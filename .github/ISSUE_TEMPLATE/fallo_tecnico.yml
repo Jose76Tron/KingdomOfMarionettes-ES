@@ -1,0 +1,26 @@
+name: Fallo técnico
+description: El juego no arranca o algo se rompe con el parche puesto
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      placeholder: v0.5
+    validations:
+      required: true
+  - type: textarea
+    id: que
+    attributes:
+      label: ¿Qué pasa?
+      description: Qué hacías cuando falló y qué error sale (pega el traceback si hay)
+    validations:
+      required: true
+  - type: input
+    id: idioma
+    attributes:
+      label: Idioma activo en Ajustes
+      description: Español, English o Chinese
+    validations:
+      required: false

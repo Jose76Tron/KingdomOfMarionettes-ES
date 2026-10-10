@@ -1,6 +1,6 @@
 import io, os, re
 BASE = os.path.dirname(os.path.abspath(__file__))
-GAME = os.path.join(BASE, "..", "game")
+GAME = os.path.join(BASE, "../..", "game")
 RX = re.compile(r'^(\s*)"((?:\\.|[^"\\])*)"\s*(if\s+.+?)?\s*:\s*(#.*)?$')
 for f in ["script.rpy", "script day2.rpy", "choice chapter 1.rpy", "day2 choice.rpy"]:
     for i, ln in enumerate(io.open(os.path.join(GAME, f), encoding="utf-8").read().splitlines(), 1):

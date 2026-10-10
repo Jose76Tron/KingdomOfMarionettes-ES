@@ -1,6 +1,6 @@
 import io, os
 BASE = os.path.dirname(os.path.abspath(__file__))
-GAME = os.path.join(BASE, "..", "game")
+GAME = os.path.join(BASE, "../..", "game")
 FIXES = [
     ("day2 choice.rpy", '"eso es todo":', '"Eso es todo":'),
     ("script.rpy", "había una habitación etiquetada como 'El Rey'. Entonces el rey títere debe haber existido.",

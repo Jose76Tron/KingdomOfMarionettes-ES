@@ -1,6 +1,6 @@
 import io, os
 BASE = os.path.dirname(os.path.abspath(__file__))
-GAME = os.path.join(BASE, "..", "game")
+GAME = os.path.join(BASE, "../..", "game")
 FIXES = [
     ("script.rpy", "construir canales de agua", "Construir canales de agua"),
     ("script.rpy", "necesito tiempo para pensar", "Necesito tiempo para pensar"),

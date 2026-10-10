@@ -2,7 +2,7 @@
 Reemplazos exactos con conteo de verificacion.
 """
 import os
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 
 # (fichero, viejo, nuevo, replace_all)

@@ -1,6 +1,6 @@
 """Revision v0.3 (lote 3): reintento de los 34 fallos con anclas minimas exactas."""
 import os, io
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GAME = os.path.join(BASE, "game")
 FIXES = [
     ("script.rpy", "examinando???", "examinando?"),
@@ -25,7 +25,7 @@ FIXES = [
     ("day2 choice.rpy", '"Si le place a Su Majestad, \u00bftal vez podr\u00edamos compartir el t\u00e9 juntos alg\u00fan d\u00eda?"',
      '"Si es del agrado de Su Majestad, \u00bfquiz\u00e1 podr\u00edamos compartir el t\u00e9 alg\u00fan d\u00eda?"'),
 ]
-rep = io.open(os.path.join(BASE, "revision_lote3.txt"), "w", encoding="utf-8")
+rep = io.open(os.path.join(BASE, "../../revision_lote3.txt"), "w", encoding="utf-8")
 fallos = 0
 for fich, viejo, nuevo in FIXES:
     p = os.path.join(GAME, fich)
